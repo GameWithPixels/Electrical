@@ -1,0 +1,361 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x14_Female J1
+U 1 1 60C48710
+P 2450 4000
+F 0 "J1" H 2342 3075 50  0000 C CNN
+F 1 "Conn_01x14_Female" H 2342 3166 50  0000 C CNN
+F 2 "Pixels-dice:JUSHUO_FPC_14" H 2450 4000 50  0001 C CNN
+F 3 "~" H 2450 4000 50  0001 C CNN
+F 4 "C41302" H 2450 4000 50  0001 C CNN "JLCPCB Part Number"
+	1    2450 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+BATT #PWR01
+U 1 1 60C4AC25
+P 2950 3000
+F 0 "#PWR01" H 2950 2850 50  0001 C CNN
+F 1 "+BATT" H 2965 3173 50  0000 C CNN
+F 2 "" H 2950 3000 50  0001 C CNN
+F 3 "" H 2950 3000 50  0001 C CNN
+	1    2950 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR03
+U 1 1 60C4B18B
+P 3250 3000
+F 0 "#PWR03" H 3250 2850 50  0001 C CNN
+F 1 "VDD" H 3265 3173 50  0000 C CNN
+F 2 "" H 3250 3000 50  0001 C CNN
+F 3 "" H 3250 3000 50  0001 C CNN
+	1    3250 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 60C4B637
+P 2950 4800
+F 0 "#PWR02" H 2950 4550 50  0001 C CNN
+F 1 "GND" H 2955 4627 50  0000 C CNN
+F 2 "" H 2950 4800 50  0001 C CNN
+F 3 "" H 2950 4800 50  0001 C CNN
+	1    2950 4800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3300 2950 3300
+Wire Wire Line
+	2950 3300 2950 3000
+Wire Wire Line
+	2650 3400 2950 3400
+Wire Wire Line
+	2950 3400 2950 3300
+Connection ~ 2950 3300
+Wire Wire Line
+	2650 3500 2950 3500
+Wire Wire Line
+	2950 3500 2950 3600
+Wire Wire Line
+	2650 3600 2950 3600
+Connection ~ 2950 3600
+Wire Wire Line
+	2950 3600 2950 3900
+Wire Wire Line
+	2650 3900 2950 3900
+Connection ~ 2950 3900
+Wire Wire Line
+	2950 3900 2950 4000
+Wire Wire Line
+	2650 4000 2950 4000
+Connection ~ 2950 4000
+Wire Wire Line
+	2950 4000 2950 4800
+Wire Wire Line
+	2650 4500 3250 4500
+Wire Wire Line
+	3250 4500 3250 3000
+Wire Wire Line
+	2650 4600 3250 4600
+Wire Wire Line
+	3250 4600 3250 4500
+Connection ~ 3250 4500
+Text GLabel 3600 3700 2    50   Input ~ 0
+SWDIO
+Text GLabel 3600 3800 2    50   Input ~ 0
+SWDCLK
+Text GLabel 3600 4100 2    50   Input ~ 0
+RESET
+Text GLabel 3600 4200 2    50   Input ~ 0
+RXI
+Text GLabel 3600 4300 2    50   Input ~ 0
+SWO
+Text GLabel 3600 4400 2    50   Input ~ 0
+TXO
+Wire Wire Line
+	3600 3700 2650 3700
+Wire Wire Line
+	2650 3800 3600 3800
+Wire Wire Line
+	3600 4100 2650 4100
+Wire Wire Line
+	2650 4200 3600 4200
+Wire Wire Line
+	3600 4300 2650 4300
+Wire Wire Line
+	2650 4400 3600 4400
+$Comp
+L Device:LED D1
+U 1 1 60C53E7E
+P 4950 3300
+F 0 "D1" V 4989 3182 50  0000 R CNN
+F 1 "LED" V 4898 3182 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4950 3300 50  0001 C CNN
+F 3 "~" H 4950 3300 50  0001 C CNN
+F 4 "C72043" H 4950 3300 50  0001 C CNN "JLCPCB Part Number"
+	1    4950 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60C54117
+P 5300 3300
+F 0 "D2" V 5339 3182 50  0000 R CNN
+F 1 "LED" V 5248 3182 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 5300 3300 50  0001 C CNN
+F 3 "~" H 5300 3300 50  0001 C CNN
+F 4 "C72043" H 5300 3300 50  0001 C CNN "JLCPCB Part Number"
+	1    5300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR04
+U 1 1 60C54325
+P 4950 3000
+F 0 "#PWR04" H 4950 2850 50  0001 C CNN
+F 1 "VDD" H 4965 3173 50  0000 C CNN
+F 2 "" H 4950 3000 50  0001 C CNN
+F 3 "" H 4950 3000 50  0001 C CNN
+	1    4950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR05
+U 1 1 60C547D2
+P 5300 3000
+F 0 "#PWR05" H 5300 2850 50  0001 C CNN
+F 1 "VDD" H 5315 3173 50  0000 C CNN
+F 2 "" H 5300 3000 50  0001 C CNN
+F 3 "" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60C54AFA
+P 4950 3850
+F 0 "R1" H 5020 3896 50  0000 L CNN
+F 1 "100" H 5020 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 3850 50  0001 C CNN
+F 3 "~" H 4950 3850 50  0001 C CNN
+F 4 "C22775" H 4950 3850 50  0001 C CNN "JLCPCB Part Number"
+	1    4950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60C55148
+P 5300 3850
+F 0 "R2" H 5370 3896 50  0000 L CNN
+F 1 "100" H 5370 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 3850 50  0001 C CNN
+F 3 "~" H 5300 3850 50  0001 C CNN
+F 4 "C22775" H 5300 3850 50  0001 C CNN "JLCPCB Part Number"
+	1    5300 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 4200 0    50   Input ~ 0
+RXI
+Text GLabel 4600 4300 0    50   Input ~ 0
+TXO
+Wire Wire Line
+	4950 3000 4950 3150
+Wire Wire Line
+	5300 3000 5300 3150
+Wire Wire Line
+	5300 3450 5300 3700
+Wire Wire Line
+	5300 4000 5300 4300
+Wire Wire Line
+	5300 4300 4600 4300
+Wire Wire Line
+	4950 4000 4950 4200
+Wire Wire Line
+	4950 4200 4600 4200
+Wire Wire Line
+	4950 3450 4950 3700
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J2
+U 1 1 60C58B1B
+P 8750 3600
+F 0 "J2" H 8800 4217 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 8800 4126 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 8750 3600 50  0001 C CNN
+F 3 "~" H 8750 3600 50  0001 C CNN
+	1    8750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR09
+U 1 1 60C5AA09
+P 8150 3000
+F 0 "#PWR09" H 8150 2850 50  0001 C CNN
+F 1 "VDD" H 8165 3173 50  0000 C CNN
+F 2 "" H 8150 3000 50  0001 C CNN
+F 3 "" H 8150 3000 50  0001 C CNN
+	1    8150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 60C5B78C
+P 9300 4300
+F 0 "#PWR010" H 9300 4050 50  0001 C CNN
+F 1 "GND" H 9305 4127 50  0000 C CNN
+F 2 "" H 9300 4300 50  0001 C CNN
+F 3 "" H 9300 4300 50  0001 C CNN
+	1    9300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR06
+U 1 1 60C5BF2A
+P 6000 3000
+F 0 "#PWR06" H 6000 2850 50  0001 C CNN
+F 1 "+BATT" H 6015 3173 50  0000 C CNN
+F 2 "" H 6000 3000 50  0001 C CNN
+F 3 "" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7550 3500 0    50   Input ~ 0
+SWDIO
+Text GLabel 7550 3600 0    50   Input ~ 0
+SWDCLK
+Text GLabel 7550 3800 0    50   Input ~ 0
+SWO
+Text GLabel 7550 3900 0    50   Input ~ 0
+RESET
+Text GLabel 7550 4000 0    50   Input ~ 0
+TXO
+Text GLabel 7550 3400 0    50   Input ~ 0
+RXI
+Wire Wire Line
+	8550 3200 8150 3200
+Wire Wire Line
+	8150 3200 8150 3000
+Wire Wire Line
+	8550 3400 7550 3400
+Wire Wire Line
+	8550 3500 7550 3500
+Wire Wire Line
+	8550 3600 7550 3600
+Wire Wire Line
+	8550 3800 7550 3800
+Wire Wire Line
+	8550 3900 7550 3900
+Wire Wire Line
+	8550 4000 7550 4000
+Wire Wire Line
+	8550 4100 7850 4100
+Wire Wire Line
+	7850 4100 7850 3000
+Wire Wire Line
+	9050 3300 9300 3300
+Wire Wire Line
+	9300 3300 9300 3400
+Wire Wire Line
+	9050 3400 9300 3400
+Connection ~ 9300 3400
+Wire Wire Line
+	9300 3400 9300 3500
+Wire Wire Line
+	9050 3500 9300 3500
+Connection ~ 9300 3500
+Wire Wire Line
+	9300 3500 9300 3600
+Wire Wire Line
+	9050 3600 9300 3600
+Connection ~ 9300 3600
+Wire Wire Line
+	9300 3600 9300 3700
+Wire Wire Line
+	9050 3700 9300 3700
+Connection ~ 9300 3700
+Wire Wire Line
+	9300 3700 9300 4300
+NoConn ~ 9050 3800
+NoConn ~ 9050 3900
+NoConn ~ 9050 4000
+NoConn ~ 9050 4100
+NoConn ~ 9050 3200
+NoConn ~ 8550 3300
+NoConn ~ 8550 3700
+$Comp
+L Device:Jumper JP1
+U 1 1 60C79A3D
+P 6400 3300
+F 0 "JP1" H 6400 3564 50  0000 C CNN
+F 1 "Jumper" H 6400 3473 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6400 3300 50  0001 C CNN
+F 3 "~" H 6400 3300 50  0001 C CNN
+F 4 "C160332" H 6400 3300 50  0001 C CNN "JLCPCB Part Number"
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 60C7BCED
+P 6800 3000
+F 0 "#PWR07" H 6800 2850 50  0001 C CNN
+F 1 "+5V" H 6815 3173 50  0000 C CNN
+F 2 "" H 6800 3000 50  0001 C CNN
+F 3 "" H 6800 3000 50  0001 C CNN
+	1    6800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3000 6800 3300
+Wire Wire Line
+	6800 3300 6700 3300
+Wire Wire Line
+	6000 3000 6000 3300
+Wire Wire Line
+	6000 3300 6100 3300
+$Comp
+L power:+5V #PWR08
+U 1 1 60C7DBEF
+P 7850 3000
+F 0 "#PWR08" H 7850 2850 50  0001 C CNN
+F 1 "+5V" H 7865 3173 50  0000 C CNN
+F 2 "" H 7850 3000 50  0001 C CNN
+F 3 "" H 7850 3000 50  0001 C CNN
+	1    7850 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
