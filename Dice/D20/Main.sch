@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "Pixels D20 Schematic, Main"
-Date "2020-04-13"
+Date "2021-06-23"
 Rev "2"
 Comp "Systemic Games, LLC"
 Comment1 ""
@@ -1130,4 +1130,6 @@ NoConn ~ 7550 3450
 Connection ~ 4600 1600
 Wire Wire Line
 	4600 1600 4900 1600
+Text Notes 5000 5150 0    50   ~ 0
+CHECK RX TX, They may be swapped.
 $EndSCHEMATC

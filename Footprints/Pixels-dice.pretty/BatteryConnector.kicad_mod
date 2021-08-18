@@ -1,4 +1,4 @@
-(module BatteryConnector (layer F.Cu) (tedit 5CE58CE5)
+(module BatteryConnector (layer F.Cu) (tedit 60F213B4)
   (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
   (tags "test point THT pad")
   (attr virtual)
@@ -12,5 +12,5 @@
   (fp_text user %R (at 0 -1.65) (layer F.Fab)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (pad 1 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask))
+  (pad 1 thru_hole oval (at 0 0) (size 4.8 2.3) (drill oval 3.4 1.1) (layers *.Cu *.Mask))
 )
