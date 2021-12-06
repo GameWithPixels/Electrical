@@ -1,0 +1,1300 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Pixels D20 Schematic, Power"
+Date "2020-04-13"
+Rev "2"
+Comp "Systemic Games, LLC"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x01 P5
+U 1 1 5BB49BD2
+P 1050 2400
+F 0 "P5" H 1200 2400 50  0000 C CNN
+F 1 "COILA" H 1150 2300 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 1050 2400 50  0001 C CNN
+F 3 "" H 1050 2400 50  0000 C CNN
+	1    1050 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P6
+U 1 1 5BB49BD9
+P 1050 2500
+F 0 "P6" H 1200 2500 50  0000 C CNN
+F 1 "COILB" H 1150 2600 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 1050 2500 50  0001 C CNN
+F 3 "" H 1050 2500 50  0000 C CNN
+	1    1050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P3
+U 1 1 5BB49C60
+P 6400 2050
+F 0 "P3" H 6550 2050 50  0000 C CNN
+F 1 "BATT+" H 6750 2050 50  0000 C CNN
+F 2 "Pixels-dice:BatteryConnector" H 6400 2050 50  0001 C CNN
+F 3 "" H 6400 2050 50  0000 C CNN
+	1    6400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P4
+U 1 1 5BB49C67
+P 6400 2250
+F 0 "P4" H 6550 2250 50  0000 C CNN
+F 1 "BATT-" H 6750 2250 50  0000 C CNN
+F 2 "Pixels-dice:BatteryConnector" H 6400 2250 50  0001 C CNN
+F 3 "" H 6400 2250 50  0000 C CNN
+	1    6400 2250
+	1    0    0    -1  
+$EndComp
+Text HLabel 10600 2250 2    50   Output ~ 0
+VDD
+$Comp
+L Device:L L4
+U 1 1 5BBE0B13
+P 9150 2250
+F 0 "L4" V 9340 2250 50  0000 C CNN
+F 1 "2.2uH 20mA 10%" V 9250 2100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 9150 2250 50  0001 C CNN
+F 3 "~" H 9150 2250 50  0001 C CNN
+F 4 "YES" H 9150 2250 50  0001 C CNN "Generic OK"
+F 5 "SMD-L004" H 9150 2250 50  0001 C CNN "Pixels Part Number"
+F 6 "Bourns" H 9150 2250 50  0001 C CNN "Manufacturer"
+F 7 "CV201210-2R2K" H 9150 2250 50  0001 C CNN "Manufacturer Part Number"
+	1    9150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5BBE0BC9
+P 10300 2450
+F 0 "C18" H 10415 2496 50  0000 L CNN
+F 1 "4.7uF 6.3V 20%" H 10415 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10338 2300 50  0001 C CNN
+F 3 "~" H 10300 2450 50  0001 C CNN
+F 4 "YES" H 10300 2450 50  0001 C CNN "Generic OK"
+F 5 "SMD-C002" H 10300 2450 50  0001 C CNN "Pixels Part Number"
+F 6 "Samsung" H 10300 2450 50  0001 C CNN "Manufacturer"
+F 7 "CL10A475MQ8NNNC" H 10300 2450 50  0001 C CNN "Manufacturer Part Number"
+	1    10300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 5BBE36FD
+P 10300 2700
+F 0 "#PWR028" H 10300 2450 50  0001 C CNN
+F 1 "GND" H 10300 2550 50  0000 C CNN
+F 2 "" H 10300 2700 50  0001 C CNN
+F 3 "" H 10300 2700 50  0001 C CNN
+	1    10300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 5BBE3738
+P 7900 3100
+F 0 "#PWR029" H 7900 2850 50  0001 C CNN
+F 1 "GND" H 7900 2950 50  0000 C CNN
+F 2 "" H 7900 3100 50  0001 C CNN
+F 3 "" H 7900 3100 50  0001 C CNN
+	1    7900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2600 10300 2700
+$Comp
+L power:GND #PWR038
+U 1 1 5BC018A7
+P 5700 5950
+F 0 "#PWR038" H 5700 5700 50  0001 C CNN
+F 1 "GND" H 5700 5800 50  0000 C CNN
+F 2 "" H 5700 5950 50  0001 C CNN
+F 3 "" H 5700 5950 50  0001 C CNN
+	1    5700 5950
+	1    0    0    -1  
+$EndComp
+Text HLabel 7550 4550 2    50   Output ~ 0
+VLED
+$Comp
+L Device:R R7
+U 1 1 5BC07DCF
+P 9900 4900
+F 0 "R7" H 9970 4946 50  0000 L CNN
+F 1 "4M 1%" H 9970 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 4900 50  0001 C CNN
+F 3 "~" H 9900 4900 50  0001 C CNN
+F 4 "YES" H 9900 4900 50  0001 C CNN "Generic OK"
+F 5 "SMD-R003" H 9900 4900 50  0001 C CNN "Pixels Part Number"
+F 6 "Vishay" H 9900 4900 50  0001 C CNN "Manufacturer"
+F 7 "CRCW04024M02FKED" H 9900 4900 50  0001 C CNN "Manufacturer Part Number"
+	1    9900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5BC07ECB
+P 9900 5400
+F 0 "R8" V 9800 5350 50  0000 L CNN
+F 1 "10M 1%" V 10000 5250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 5400 50  0001 C CNN
+F 3 "~" H 9900 5400 50  0001 C CNN
+F 4 "YES" H 9900 5400 50  0001 C CNN "Generic OK"
+F 5 "SMD-R004" H 9900 5400 50  0001 C CNN "Pixels Part Number"
+F 6 "Rohm" H 9900 5400 50  0001 C CNN "Manufacturer"
+F 7 "SFR01MZPJ106" H 9900 5400 50  0001 C CNN "Manufacturer Part Number"
+	1    9900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 5BC07F31
+P 10200 5400
+F 0 "C22" H 10315 5446 50  0000 L CNN
+F 1 "10nF 25V 10%" H 10315 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10238 5250 50  0001 C CNN
+F 3 "~" H 10200 5400 50  0001 C CNN
+F 4 "YES" H 10200 5400 50  0001 C CNN "Generic OK"
+F 5 "SMD-C009" H 10200 5400 50  0001 C CNN "Pixels Part Number"
+F 6 "Yageo" H 10200 5400 50  0001 C CNN "Manufacturer"
+F 7 "AC0402KPX7R9BB103" H 10200 5400 50  0001 C CNN "Manufacturer Part Number"
+	1    10200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 5BC07FE7
+P 9900 5850
+F 0 "#PWR041" H 9900 5600 50  0001 C CNN
+F 1 "GND" H 9900 5700 50  0000 C CNN
+F 2 "" H 9900 5850 50  0001 C CNN
+F 3 "" H 9900 5850 50  0001 C CNN
+	1    9900 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 5050 9900 5150
+Wire Wire Line
+	9900 5550 9900 5650
+Wire Wire Line
+	9900 5150 10200 5150
+Wire Wire Line
+	10200 5150 10200 5250
+Connection ~ 9900 5150
+Wire Wire Line
+	9900 5150 9900 5250
+Wire Wire Line
+	10200 5550 10200 5650
+Wire Wire Line
+	10200 5650 9900 5650
+Connection ~ 9900 5650
+Wire Wire Line
+	9900 5650 9900 5850
+Wire Wire Line
+	10200 5150 10350 5150
+Connection ~ 10200 5150
+Text HLabel 10350 5150 2    50   Output ~ 0
+VBAT_SENSE
+$Comp
+L power:GND #PWR039
+U 1 1 5BC16490
+P 1000 6050
+F 0 "#PWR039" H 1000 5800 50  0001 C CNN
+F 1 "GND" H 1000 5900 50  0000 C CNN
+F 2 "" H 1000 6050 50  0001 C CNN
+F 3 "" H 1000 6050 50  0001 C CNN
+	1    1000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5BCB6AF9
+P 5100 5650
+F 0 "C20" H 4900 5450 50  0000 L CNN
+F 1 "4.7uF 6.3V 20%" V 5250 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5138 5500 50  0001 C CNN
+F 3 "~" H 5100 5650 50  0001 C CNN
+F 4 "YES" H 5100 5650 50  0001 C CNN "Generic OK"
+F 5 "SMD-C002" H 5100 5650 50  0001 C CNN "Pixels Part Number"
+F 6 "Samsung" H 5100 5650 50  0001 C CNN "Manufacturer"
+F 7 "CL10A475MQ8NNNC" H 5100 5650 50  0001 C CNN "Manufacturer Part Number"
+	1    5100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 5BCBCC07
+P 5100 5950
+F 0 "#PWR037" H 5100 5700 50  0001 C CNN
+F 1 "GND" H 5100 5800 50  0000 C CNN
+F 2 "" H 5100 5950 50  0001 C CNN
+F 3 "" H 5100 5950 50  0001 C CNN
+	1    5100 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5500 5100 5250
+Wire Wire Line
+	5100 5800 5100 5950
+$Comp
+L Pixels-dice:BAV99S-diode D1
+U 1 1 5BCE48C0
+P 2500 2700
+F 0 "D1" H 2500 2916 50  0000 C CNN
+F 1 "BAV99S" H 2500 2825 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2500 2200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 1750 2300 50  0001 C CNN
+F 4 "YES" H 2500 2700 50  0001 C CNN "Generic OK"
+F 5 "Infineon" H 2500 2700 50  0001 C CNN "Manufacturer"
+F 6 "BAV99SH6327XTSA1" H 2500 2700 50  0001 C CNN "Manufacturer Part Number"
+F 7 "SMD-D001" H 2500 2700 50  0001 C CNN "Pixels Part Number"
+	1    2500 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Pixels-dice:BAV99S-diode D1
+U 2 1 5BCE496A
+P 2500 2200
+F 0 "D1" H 2500 2324 50  0000 C CNN
+F 1 "BAV99S" H 2500 2415 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2500 1700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 1750 1800 50  0001 C CNN
+F 4 "YES" H 2500 2200 50  0001 C CNN "Generic OK"
+F 5 "Infineon" H 2500 2200 50  0001 C CNN "Manufacturer"
+F 6 "BAV99SH6327XTSA1" H 2500 2200 50  0001 C CNN "Manufacturer Part Number"
+F 7 "SMD-D001" H 2500 2200 50  0001 C CNN "Pixels Part Number"
+	2    2500 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 2200 2200 2450
+Wire Wire Line
+	2200 2450 2000 2450
+Connection ~ 2200 2450
+Wire Wire Line
+	2200 2450 2200 2700
+Wire Wire Line
+	2500 2000 2500 1900
+Wire Wire Line
+	2500 1900 1750 1900
+Wire Wire Line
+	1500 1900 1500 2400
+Wire Wire Line
+	1500 2400 1250 2400
+Wire Wire Line
+	2500 2900 2500 3000
+Wire Wire Line
+	2500 3000 1750 3000
+Wire Wire Line
+	1500 3000 1500 2500
+Wire Wire Line
+	1500 2500 1250 2500
+$Comp
+L Device:C C19
+U 1 1 5BCEAB3E
+P 1750 2450
+F 0 "C19" H 1600 2350 50  0000 L CNN
+F 1 "500pF 50V 10%" V 1900 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1788 2300 50  0001 C CNN
+F 3 "~" H 1750 2450 50  0001 C CNN
+F 4 "YES" H 1750 2450 50  0001 C CNN "Generic OK"
+F 5 "SMD-C008" H 1750 2450 50  0001 C CNN "Pixels Part Number"
+F 6 "AVX" H 1750 2450 50  0001 C CNN "Manufacturer"
+F 7 "04025C501KAT2A" H 1750 2450 50  0001 C CNN "Manufacturer Part Number"
+	1    1750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2300 1750 1900
+Connection ~ 1750 1900
+Wire Wire Line
+	1750 1900 1500 1900
+Wire Wire Line
+	1750 2600 1750 3000
+Connection ~ 1750 3000
+Wire Wire Line
+	1750 3000 1500 3000
+$Comp
+L Device:C C13
+U 1 1 5BCEE1E6
+P 3100 2100
+F 0 "C13" H 2950 2200 50  0000 L CNN
+F 1 "10uF 25V 20%" H 2900 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3138 1950 50  0001 C CNN
+F 3 "~" H 3100 2100 50  0001 C CNN
+F 4 "YES" H 3100 2100 50  0001 C CNN "Generic OK"
+F 5 "SMD-C006" H 3100 2100 50  0001 C CNN "Pixels Part Number"
+F 6 "Samsung" H 3100 2100 50  0001 C CNN "Manufacturer"
+F 7 "CL21A106KAYNNNG" H 3100 2100 50  0001 C CNN "Manufacturer Part Number"
+	1    3100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5BCEE24C
+P 3350 2100
+F 0 "C14" H 3200 2000 50  0000 L CNN
+F 1 "10uF 25V 20%" H 3150 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3388 1950 50  0001 C CNN
+F 3 "~" H 3350 2100 50  0001 C CNN
+F 4 "YES" H 3350 2100 50  0001 C CNN "Generic OK"
+F 5 "SMD-C006" H 3350 2100 50  0001 C CNN "Pixels Part Number"
+F 6 "Samsung" H 3350 2100 50  0001 C CNN "Manufacturer"
+F 7 "CL21A106KAYNNNG" H 3350 2100 50  0001 C CNN "Manufacturer Part Number"
+	1    3350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1800 3100 1950
+Wire Wire Line
+	3100 1800 3350 1800
+Wire Wire Line
+	3350 1800 3350 1950
+Wire Wire Line
+	3100 2250 3100 2450
+Wire Wire Line
+	3350 2250 3350 2450
+Wire Wire Line
+	3350 2450 3100 2450
+$Comp
+L power:GND #PWR031
+U 1 1 5BCF3F24
+P 3900 3050
+F 0 "#PWR031" H 3900 2800 50  0001 C CNN
+F 1 "GND" H 3905 2877 50  0000 C CNN
+F 2 "" H 3900 3050 50  0001 C CNN
+F 3 "" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 1800
+Wire Wire Line
+	3350 2450 3900 2450
+Connection ~ 3350 2450
+Connection ~ 3900 2450
+Wire Wire Line
+	3900 2450 3900 3050
+Wire Wire Line
+	2800 2200 2800 2450
+Wire Wire Line
+	3100 2450 2800 2450
+Connection ~ 3100 2450
+Connection ~ 2800 2450
+Wire Wire Line
+	2800 2450 2800 2700
+Wire Wire Line
+	2000 2450 2000 1800
+Wire Wire Line
+	2000 1800 3100 1800
+Connection ~ 3100 1800
+$Comp
+L Device:C C15
+U 1 1 5BCFCF67
+P 4550 2100
+F 0 "C15" H 4400 2000 50  0000 L CNN
+F 1 "4.7uF 6.3V 20%" H 4150 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 1950 50  0001 C CNN
+F 3 "~" H 4550 2100 50  0001 C CNN
+F 4 "YES" H 4550 2100 50  0001 C CNN "Generic OK"
+F 5 "SMD-C002" H 4550 2100 50  0001 C CNN "Pixels Part Number"
+F 6 "Samsung" H 4550 2100 50  0001 C CNN "Manufacturer"
+F 7 "CL10A475MQ8NNNC" H 4550 2100 50  0001 C CNN "Manufacturer Part Number"
+	1    4550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR027
+U 1 1 5BCFD002
+P 4550 1600
+F 0 "#PWR027" H 4550 1450 50  0001 C CNN
+F 1 "+5V" H 4565 1773 50  0000 C CNN
+F 2 "" H 4550 1600 50  0001 C CNN
+F 3 "" H 4550 1600 50  0001 C CNN
+	1    4550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1800 4550 1950
+Connection ~ 4550 1800
+Wire Wire Line
+	3900 2450 4550 2450
+Wire Wire Line
+	4550 2450 4550 2250
+$Comp
+L Pixels-dice:MCP73831-2-OT-battery_management U5
+U 1 1 5BD026C5
+P 5300 2150
+F 0 "U5" H 5450 1850 50  0000 C CNN
+F 1 "MCP73832T-2ACI/OT" H 5300 2550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5350 1900 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 5150 2100 50  0001 C CNN
+F 4 "NO" H 5300 2150 50  0001 C CNN "Generic OK"
+F 5 "Microchip" H 5300 2150 50  0001 C CNN "Manufacturer"
+F 6 "MCP73832T-2ACI/OT" H 5300 2150 50  0001 C CNN "Manufacturer Part Number"
+F 7 "SMD-U005" H 5300 2150 50  0001 C CNN "Pixels Part Number"
+	1    5300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5BD02D61
+P 4850 2550
+F 0 "R6" H 4920 2596 50  0000 L CNN
+F 1 "10k 5%" H 4920 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4780 2550 50  0001 C CNN
+F 3 "~" H 4850 2550 50  0001 C CNN
+F 4 "YES" H 4850 2550 50  0001 C CNN "Generic OK"
+F 5 "SMD-R002" H 4850 2550 50  0001 C CNN "Pixels Part Number"
+F 6 "Vishay" H 4850 2550 50  0001 C CNN "Manufacturer"
+F 7 "CRCW040210K0FKEDC" H 4850 2550 50  0001 C CNN "Manufacturer Part Number"
+	1    4850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 5BD02E0B
+P 5300 3050
+F 0 "#PWR032" H 5300 2800 50  0001 C CNN
+F 1 "GND" H 5305 2877 50  0000 C CNN
+F 2 "" H 5300 3050 50  0001 C CNN
+F 3 "" H 5300 3050 50  0001 C CNN
+	1    5300 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2450 5300 2800
+Wire Wire Line
+	4850 2700 4850 2800
+Wire Wire Line
+	4850 2800 5300 2800
+Connection ~ 5300 2800
+Wire Wire Line
+	5300 2800 5300 3050
+Wire Wire Line
+	4900 2250 4850 2250
+Wire Wire Line
+	4850 2250 4850 2400
+Wire Wire Line
+	5300 1850 5300 1800
+Wire Wire Line
+	6050 2050 6050 1700
+Wire Wire Line
+	6200 2050 6050 2050
+Connection ~ 6050 2050
+Wire Wire Line
+	6200 2250 6050 2250
+Wire Wire Line
+	6050 2250 6050 2800
+Wire Wire Line
+	5700 2250 5800 2250
+Wire Wire Line
+	5700 2050 5850 2050
+Text HLabel 6100 3550 2    50   Output ~ 0
+STAT
+Wire Wire Line
+	4550 1800 4700 1800
+Wire Wire Line
+	4550 2450 4550 2800
+Wire Wire Line
+	4550 2800 4850 2800
+Connection ~ 4550 2450
+Connection ~ 4850 2800
+Wire Wire Line
+	5300 2800 6050 2800
+$Comp
+L power:+BATT #PWR026
+U 1 1 5BD5C9D2
+P 6050 1600
+F 0 "#PWR026" H 6050 1450 50  0001 C CNN
+F 1 "+BATT" H 6065 1773 50  0000 C CNN
+F 2 "" H 6050 1600 50  0001 C CNN
+F 3 "" H 6050 1600 50  0001 C CNN
+	1    6050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR025
+U 1 1 5BD5D1E8
+P 7550 1700
+F 0 "#PWR025" H 7550 1550 50  0001 C CNN
+F 1 "+BATT" H 7565 1873 50  0000 C CNN
+F 2 "" H 7550 1700 50  0001 C CNN
+F 3 "" H 7550 1700 50  0001 C CNN
+	1    7550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR036
+U 1 1 5BD5D404
+P 1000 4650
+F 0 "#PWR036" H 1000 4500 50  0001 C CNN
+F 1 "+BATT" H 1015 4823 50  0000 C CNN
+F 2 "" H 1000 4650 50  0001 C CNN
+F 3 "" H 1000 4650 50  0001 C CNN
+	1    1000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR035
+U 1 1 5BD5D458
+P 9900 4450
+F 0 "#PWR035" H 9900 4300 50  0001 C CNN
+F 1 "+BATT" H 9915 4623 50  0000 C CNN
+F 2 "" H 9900 4450 50  0001 C CNN
+F 3 "" H 9900 4450 50  0001 C CNN
+	1    9900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BC02443
+P 9350 2450
+AR Path="/5BC02443" Ref="C?"  Part="1" 
+AR Path="/5BB44A54/5BC02443" Ref="C17"  Part="1" 
+F 0 "C17" H 9100 2450 50  0000 L CNN
+F 1 "22pF 10V 5%" H 8950 2550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9388 2300 50  0001 C CNN
+F 3 "~" H 9350 2450 50  0001 C CNN
+F 4 "YES" H 9350 2450 50  0001 C CNN "Generic OK"
+F 5 "SMD-C007" H 9350 2450 50  0001 C CNN "Pixels Part Number"
+F 6 "Yageo" H 9350 2450 50  0001 C CNN "Manufacturer"
+F 7 "CC0402JRNPO9BN220" H 9350 2450 50  0001 C CNN "Manufacturer Part Number"
+	1    9350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5BC05255
+P 9550 2850
+F 0 "R5" H 9620 2896 50  0000 L CNN
+F 1 "100k 1%" H 9620 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9480 2850 50  0001 C CNN
+F 3 "~" H 9550 2850 50  0001 C CNN
+F 4 "YES" H 9550 2850 50  0001 C CNN "Generic OK"
+F 5 "SMD-R006" H 9550 2850 50  0001 C CNN "Pixels Part Number"
+F 6 "Vishay" H 9550 2850 50  0001 C CNN "Manufacturer"
+F 7 "CRCW0402100KFKEDC" H 9550 2850 50  0001 C CNN "Manufacturer Part Number"
+	1    9550 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BC0541B
+P 9550 2450
+F 0 "R4" H 9350 2550 50  0000 L CNN
+F 1 "402k 1%" H 9150 2450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9480 2450 50  0001 C CNN
+F 3 "~" H 9550 2450 50  0001 C CNN
+F 4 "YES" H 9550 2450 50  0001 C CNN "Generic OK"
+F 5 "SMD-R001" H 9550 2450 50  0001 C CNN "Pixels Part Number"
+F 6 "Panasonic" H 9550 2450 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF4023X" H 9550 2450 50  0001 C CNN "Manufacturer Part Number"
+	1    9550 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5BC084CC
+P 9550 3100
+F 0 "#PWR030" H 9550 2850 50  0001 C CNN
+F 1 "GND" H 9550 2950 50  0000 C CNN
+F 2 "" H 9550 3100 50  0001 C CNN
+F 3 "" H 9550 3100 50  0001 C CNN
+	1    9550 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2550 8100 2550
+Wire Wire Line
+	8900 2500 9100 2500
+Wire Wire Line
+	9100 2500 9100 2650
+Wire Wire Line
+	9100 2650 9350 2650
+Wire Wire Line
+	9350 2650 9350 2600
+Wire Wire Line
+	9350 2650 9550 2650
+Wire Wire Line
+	9550 2650 9550 2600
+Connection ~ 9350 2650
+Wire Wire Line
+	9550 2650 9550 2700
+Connection ~ 9550 2650
+Wire Wire Line
+	9550 3000 9550 3100
+Wire Wire Line
+	9350 2300 9350 2250
+Wire Wire Line
+	9350 2250 9300 2250
+Wire Wire Line
+	9550 2300 9550 2250
+Wire Wire Line
+	9550 2250 9350 2250
+Connection ~ 9350 2250
+Wire Wire Line
+	9000 2250 8900 2250
+Wire Wire Line
+	9550 2250 10300 2250
+Wire Wire Line
+	10300 2250 10300 2300
+Connection ~ 9550 2250
+$Comp
+L Device:C C16
+U 1 1 5BC2A48A
+P 7550 2450
+F 0 "C16" H 7400 2550 50  0000 L CNN
+F 1 "4.7uF 6.3V 20%" H 7300 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7588 2300 50  0001 C CNN
+F 3 "~" H 7550 2450 50  0001 C CNN
+F 4 "YES" H 7550 2450 50  0001 C CNN "Generic OK"
+F 5 "SMD-C002" H 7550 2450 50  0001 C CNN "Pixels Part Number"
+F 6 "Samsung" H 7550 2450 50  0001 C CNN "Manufacturer"
+F 7 "CL10A475MQ8NNNC" H 7550 2450 50  0001 C CNN "Manufacturer Part Number"
+	1    7550 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2600 7550 2800
+Wire Wire Line
+	7550 2800 7900 2800
+Connection ~ 7900 2800
+Wire Wire Line
+	7900 2800 7900 3100
+Wire Wire Line
+	7550 2300 7550 2050
+Connection ~ 7550 2050
+Wire Wire Line
+	10300 2250 10600 2250
+Connection ~ 10300 2250
+Wire Wire Line
+	1000 5350 1100 5350
+Wire Wire Line
+	1100 5550 1000 5550
+Wire Wire Line
+	1000 5550 1000 6050
+$Comp
+L Pixels-dice:TEST_1P-conn W16
+U 1 1 5BAF4A66
+P 3100 1750
+F 0 "W16" H 3158 1870 50  0000 L CNN
+F 1 "VIN" H 3158 1779 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 3300 1750 50  0001 C CNN
+F 3 "" H 3300 1750 50  0000 C CNN
+	1    3100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pixels-dice:TEST_1P-conn W19
+U 1 1 5BAF4B0A
+P 3100 2500
+F 0 "W19" H 3042 2527 50  0000 R CNN
+F 1 "GND" H 3042 2618 50  0000 R CNN
+F 2 "Pixels-dice:TEST_PIN" H 3300 2500 50  0001 C CNN
+F 3 "" H 3300 2500 50  0000 C CNN
+	1    3100 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 1750 3100 1800
+Wire Wire Line
+	3100 2500 3100 2450
+$Comp
+L Pixels-dice:TEST_1P-conn W15
+U 1 1 5BB0713A
+P 4700 1700
+F 0 "W15" H 4758 1820 50  0000 L CNN
+F 1 "+5V" H 4758 1729 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 4900 1700 50  0001 C CNN
+F 3 "" H 4900 1700 50  0000 C CNN
+	1    4700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pixels-dice:TEST_1P-conn W14
+U 1 1 5BB071E2
+P 5850 1650
+F 0 "W14" H 5750 2000 50  0000 L CNN
+F 1 "BATT" H 5750 1900 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 6050 1650 50  0001 C CNN
+F 3 "" H 6050 1650 50  0000 C CNN
+	1    5850 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1700 4700 1800
+Connection ~ 4700 1800
+Wire Wire Line
+	4700 1800 5300 1800
+Wire Wire Line
+	5850 1650 5850 2050
+Connection ~ 5850 2050
+Wire Wire Line
+	5850 2050 6050 2050
+$Comp
+L Pixels-dice:TEST_1P-conn W18
+U 1 1 5BB120AE
+P 9700 2650
+F 0 "W18" V 9750 2850 50  0000 L CNN
+F 1 "FB" V 9650 2850 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 9900 2650 50  0001 C CNN
+F 3 "" H 9900 2650 50  0000 C CNN
+	1    9700 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 2650 9700 2650
+$Comp
+L Pixels-dice:TEST_1P-conn W21
+U 1 1 5BB1C04E
+P 4400 5050
+F 0 "W21" H 4450 5100 50  0000 L CNN
+F 1 "LED2" H 4450 5200 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 4600 5050 50  0001 C CNN
+F 3 "" H 4600 5050 50  0000 C CNN
+	1    4400 5050
+	1    0    0    -1  
+$EndComp
+Text Notes 4600 3000 0    50   ~ 0
+100mA Max\nCharge Rate
+$Comp
+L power:+BATT #PWR033
+U 1 1 5BB2AFDF
+P 5100 4550
+F 0 "#PWR033" H 5100 4400 50  0001 C CNN
+F 1 "+BATT" H 5115 4723 50  0000 C CNN
+F 2 "" H 5100 4550 50  0001 C CNN
+F 3 "" H 5100 4550 50  0001 C CNN
+	1    5100 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5050 4400 5350
+Connection ~ 4400 5350
+Text Label 2050 5400 0    50   ~ 0
+MAG1_
+Text Label 4500 5350 0    50   ~ 0
+LED_EN_OUT
+Text Label 5800 2550 1    50   ~ 0
+STAT
+$Comp
+L Pixels-dice:BU52272NUZ U8
+U 1 1 5BB3D3B2
+P 1550 5450
+F 0 "U8" H 1550 5815 50  0000 C CNN
+F 1 "BU52272NUZ" H 1550 5724 50  0000 C CNN
+F 2 "Pixels-dice:VSON04Z1114A" H 1550 5450 50  0001 C CNN
+F 3 "" H 1550 5450 50  0001 C CNN
+F 4 "NO" H 1550 5450 50  0001 C CNN "Generic OK"
+F 5 "Texas Instruments" H 1550 5450 50  0001 C CNN "Manufacturer"
+F 6 "DRV5032FDDMRR" H 1550 5450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "SMD-U008" H 1550 5450 50  0001 C CNN "Pixels Part Number"
+	1    1550 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1800 3450 1800
+Wire Wire Line
+	3450 1900 3450 1800
+Connection ~ 3450 1800
+Wire Wire Line
+	7550 1700 7550 2050
+Wire Wire Line
+	1000 4650 1000 5350
+Wire Wire Line
+	9900 4450 9900 4750
+$Comp
+L Pixels-dice:TEST_1P-conn W23
+U 1 1 5CE68CDE
+P 2400 3750
+F 0 "W23" H 2150 3800 50  0000 L CNN
+F 1 "MAG1_" H 2100 3900 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 2600 3750 50  0001 C CNN
+F 3 "" H 2600 3750 50  0000 C CNN
+	1    2400 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 9000 5150 2    50   Output ~ 0
+5V_SENSE
+$Comp
+L Pixels-dice:AP2204K-5.0-Regulator_Linear U3
+U 1 1 5CF0CE78
+P 3900 1900
+F 0 "U3" H 3900 2242 50  0000 C CNN
+F 1 "AP2204K-5.0" H 3900 2151 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3900 2225 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 3900 2000 50  0001 C CNN
+F 4 "YES" H 3900 1900 50  0001 C CNN "Generic OK"
+F 5 "Diodes Inc." H 3900 1900 50  0001 C CNN "Manufacturer"
+F 6 "AP2204K-5.0TRG1" H 3900 1900 50  0001 C CNN "Manufacturer Part Number"
+F 7 "SMD-U003" H 3900 1900 50  0001 C CNN "Pixels Part Number"
+	1    3900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1800 3600 1800
+Wire Wire Line
+	3450 1900 3600 1900
+Wire Wire Line
+	4200 1800 4550 1800
+Wire Wire Line
+	3900 2200 3900 2450
+$Comp
+L Pixels-dice:TEST_1P-conn W11
+U 1 1 5CF211BD
+P 6350 5450
+F 0 "W11" V 6450 5500 50  0000 L CNN
+F 1 "FAULT#" V 6550 5450 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 6550 5450 50  0001 C CNN
+F 3 "" H 6550 5450 50  0000 C CNN
+	1    6350 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 5450 6350 5450
+$Comp
+L Pixels-dice:TEST_1P-conn W25
+U 1 1 5CF84F56
+P 10300 2000
+F 0 "W25" H 10400 2050 50  0000 L CNN
+F 1 "VDD" H 10400 2150 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 10500 2000 50  0001 C CNN
+F 3 "" H 10500 2000 50  0000 C CNN
+	1    10300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2000 10300 2250
+$Comp
+L Pixels-dice:74AHC1G08 U7
+U 1 1 5CF24B7E
+P 3600 5350
+F 0 "U7" H 3750 5200 50  0000 R CNN
+F 1 "74AHC1G08" H 3500 5200 50  0000 R CNN
+F 2 "Pixels-dice:SOT-353_SC-70-5" H 3600 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3600 5350 50  0001 C CNN
+F 4 "YES" H 3600 5350 50  0001 C CNN "Generic OK"
+F 5 "Texas Instruments" H 3600 5350 50  0001 C CNN "Manufacturer"
+F 6 "SN74AHC1G08DCKR" H 3600 5350 50  0001 C CNN "Manufacturer Part Number"
+F 7 "SMD-U007" H 3600 5350 50  0001 C CNN "Pixels Part Number"
+	1    3600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR020
+U 1 1 5CF4083B
+P 3600 4550
+F 0 "#PWR020" H 3600 4400 50  0001 C CNN
+F 1 "+BATT" H 3615 4723 50  0000 C CNN
+F 2 "" H 3600 4550 50  0001 C CNN
+F 3 "" H 3600 4550 50  0001 C CNN
+	1    3600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 5CF4092A
+P 3600 5950
+F 0 "#PWR034" H 3600 5700 50  0001 C CNN
+F 1 "GND" H 3600 5800 50  0000 C CNN
+F 2 "" H 3600 5950 50  0001 C CNN
+F 3 "" H 3600 5950 50  0001 C CNN
+	1    3600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CF4C157
+P 8650 5400
+F 0 "R2" H 8700 5350 50  0000 L CNN
+F 1 "10M 1%" H 8700 5450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 5400 50  0001 C CNN
+F 3 "~" H 8650 5400 50  0001 C CNN
+F 4 "YES" H 8650 5400 50  0001 C CNN "Generic OK"
+F 5 "SMD-R004" H 8650 5400 50  0001 C CNN "Pixels Part Number"
+F 6 "Rohm" H 8650 5400 50  0001 C CNN "Manufacturer"
+F 7 "SFR01MZPJ106" H 8650 5400 50  0001 C CNN "Manufacturer Part Number"
+	1    8650 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CF4C215
+P 8650 4900
+F 0 "R1" H 8720 4946 50  0000 L CNN
+F 1 "4M 1%" H 8720 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 4900 50  0001 C CNN
+F 3 "~" H 8650 4900 50  0001 C CNN
+F 4 "YES" H 8650 4900 50  0001 C CNN "Generic OK"
+F 5 "SMD-R003" H 8650 4900 50  0001 C CNN "Pixels Part Number"
+F 6 "Vishay" H 8650 4900 50  0001 C CNN "Manufacturer"
+F 7 "CRCW04024M02FKED" H 8650 4900 50  0001 C CNN "Manufacturer Part Number"
+	1    8650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5CF5131F
+P 8650 5850
+F 0 "#PWR010" H 8650 5600 50  0001 C CNN
+F 1 "GND" H 8650 5700 50  0000 C CNN
+F 2 "" H 8650 5850 50  0001 C CNN
+F 3 "" H 8650 5850 50  0001 C CNN
+	1    8650 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5150 8650 5150
+Wire Wire Line
+	8650 5250 8650 5150
+Connection ~ 8650 5150
+Wire Wire Line
+	8650 5150 8850 5150
+Wire Wire Line
+	8650 5550 8650 5650
+$Comp
+L Pixels-dice:TEST_1P-conn W13
+U 1 1 5CF72250
+P 8450 5150
+F 0 "W13" H 8508 5270 50  0000 L CNN
+F 1 "5V_S" H 8508 5179 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 8650 5150 50  0001 C CNN
+F 3 "" H 8650 5150 50  0000 C CNN
+	1    8450 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 5050 8650 5150
+Wire Wire Line
+	5800 2250 5800 3000
+$Comp
+L Pixels-dice:TEST_1P-conn W17
+U 1 1 5CF89837
+P 5950 3000
+F 0 "W17" V 5900 3250 50  0000 L CNN
+F 1 "STAT" V 6000 3250 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 6150 3000 50  0001 C CNN
+F 3 "" H 6150 3000 50  0000 C CNN
+	1    5950 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 3000 5800 3000
+Connection ~ 5800 3000
+Wire Wire Line
+	5800 3550 6100 3550
+Wire Wire Line
+	5800 3000 5800 3350
+Wire Wire Line
+	4550 1600 4550 1800
+$Comp
+L power:+5V #PWR086
+U 1 1 5E490103
+P 8650 4450
+F 0 "#PWR086" H 8650 4300 50  0001 C CNN
+F 1 "+5V" H 8665 4623 50  0000 C CNN
+F 2 "" H 8650 4450 50  0001 C CNN
+F 3 "" H 8650 4450 50  0001 C CNN
+	1    8650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4750 8650 4450
+Wire Wire Line
+	3850 5350 4400 5350
+Wire Wire Line
+	2000 5400 2400 5400
+Wire Wire Line
+	2400 3900 8000 3900
+Text HLabel 2950 5300 0    50   Input ~ 0
+LED_EN
+Wire Wire Line
+	2950 5300 3300 5300
+Wire Wire Line
+	3600 4550 3600 5200
+Wire Wire Line
+	3600 5500 3600 5950
+Wire Wire Line
+	2400 3750 2400 3900
+Connection ~ 2400 3900
+$Comp
+L Device:R R13
+U 1 1 5E5DC7B8
+P 7100 4900
+F 0 "R13" V 7200 4850 50  0000 L CNN
+F 1 "4M 1%" V 7000 4750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 4900 50  0001 C CNN
+F 3 "~" H 7100 4900 50  0001 C CNN
+F 4 "YES" H 7100 4900 50  0001 C CNN "Generic OK"
+F 5 "SMD-R003" H 7100 4900 50  0001 C CNN "Pixels Part Number"
+F 6 "Vishay" H 7100 4900 50  0001 C CNN "Manufacturer"
+F 7 "CRCW04024M02FKED" H 7100 4900 50  0001 C CNN "Manufacturer Part Number"
+	1    7100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5E5DC7C2
+P 7100 5400
+F 0 "R14" V 7200 5350 50  0000 L CNN
+F 1 "10M 1%" V 7000 5250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 5400 50  0001 C CNN
+F 3 "~" H 7100 5400 50  0001 C CNN
+F 4 "YES" H 7100 5400 50  0001 C CNN "Generic OK"
+F 5 "SMD-R004" H 7100 5400 50  0001 C CNN "Pixels Part Number"
+F 6 "Rohm" H 7100 5400 50  0001 C CNN "Manufacturer"
+F 7 "SFR01MZPJ106" H 7100 5400 50  0001 C CNN "Manufacturer Part Number"
+	1    7100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5E5DC7CC
+P 7400 5400
+F 0 "C6" H 7515 5446 50  0000 L CNN
+F 1 "10nF 25V 10%" H 7515 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7438 5250 50  0001 C CNN
+F 3 "~" H 7400 5400 50  0001 C CNN
+F 4 "YES" H 7400 5400 50  0001 C CNN "Generic OK"
+F 5 "SMD-C009" H 7400 5400 50  0001 C CNN "Pixels Part Number"
+F 6 "Yageo" H 7400 5400 50  0001 C CNN "Manufacturer"
+F 7 "AC0402KPX7R9BB103" H 7400 5400 50  0001 C CNN "Manufacturer Part Number"
+	1    7400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR079
+U 1 1 5E5DC7D6
+P 7100 5850
+F 0 "#PWR079" H 7100 5600 50  0001 C CNN
+F 1 "GND" H 7100 5700 50  0000 C CNN
+F 2 "" H 7100 5850 50  0001 C CNN
+F 3 "" H 7100 5850 50  0001 C CNN
+	1    7100 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5050 7100 5150
+Wire Wire Line
+	7100 5550 7100 5650
+Wire Wire Line
+	7100 5150 7400 5150
+Wire Wire Line
+	7400 5150 7400 5250
+Connection ~ 7100 5150
+Wire Wire Line
+	7100 5150 7100 5250
+Wire Wire Line
+	7400 5550 7400 5650
+Wire Wire Line
+	7400 5650 7100 5650
+Connection ~ 7100 5650
+Wire Wire Line
+	7100 5650 7100 5850
+Wire Wire Line
+	7400 5150 7550 5150
+Connection ~ 7400 5150
+Text HLabel 7550 5150 2    50   Output ~ 0
+VLED_SENSE
+Wire Wire Line
+	7100 4450 7100 4550
+$Comp
+L power:+VDC #PWR040
+U 1 1 5E6205CF
+P 7100 4450
+F 0 "#PWR040" H 7100 4350 50  0001 C CNN
+F 1 "+VDC" H 7100 4725 50  0000 C CNN
+F 2 "" H 7100 4450 50  0001 C CNN
+F 3 "" H 7100 4450 50  0001 C CNN
+	1    7100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5E62878F
+P 8850 5400
+F 0 "C21" H 8965 5446 50  0000 L CNN
+F 1 "10nF 25V 10%" H 8965 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8888 5250 50  0001 C CNN
+F 3 "~" H 8850 5400 50  0001 C CNN
+F 4 "YES" H 8850 5400 50  0001 C CNN "Generic OK"
+F 5 "SMD-C009" H 8850 5400 50  0001 C CNN "Pixels Part Number"
+F 6 "Yageo" H 8850 5400 50  0001 C CNN "Manufacturer"
+F 7 "AC0402KPX7R9BB103" H 8850 5400 50  0001 C CNN "Manufacturer Part Number"
+	1    8850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5250 8850 5150
+Connection ~ 8850 5150
+Wire Wire Line
+	8850 5150 9000 5150
+Wire Wire Line
+	8850 5550 8850 5650
+Wire Wire Line
+	8850 5650 8650 5650
+Connection ~ 8650 5650
+Wire Wire Line
+	8650 5650 8650 5850
+Wire Wire Line
+	7550 4550 7100 4550
+Connection ~ 7100 4550
+Wire Wire Line
+	7100 4550 7100 4750
+Wire Wire Line
+	7100 4550 6400 4550
+$Comp
+L Pixels-dice:TEST_1P-conn W20
+U 1 1 5E6C4B6E
+P 9700 5150
+F 0 "W20" H 9758 5270 50  0000 L CNN
+F 1 "VBAT_S" H 9758 5179 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 9900 5150 50  0001 C CNN
+F 3 "" H 9900 5150 50  0000 C CNN
+	1    9700 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9700 5150 9900 5150
+$Comp
+L Pixels-dice:TEST_1P-conn W12
+U 1 1 5E6CCF00
+P 6950 5150
+F 0 "W12" H 7008 5270 50  0000 L CNN
+F 1 "VLED_S" H 6900 5350 50  0000 L CNN
+F 2 "Pixels-dice:TEST_PIN" H 7150 5150 50  0001 C CNN
+F 3 "" H 7150 5150 50  0000 C CNN
+	1    6950 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 5150 7100 5150
+Text Label 6600 4550 0    50   ~ 0
+VLED
+$Comp
+L Device:LED D22
+U 1 1 5F8490A2
+P 6800 2700
+F 0 "D22" V 6839 2583 50  0000 R CNN
+F 1 "LED" V 6748 2583 50  0000 R CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6800 2700 50  0001 C CNN
+F 3 "~" H 6800 2700 50  0001 C CNN
+F 4 "YES" H 6800 2700 50  0001 C CNN "Generic OK"
+F 5 "Inolux" H 6800 2700 50  0001 C CNN "Manufacturer"
+F 6 "IN-S42CTQIR" H 6800 2700 50  0001 C CNN "Manufacturer Part Number"
+F 7 "SMD-D003" H 6800 2700 50  0001 C CNN "Pixels Part Number"
+	1    6800 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F84A100
+P 6800 3100
+F 0 "R15" H 6870 3146 50  0000 L CNN
+F 1 "200 5%" H 6870 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 3100 50  0001 C CNN
+F 3 "~" H 6800 3100 50  0001 C CNN
+F 4 "YES" H 6800 3100 50  0001 C CNN "Generic OK"
+F 5 "SMD-R008" H 6800 3100 50  0001 C CNN "Pixels Part Number"
+F 6 "Vishay" H 6800 3100 50  0001 C CNN "Manufacturer"
+F 7 "CRCW0402200RJNED" H 6800 3100 50  0001 C CNN "Manufacturer Part Number"
+	1    6800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3250 6800 3350
+Wire Wire Line
+	6800 3350 5800 3350
+Connection ~ 5800 3350
+Wire Wire Line
+	5800 3350 5800 3550
+Wire Wire Line
+	6800 2850 6800 2950
+$Comp
+L power:+5V #PWR088
+U 1 1 5F862FC3
+P 6800 2450
+F 0 "#PWR088" H 6800 2300 50  0001 C CNN
+F 1 "+5V" H 6815 2623 50  0000 C CNN
+F 2 "" H 6800 2450 50  0001 C CNN
+F 3 "" H 6800 2450 50  0001 C CNN
+	1    6800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2450 6800 2550
+Text HLabel 6400 1700 2    50   Output ~ 0
+VBAT
+Wire Wire Line
+	6400 1700 6050 1700
+Connection ~ 6050 1700
+Wire Wire Line
+	6050 1700 6050 1600
+Wire Wire Line
+	7550 2050 8100 2050
+NoConn ~ 2000 5500
+$Comp
+L Pixels-dice:MT9216 U4
+U 1 1 6146C460
+P 8500 2350
+F 0 "U4" H 8500 2915 50  0000 C CNN
+F 1 "MT9216" H 8500 2824 50  0000 C CNN
+F 2 "Pixels-dice:SOT-23-5" H 8600 2250 50  0001 C CNN
+F 3 "" H 8600 2250 50  0001 C CNN
+F 4 "XI'AN Aerosemi Tech" H 8500 2350 50  0001 C CNN "Manufacturer"
+F 5 "MT9216" H 8500 2350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "SMD-U004-ALT2" H 8500 2350 50  0001 C CNN "Pixels Part Number"
+F 7 "NO" H 8500 2350 50  0001 C CNN "Generic OK"
+	1    8500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2550 7900 2800
+Wire Wire Line
+	8100 2250 8000 2250
+Wire Wire Line
+	8000 2250 8000 3900
+$Comp
+L Pixels-dice:JW7115-2 U6
+U 1 1 615A298E
+P 5750 5350
+F 0 "U6" H 5750 5715 50  0000 C CNN
+F 1 "JW7115-2" H 5750 5624 50  0000 C CNN
+F 2 "Pixels-dice:SOT-23-5" H 5750 5100 50  0001 C CNN
+F 3 "" H 5750 5100 50  0001 C CNN
+F 4 "JoulWatt Tech" H 5750 5350 50  0001 C CNN "Manufacturer"
+F 5 "JW7115-2" H 5750 5350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "SMD-U006-ALT3" H 5750 5350 50  0001 C CNN "Pixels Part Number"
+F 7 "NO" H 5750 5350 50  0001 C CNN "Generic OK"
+	1    5750 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5250 6400 5250
+Wire Wire Line
+	5700 5750 5700 5950
+Wire Wire Line
+	4400 5350 5250 5350
+Wire Wire Line
+	5250 5250 5100 5250
+Connection ~ 5100 5250
+Wire Wire Line
+	5100 4550 5100 5250
+Wire Wire Line
+	6400 4550 6400 5250
+Wire Wire Line
+	2400 3900 2400 5400
+Wire Wire Line
+	2400 5400 3300 5400
+Connection ~ 2400 5400
+$EndSCHEMATC

@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Pixels-dice)(type Legacy)(uri C:/Projects/Pixels-dice/Electrical/Lib/Pixels-dice.lib)(options "")(descr ""))
-  (lib (name Charger-rescue)(type Legacy)(uri ${KIPRJMOD}/Charger-rescue.lib)(options "")(descr ""))
-)

@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Pixels-dice)(type Legacy)(uri "C:/Users/frogi/OneDrive - Systemic Games, LLC/Pixels/Electrical/Lib/Pixels-dice.lib")(options "")(descr ""))
-  (lib (name Main-rescue)(type Legacy)(uri ${KIPRJMOD}/Main-rescue.lib)(options "")(descr ""))
-)

@@ -6,9 +6,21 @@ K Single Gate AND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74AHC1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74AHCT1G08
 D Single AND Gate, Low-Voltage CMOS
 K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -18,9 +30,21 @@ K Single Gate AND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74AUC1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74AUP1G08
 D Single AND Gate, Low-Voltage CMOS
 K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -28,6 +52,114 @@ $CMP 74LVC1G08
 D Single AND Gate, Low-Voltage CMOS
 K Single Gate AND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP AO3401A
+D -4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf
+$ENDCMP
+#
+$CMP BSS83P
+D -0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.farnell.com/datasheets/1835997.pdf
+$ENDCMP
+#
+$CMP BSS84
+D -0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
+$ENDCMP
+#
+$CMP DMG2301L
+D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMG2301L.pdf
+$ENDCMP
+#
+$CMP FDN340P
+D 2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF
+$ENDCMP
+#
+$CMP IRLML5203
+D -3.0A Id, -30V Vds, 98mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET
+F https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d
+$ENDCMP
+#
+$CMP IRLML6401
+D -4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET Logic-Level
+F https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634
+$ENDCMP
+#
+$CMP IRLML6402
+D -3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET
+F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
+$ENDCMP
+#
+$CMP IRLML9301
+D -3.6A Id, -30V Vds, 64mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET Logic-Level
+F https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640
+$ENDCMP
+#
+$CMP NTR2101P
+D -3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
+$ENDCMP
+#
+$CMP Q_NMOS_GDS_SOT-223
+D N-MOSFET transistor, gate/drain/source
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP S8205A
+D 0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+K N-Channel MOSFET Logic-Level
+F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+$ENDCMP
+#
+$CMP Si2319CDS
+D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/66709/si2319cd.pdf
+$ENDCMP
+#
+$CMP Si2371EDS
+D -3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/63924/si2371eds.pdf
+$ENDCMP
+#
+$CMP TSM2301ACX
+D -2.8A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf
+$ENDCMP
+#
+$CMP VP0610T
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP YJS2301A
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
 #End Doc Library
