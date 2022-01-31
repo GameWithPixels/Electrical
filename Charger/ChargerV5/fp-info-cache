@@ -1,4 +1,4 @@
-19318622893341177
+19323530290656801
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72660,6 +72660,13 @@ test point THT pad
 1
 1
 Pixels-dice
+CCSH-W10R-XXTR-BK-A
+
+
+0
+6
+4
+Pixels-dice
 CHIP_ANT
 
 
@@ -72870,6 +72877,13 @@ S1751-46R
 1
 1
 Pixels-dice
+SC-74A
+SC-74, 6 Pin (https://www.nxp.com/docs/en/package-information/SOT457.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SC-74 SO
+0
+5
+5
+Pixels-dice
 SC70
 
 
@@ -72953,6 +72967,13 @@ SOT89
 0
 4
 3
+Pixels-dice
+SOT753
+
+
+0
+0
+0
 Pixels-dice
 SOT762
 

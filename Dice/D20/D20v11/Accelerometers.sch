@@ -1,0 +1,245 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 6450 5300 0    50   ~ 0
+SCL
+Text Label 6450 5400 0    50   ~ 0
+SDA
+Text Label 6650 5500 0    50   ~ 0
+ACC_INT
+$Comp
+L Device:R R?
+U 1 1 61BD3FE9
+P 2900 4950
+AR Path="/61BD3FE9" Ref="R?"  Part="1" 
+AR Path="/61BB9560/61BD3FE9" Ref="R12"  Part="1" 
+F 0 "R12" H 2700 5000 50  0000 L CNN
+F 1 "2.7k 5%" H 2500 4900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2830 4950 50  0001 C CNN
+F 3 "~" H 2900 4950 50  0001 C CNN
+F 4 "YES" H 2900 4950 50  0001 C CNN "Generic OK"
+F 5 "Yageo" H 2900 4950 50  0001 C CNN "Manufacturer"
+F 6 "RC0402JR-072K7L" H 2900 4950 50  0001 C CNN "Manufacturer Part Number"
+	1    2900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61BD3FF2
+P 3150 4950
+AR Path="/61BD3FF2" Ref="R?"  Part="1" 
+AR Path="/61BB9560/61BD3FF2" Ref="R16"  Part="1" 
+F 0 "R16" H 3220 4996 50  0000 L CNN
+F 1 "2.7k 5%" H 3220 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3080 4950 50  0001 C CNN
+F 3 "~" H 3150 4950 50  0001 C CNN
+F 4 "YES" H 3150 4950 50  0001 C CNN "Generic OK"
+F 5 "Yageo" H 3150 4950 50  0001 C CNN "Manufacturer"
+F 6 "RC0402JR-072K7L" H 3150 4950 50  0001 C CNN "Manufacturer Part Number"
+	1    3150 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5100 2900 5300
+Connection ~ 2900 5300
+Wire Wire Line
+	3150 5100 3150 5400
+Connection ~ 3150 5400
+$Comp
+L power:VDD #PWR?
+U 1 1 61BD3FFE
+P 3150 4700
+AR Path="/61BD3FFE" Ref="#PWR?"  Part="1" 
+AR Path="/61BB9560/61BD3FFE" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 3150 4550 50  0001 C CNN
+F 1 "VDD" H 3167 4873 50  0000 C CNN
+F 2 "" H 3150 4700 50  0001 C CNN
+F 3 "" H 3150 4700 50  0001 C CNN
+	1    3150 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 61BD4004
+P 2900 4700
+AR Path="/61BD4004" Ref="#PWR?"  Part="1" 
+AR Path="/61BB9560/61BD4004" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 2900 4550 50  0001 C CNN
+F 1 "VDD" H 2917 4873 50  0000 C CNN
+F 2 "" H 2900 4700 50  0001 C CNN
+F 3 "" H 2900 4700 50  0001 C CNN
+	1    2900 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4700 2900 4800
+Wire Wire Line
+	3150 4700 3150 4800
+$Comp
+L Pixels-dice:KXTJ3-1057 U?
+U 1 1 61BD400E
+P 8350 3900
+AR Path="/61BD400E" Ref="U?"  Part="1" 
+AR Path="/61BB9560/61BD400E" Ref="U9"  Part="1" 
+F 0 "U9" H 8550 3400 50  0000 C CNN
+F 1 "KXTJ3-1057" H 8750 4450 50  0000 C CNN
+F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 8450 3900 50  0001 C CNN
+F 3 "" H 8450 3900 50  0001 C CNN
+	1    8350 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5300 2900 5300
+Wire Wire Line
+	1900 5400 3150 5400
+$Comp
+L Device:R R11
+U 1 1 61BE5FC8
+P 8450 2900
+F 0 "R11" H 8380 2854 50  0000 R CNN
+F 1 "0 Ohm" H 8380 2945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8380 2900 50  0001 C CNN
+F 3 "~" H 8450 2900 50  0001 C CNN
+	1    8450 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 61BF4EB7
+P 9250 3500
+AR Path="/61BF4EB7" Ref="#PWR?"  Part="1" 
+AR Path="/61BB9560/61BF4EB7" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 9250 3350 50  0001 C CNN
+F 1 "VDD" H 9267 3673 50  0000 C CNN
+F 2 "" H 9250 3500 50  0001 C CNN
+F 3 "" H 9250 3500 50  0001 C CNN
+	1    9250 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3500 9250 3650
+Wire Wire Line
+	9250 3650 9050 3650
+Wire Wire Line
+	9250 3650 9250 4100
+Wire Wire Line
+	9250 4100 9050 4100
+Connection ~ 9250 3650
+$Comp
+L power:GND #PWR?
+U 1 1 61BF6A56
+P 8450 4650
+AR Path="/61BF6A56" Ref="#PWR?"  Part="1" 
+AR Path="/61BB9560/61BF6A56" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 8450 4400 50  0001 C CNN
+F 1 "GND" H 8455 4477 50  0000 C CNN
+F 2 "" H 8450 4650 50  0001 C CNN
+F 3 "" H 8450 4650 50  0001 C CNN
+	1    8450 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4550 8450 4650
+$Comp
+L power:GND #PWR?
+U 1 1 61BF84D0
+P 9150 4650
+AR Path="/61BF84D0" Ref="#PWR?"  Part="1" 
+AR Path="/61BB9560/61BF84D0" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 9150 4400 50  0001 C CNN
+F 1 "GND" H 9155 4477 50  0000 C CNN
+F 2 "" H 9150 4650 50  0001 C CNN
+F 3 "" H 9150 4650 50  0001 C CNN
+	1    9150 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3800 9150 3800
+Wire Wire Line
+	9150 3800 9150 3950
+Wire Wire Line
+	9050 3950 9150 3950
+Connection ~ 9150 3950
+Wire Wire Line
+	9150 3950 9150 4650
+Wire Wire Line
+	8450 3050 8450 3200
+$Comp
+L power:VDD #PWR?
+U 1 1 61BFAAD7
+P 8450 2650
+AR Path="/61BFAAD7" Ref="#PWR?"  Part="1" 
+AR Path="/61BB9560/61BFAAD7" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 8450 2500 50  0001 C CNN
+F 1 "VDD" H 8467 2823 50  0000 C CNN
+F 2 "" H 8450 2650 50  0001 C CNN
+F 3 "" H 8450 2650 50  0001 C CNN
+	1    8450 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2650 8450 2750
+Wire Wire Line
+	8250 3200 8250 3000
+Wire Wire Line
+	8250 3000 7200 3000
+Wire Wire Line
+	7200 3000 7200 5300
+Wire Wire Line
+	7650 3800 7300 3800
+Wire Wire Line
+	7300 3800 7300 5400
+$Comp
+L power:VDD #PWR?
+U 1 1 61BFD32A
+P 7400 3450
+AR Path="/61BFD32A" Ref="#PWR?"  Part="1" 
+AR Path="/61BB9560/61BFD32A" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 7400 3300 50  0001 C CNN
+F 1 "VDD" H 7417 3623 50  0000 C CNN
+F 2 "" H 7400 3450 50  0001 C CNN
+F 3 "" H 7400 3450 50  0001 C CNN
+	1    7400 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3950 7400 3950
+Wire Wire Line
+	7400 3950 7400 3650
+NoConn ~ 7650 4100
+Wire Wire Line
+	8250 4550 8250 5500
+Text Notes 8500 3300 0    50   ~ 0
+QMA7981
+Text Notes 8350 2950 2    50   ~ 0
+QMA -> Disconnect\nKXTJ -> 0 Ohm
+Wire Wire Line
+	7400 3650 7650 3650
+Connection ~ 7400 3650
+Wire Wire Line
+	7400 3650 7400 3450
+Text HLabel 1900 5300 0    50   Input ~ 0
+SCL
+Text HLabel 1900 5400 0    50   Input ~ 0
+SDA
+Text HLabel 1900 5500 0    50   Input ~ 0
+ACC_INT
+Wire Wire Line
+	3150 5400 7300 5400
+Wire Wire Line
+	2900 5300 7200 5300
+Wire Wire Line
+	1900 5500 8250 5500
+$EndSCHEMATC

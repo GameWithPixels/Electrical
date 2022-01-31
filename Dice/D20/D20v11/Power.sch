@@ -13,28 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x01 P5
-U 1 1 5BB49BD2
-P 1050 2400
-F 0 "P5" H 1200 2400 50  0000 C CNN
-F 1 "COILA" H 1150 2300 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 1050 2400 50  0001 C CNN
-F 3 "" H 1050 2400 50  0000 C CNN
-	1    1050 2400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P6
-U 1 1 5BB49BD9
-P 1050 2500
-F 0 "P6" H 1200 2500 50  0000 C CNN
-F 1 "COILB" H 1150 2600 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 1050 2500 50  0001 C CNN
-F 3 "" H 1050 2500 50  0000 C CNN
-	1    1050 2500
-	-1   0    0    1   
-$EndComp
 Text HLabel 10600 2250 2    50   Output ~ 0
 VDD
 $Comp
@@ -61,7 +39,7 @@ F 1 "4.7uF 6.3V 20%" H 10415 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10338 2300 50  0001 C CNN
 F 3 "~" H 10300 2450 50  0001 C CNN
 F 4 "YES" H 10300 2450 50  0001 C CNN "Generic OK"
-F 5 "" H 10300 2450 50  0001 C CNN "Pixels Part Number"
+F 5 "SMD-C002" H 10300 2450 50  0001 C CNN "Pixels Part Number"
 F 6 "Murata" H 10300 2450 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R60J475ME87D" H 10300 2450 50  0001 C CNN "Manufacturer Part Number"
 	1    10300 2450
@@ -109,7 +87,7 @@ L Device:R R7
 U 1 1 5BC07DCF
 P 9900 4900
 F 0 "R7" H 9970 4946 50  0000 L CNN
-F 1 "4M 1%" H 9970 4855 50  0000 L CNN
+F 1 "4.02M 1%" H 9970 4855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 4900 50  0001 C CNN
 F 3 "~" H 9900 4900 50  0001 C CNN
 F 4 "YES" H 9900 4900 50  0001 C CNN "Generic OK"
@@ -129,8 +107,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 5400 50  0001 C CNN
 F 3 "~" H 9900 5400 50  0001 C CNN
 F 4 "YES" H 9900 5400 50  0001 C CNN "Generic OK"
 F 5 "SMD-R004" H 9900 5400 50  0001 C CNN "Pixels Part Number"
-F 6 "Rohm" H 9900 5400 50  0001 C CNN "Manufacturer"
-F 7 "SFR01MZPJ106" H 9900 5400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Yageo" H 9900 5400 50  0001 C CNN "Manufacturer"
+F 7 "RC0402FR-0710ML" H 9900 5400 50  0001 C CNN "Manufacturer Part Number"
 	1    9900 5400
 	1    0    0    -1  
 $EndComp
@@ -234,56 +212,19 @@ Wire Wire Line
 Wire Wire Line
 	2500 2000 2500 1900
 Wire Wire Line
-	2500 1900 1750 1900
-Wire Wire Line
-	1500 1900 1500 2400
-Wire Wire Line
-	1500 2400 1250 2400
-Wire Wire Line
 	2500 2900 2500 3000
-Wire Wire Line
-	2500 3000 1750 3000
-Wire Wire Line
-	1500 3000 1500 2500
-Wire Wire Line
-	1500 2500 1250 2500
-$Comp
-L Device:C C19
-U 1 1 5BCEAB3E
-P 1750 2450
-F 0 "C19" H 1600 2350 50  0000 L CNN
-F 1 "82nF 50V 10%" V 1900 2100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 2300 50  0001 C CNN
-F 3 "~" H 1750 2450 50  0001 C CNN
-F 4 "YES" H 1750 2450 50  0001 C CNN "Generic OK"
-F 5 "" H 1750 2450 50  0001 C CNN "Pixels Part Number"
-F 6 "" H 1750 2450 50  0001 C CNN "Manufacturer"
-F 7 "" H 1750 2450 50  0001 C CNN "Manufacturer Part Number"
-	1    1750 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 2300 1750 1900
-Connection ~ 1750 1900
-Wire Wire Line
-	1750 1900 1500 1900
-Wire Wire Line
-	1750 2600 1750 3000
-Connection ~ 1750 3000
-Wire Wire Line
-	1750 3000 1500 3000
 $Comp
 L Device:C C13
 U 1 1 5BCEE1E6
 P 3100 2100
 F 0 "C13" H 2950 2200 50  0000 L CNN
 F 1 "4.7uF 25V 20%" H 2900 2300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3138 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 1950 50  0001 C CNN
 F 3 "~" H 3100 2100 50  0001 C CNN
 F 4 "YES" H 3100 2100 50  0001 C CNN "Generic OK"
-F 5 "" H 3100 2100 50  0001 C CNN "Pixels Part Number"
-F 6 "Samsung" H 3100 2100 50  0001 C CNN "Manufacturer"
-F 7 "CL21A475KAQNNNE" H 3100 2100 50  0001 C CNN "Manufacturer Part Number"
+F 5 "SMD-C010" H 3100 2100 50  0001 C CNN "Pixels Part Number"
+F 6 "Murata" H 3100 2100 50  0001 C CNN "Manufacturer"
+F 7 "GRM188R61E475KE11D" H 3100 2100 50  0001 C CNN "Manufacturer Part Number"
 	1    3100 2100
 	1    0    0    -1  
 $EndComp
@@ -327,7 +268,7 @@ F 1 "4.7uF 6.3V 20%" H 4150 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4588 1950 50  0001 C CNN
 F 3 "~" H 4550 2100 50  0001 C CNN
 F 4 "YES" H 4550 2100 50  0001 C CNN "Generic OK"
-F 5 "" H 4550 2100 50  0001 C CNN "Pixels Part Number"
+F 5 "SMD-C002" H 4550 2100 50  0001 C CNN "Pixels Part Number"
 F 6 "Murata" H 4550 2100 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R60J475ME87D" H 4550 2100 50  0001 C CNN "Manufacturer Part Number"
 	1    4550 2100
@@ -376,8 +317,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 4780 2550 50  0001 C CNN
 F 3 "~" H 4850 2550 50  0001 C CNN
 F 4 "YES" H 4850 2550 50  0001 C CNN "Generic OK"
 F 5 "SMD-R002" H 4850 2550 50  0001 C CNN "Pixels Part Number"
-F 6 "Vishay" H 4850 2550 50  0001 C CNN "Manufacturer"
-F 7 "CRCW040210K0FKEDC" H 4850 2550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Yageo" H 4850 2550 50  0001 C CNN "Manufacturer"
+F 7 "RC0402JR-0710KL" H 4850 2550 50  0001 C CNN "Manufacturer Part Number"
 	1    4850 2550
 	1    0    0    -1  
 $EndComp
@@ -596,7 +537,7 @@ F 1 "4.7uF 6.3V 20%" H 7300 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7588 2300 50  0001 C CNN
 F 3 "~" H 7550 2450 50  0001 C CNN
 F 4 "YES" H 7550 2450 50  0001 C CNN "Generic OK"
-F 5 "" H 7550 2450 50  0001 C CNN "Pixels Part Number"
+F 5 "SMD-C002" H 7550 2450 50  0001 C CNN "Pixels Part Number"
 F 6 "Murata" H 7550 2450 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R60J475ME87D" H 7550 2450 50  0001 C CNN "Manufacturer Part Number"
 	1    7550 2450
@@ -805,8 +746,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 5400 50  0001 C CNN
 F 3 "~" H 8650 5400 50  0001 C CNN
 F 4 "YES" H 8650 5400 50  0001 C CNN "Generic OK"
 F 5 "SMD-R004" H 8650 5400 50  0001 C CNN "Pixels Part Number"
-F 6 "Rohm" H 8650 5400 50  0001 C CNN "Manufacturer"
-F 7 "SFR01MZPJ106" H 8650 5400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Yageo" H 8650 5400 50  0001 C CNN "Manufacturer"
+F 7 "RC0402FR-0710ML" H 8650 5400 50  0001 C CNN "Manufacturer Part Number"
 	1    8650 5400
 	-1   0    0    1   
 $EndComp
@@ -815,7 +756,7 @@ L Device:R R1
 U 1 1 5CF4C215
 P 8650 4900
 F 0 "R1" H 8720 4946 50  0000 L CNN
-F 1 "4M 1%" H 8720 4855 50  0000 L CNN
+F 1 "4.02M 1%" H 8720 4855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 4900 50  0001 C CNN
 F 3 "~" H 8650 4900 50  0001 C CNN
 F 4 "YES" H 8650 4900 50  0001 C CNN "Generic OK"
@@ -917,7 +858,7 @@ L Device:R R13
 U 1 1 5E5DC7B8
 P 7100 4900
 F 0 "R13" V 7200 4850 50  0000 L CNN
-F 1 "4M 1%" V 7000 4750 50  0000 L CNN
+F 1 "4.02M 1%" V 7000 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 4900 50  0001 C CNN
 F 3 "~" H 7100 4900 50  0001 C CNN
 F 4 "YES" H 7100 4900 50  0001 C CNN "Generic OK"
@@ -937,8 +878,8 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 5400 50  0001 C CNN
 F 3 "~" H 7100 5400 50  0001 C CNN
 F 4 "YES" H 7100 5400 50  0001 C CNN "Generic OK"
 F 5 "SMD-R004" H 7100 5400 50  0001 C CNN "Pixels Part Number"
-F 6 "Rohm" H 7100 5400 50  0001 C CNN "Manufacturer"
-F 7 "SFR01MZPJ106" H 7100 5400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Yageo" H 7100 5400 50  0001 C CNN "Manufacturer"
+F 7 "RC0402FR-0710ML" H 7100 5400 50  0001 C CNN "Manufacturer Part Number"
 	1    7100 5400
 	1    0    0    -1  
 $EndComp
@@ -1077,8 +1018,8 @@ F 1 "LED" V 6748 2583 50  0000 R CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 6800 2700 50  0001 C CNN
 F 3 "~" H 6800 2700 50  0001 C CNN
 F 4 "YES" H 6800 2700 50  0001 C CNN "Generic OK"
-F 5 "Everlight Elec" H 6800 2700 50  0001 C CNN "Manufacturer"
-F 6 "IR19-21C/TR8" H 6800 2700 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Inolux" H 6800 2700 50  0001 C CNN "Manufacturer"
+F 6 "IN-S42CTQIR" H 6800 2700 50  0001 C CNN "Manufacturer Part Number"
 F 7 "SMD-D003-ALT2" H 6800 2700 50  0001 C CNN "Pixels Part Number"
 	1    6800 2700
 	0    -1   -1   0   
@@ -1170,9 +1111,9 @@ F 1 "10k 5%" H 5220 5655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 5700 50  0001 C CNN
 F 3 "~" H 5150 5700 50  0001 C CNN
 F 4 "YES" H 5150 5700 50  0001 C CNN "Generic OK"
-F 5 "" H 5150 5700 50  0001 C CNN "Manufacturer"
-F 6 "" H 5150 5700 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 5150 5700 50  0001 C CNN "Pixels Part Number"
+F 5 "Yageo" H 5150 5700 50  0001 C CNN "Manufacturer"
+F 6 "RC0402JR-0710KL" H 5150 5700 50  0001 C CNN "Manufacturer Part Number"
+F 7 "SMD-R002" H 5150 5700 50  0001 C CNN "Pixels Part Number"
 	1    5150 5700
 	1    0    0    -1  
 $EndComp
@@ -1241,7 +1182,7 @@ F 1 "4.7uF 6.3V 20%" H 6515 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 5400 50  0001 C CNN
 F 3 "~" H 6400 5550 50  0001 C CNN
 F 4 "YES" H 6400 5550 50  0001 C CNN "Generic OK"
-F 5 "" H 6400 5550 50  0001 C CNN "Pixels Part Number"
+F 5 "SMD-C002" H 6400 5550 50  0001 C CNN "Pixels Part Number"
 F 6 "Murata" H 6400 5550 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R60J475ME87D" H 6400 5550 50  0001 C CNN "Manufacturer Part Number"
 	1    6400 5550
@@ -1276,4 +1217,63 @@ F 3 "~" H 6400 2050 50  0001 C CNN
 $EndComp
 Text Notes 5050 5800 2    50   ~ 0
 ~~700mA Max\nCurrent
+Wire Wire Line
+	1750 3000 1500 3000
+Connection ~ 1750 3000
+Wire Wire Line
+	1750 2600 1750 3000
+Wire Wire Line
+	1750 1900 1500 1900
+Connection ~ 1750 1900
+Wire Wire Line
+	1750 2300 1750 1900
+$Comp
+L Device:C C19
+U 1 1 5BCEAB3E
+P 1750 2450
+F 0 "C19" H 1600 2350 50  0000 L CNN
+F 1 "82nF 50V 10%" V 1900 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1788 2300 50  0001 C CNN
+F 3 "~" H 1750 2450 50  0001 C CNN
+F 4 "YES" H 1750 2450 50  0001 C CNN "Generic OK"
+F 5 "SMD-C011" H 1750 2450 50  0001 C CNN "Pixels Part Number"
+F 6 "Murata" H 1750 2450 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71H823KE14D" H 1750 2450 50  0001 C CNN "Manufacturer Part Number"
+	1    1750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2500 1250 2500
+Wire Wire Line
+	1500 3000 1500 2500
+Wire Wire Line
+	2500 3000 1750 3000
+Wire Wire Line
+	1500 2400 1250 2400
+Wire Wire Line
+	1500 1900 1500 2400
+Wire Wire Line
+	2500 1900 1750 1900
+$Comp
+L Connector_Generic:Conn_01x01 P6
+U 1 1 5BB49BD9
+P 1050 2500
+F 0 "P6" H 1200 2500 50  0000 C CNN
+F 1 "COILB" H 1150 2600 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 1050 2500 50  0001 C CNN
+F 3 "" H 1050 2500 50  0000 C CNN
+	1    1050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P5
+U 1 1 5BB49BD2
+P 1050 2400
+F 0 "P5" H 1200 2400 50  0000 C CNN
+F 1 "COILA" H 1150 2300 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 1050 2400 50  0001 C CNN
+F 3 "" H 1050 2400 50  0000 C CNN
+	1    1050 2400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

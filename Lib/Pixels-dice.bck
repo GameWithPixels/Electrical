@@ -66,7 +66,19 @@ K P-Channel MOSFET
 F http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf
 $ENDCMP
 #
+$CMP AO3401A_copy
+D -4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf
+$ENDCMP
+#
 $CMP BSS83P
+D -0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.farnell.com/datasheets/1835997.pdf
+$ENDCMP
+#
+$CMP BSS83P_copy
 D -0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.farnell.com/datasheets/1835997.pdf
@@ -78,7 +90,19 @@ K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
 #
+$CMP BSS84_copy
+D -0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
+$ENDCMP
+#
 $CMP DMG2301L
+D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMG2301L.pdf
+$ENDCMP
+#
+$CMP DMG2301L_copy
 D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/DMG2301L.pdf
@@ -90,7 +114,19 @@ K P-Channel MOSFET
 F https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF
 $ENDCMP
 #
+$CMP FDN340P_copy
+D 2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF
+$ENDCMP
+#
 $CMP IRLML5203
+D -3.0A Id, -30V Vds, 98mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET
+F https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d
+$ENDCMP
+#
+$CMP IRLML5203_copy
 D -3.0A Id, -30V Vds, 98mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
 K P-Channel HEXFET MOSFET
 F https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d
@@ -102,7 +138,19 @@ K P-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634
 $ENDCMP
 #
+$CMP IRLML6401_copy
+D -4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET Logic-Level
+F https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634
+$ENDCMP
+#
 $CMP IRLML6402
+D -3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET
+F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
+$ENDCMP
+#
+$CMP IRLML6402_copy
 D -3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
 K P-Channel HEXFET MOSFET
 F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
@@ -114,7 +162,19 @@ K P-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640
 $ENDCMP
 #
+$CMP IRLML9301_copy
+D -3.6A Id, -30V Vds, 64mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET Logic-Level
+F https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640
+$ENDCMP
+#
 $CMP NTR2101P
+D -3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
+$ENDCMP
+#
+$CMP NTR2101P_copy
 D -3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
@@ -126,13 +186,13 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
-$CMP S8205A
-D 0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
-K N-Channel MOSFET Logic-Level
-F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+$CMP Si2319CDS
+D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/66709/si2319cd.pdf
 $ENDCMP
 #
-$CMP Si2319CDS
+$CMP Si2319CDS_copy
 D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.vishay.com/docs/66709/si2319cd.pdf
@@ -144,13 +204,37 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/63924/si2371eds.pdf
 $ENDCMP
 #
+$CMP Si2371EDS_copy
+D -3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/63924/si2371eds.pdf
+$ENDCMP
+#
 $CMP TSM2301ACX
 D -2.8A Id, -20V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf
 $ENDCMP
 #
+$CMP TSM2301ACX_copy
+D -2.8A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf
+$ENDCMP
+#
 $CMP VP0610T
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP VP0610T_copy
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP WSP4953A
 D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf

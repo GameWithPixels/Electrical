@@ -1,4 +1,4 @@
-update=9/15/2021 6:58:22 PM
+update=12/15/2021 7:38:42 PM
 version=1
 last_client=kicad
 [general]
@@ -251,7 +251,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Antenna
 Clearance=0.1
-TrackWidth=0.08
+TrackWidth=0.09
 ViaDiameter=0.45
 ViaDrill=0.15
 uViaDiameter=0.25
