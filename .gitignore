@@ -2,3 +2,6 @@
 desktop.ini
 *.*-bak
 *.net
+*-backups
+*_autosave-*.kicad_pcb
+*.bak
