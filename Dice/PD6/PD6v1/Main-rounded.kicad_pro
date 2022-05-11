@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -121,8 +121,6 @@
       },
       "track_widths": [
         0.0,
-        0.09,
-        0.1,
         0.25,
         0.5
       ],
@@ -351,7 +349,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Main.kicad_pro",
+    "filename": "Main-rounded.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,8 +382,7 @@
         "microvia_drill": 0.1,
         "name": "Antenna",
         "nets": [
-          "/ARC_ANTENNA",
-          "Net-(C8-Pad1)"
+          "/ARC_ANTENNA"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -403,25 +400,20 @@
         "line_style": 0,
         "microvia_diameter": 0.25,
         "microvia_drill": 0.1,
-        "name": "Charging",
-        "nets": [
-          "Net-(C19-Pad1)",
-          "Net-(C19-Pad2)"
-        ],
+        "name": "Power",
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.45,
-        "via_drill": 0.15,
+        "track_width": 0.5,
+        "via_diameter": 0.7,
+        "via_drill": 0.25,
         "wire_width": 6.0
       }
     ],
     "meta": {
       "version": 2
     },
-    "net_colors": {
-      "VDD": "rgb(255, 153, 0)"
-    }
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {

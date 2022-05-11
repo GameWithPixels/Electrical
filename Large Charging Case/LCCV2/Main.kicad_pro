@@ -2,12 +2,12 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.25,
-        "copper_line_width": 0.09999999999999999,
+        "board_outline_line_width": 0.049999999999999996,
+        "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.0,
-        "copper_text_size_v": 1.0,
-        "copper_text_thickness": 0.19999999999999998,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 4,
@@ -33,19 +33,19 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.7,
-          "width": 0.7
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.12,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.5,
-        "silk_text_size_v": 0.5,
-        "silk_text_thickness": 0.09999999999999999,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -100,36 +100,37 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": false,
+      "rule_severitieslegacy_courtyards_overlap": true,
       "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.125,
+        "min_copper_edge_clearance": 0.09999999999999999,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.049999999999999996,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.35,
+        "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
-        0.09,
-        0.1,
-        0.25,
-        0.5
+        0.25
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false,
@@ -358,79 +359,80 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.25,
+        "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.45,
-        "via_drill": 0.15,
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.25,
+        "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Antenna",
-        "nets": [
-          "/ARC_ANTENNA",
-          "Net-(C8-Pad1)"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.09,
-        "via_diameter": 0.45,
-        "via_drill": 0.15,
+        "track_width": 0.1,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.25,
+        "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Charging",
+        "name": "Power",
         "nets": [
-          "Net-(C19-Pad1)",
-          "Net-(C19-Pad2)"
+          "+4V",
+          "+5V",
+          "+BATT",
+          "+VDC",
+          "GND",
+          "Net-(C50-Pad1)",
+          "Net-(C50-Pad2)",
+          "VBUS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.45,
-        "via_drill": 0.15,
+        "track_width": 0.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6.0
       }
     ],
     "meta": {
       "version": 2
     },
-    "net_colors": {
-      "VDD": "rgb(255, 153, 0)"
-    }
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "Protoboard5.net",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "Main.step",
-      "vrml": ""
+      "vrml": "Main.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -455,7 +457,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -474,20 +476,48 @@
   },
   "sheets": [
     [
-      "cfa5c16e-7859-460d-a0b8-cea7d7ea629c",
+      "593b4e3d-fc97-4370-86a0-ce135a280d1c",
       ""
     ],
     [
-      "00000000-0000-0000-0000-00005bc88abf",
-      "LEDs"
+      "8af72263-6d88-467b-83e1-c201fdc50a07",
+      "Charger 2"
     ],
     [
-      "00000000-0000-0000-0000-00005bb44a54",
-      "Power Supply"
+      "ed29ac94-f438-4815-84dc-9d59ce796ab9",
+      "Charger 3"
     ],
     [
-      "a0086b8f-a2d2-428c-9599-7d909b2bf8ec",
-      "Wireless Charging"
+      "6ffd278f-2ed2-4c10-bbf4-f24eb181e718",
+      "Charger 4"
+    ],
+    [
+      "742e9abf-9b09-497a-9821-0c13525c859b",
+      "Charger 1"
+    ],
+    [
+      "ec4b00e0-9133-4ad7-9808-92f5f0ec8326",
+      "Charger 6"
+    ],
+    [
+      "57ecd05a-d695-45ff-87ee-583d71c721bb",
+      "Charger 7"
+    ],
+    [
+      "fa5bda9c-6b97-49ea-bd43-4da0b8bab2c1",
+      "Charger 8"
+    ],
+    [
+      "e35b8488-ef81-439e-a7be-d117b1b2adb9",
+      "Multiplexed Chargers"
+    ],
+    [
+      "e731244b-aeeb-4eef-a11b-6fee6c259427",
+      "Power"
+    ],
+    [
+      "74ac5f77-97aa-42ab-b054-bca601be99e5",
+      "Charger 5"
     ]
   ],
   "text_variables": {}
