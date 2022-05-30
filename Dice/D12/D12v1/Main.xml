@@ -1,0 +1,2192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Projects\Pixels-dice\Electrical\Dice\D12\D12v1\Main.kicad_sch</source>
+    <date>5/29/2022 11:20:01 PM</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Pixels D20 Schematic, Main</title>
+        <company>Systemic Games, LLC</company>
+        <rev>2</rev>
+        <date>2021-06-23</date>
+        <source>Main.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/">
+      <title_block>
+        <title>Pixels D20 Schematic, LEDs</title>
+        <company>Systemic Games, LLC</company>
+        <rev>2</rev>
+        <date>2020-04-13</date>
+        <source>LEDs.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/">
+      <title_block>
+        <title>Pixels D20 Schematic, Power</title>
+        <company>Systemic Games, LLC</company>
+        <rev>2</rev>
+        <date>2020-04-13</date>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>wireless.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AE2">
+      <value>ARC</value>
+      <footprint>Pixels-dice:ARC_Antenna</footprint>
+      <libsource lib="Device" part="Antenna" description="Antenna"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c0ad7a</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF 6.3V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R60J475ME87D</field>
+        <field name="Pixels Part Number">SMD-C002</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C002"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R60J475ME87D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9e7006</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>6pF 10V 10%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GCM1555C1H6R0DA16D</field>
+        <field name="Pixels Part Number">SMD-C001</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C001"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GCM1555C1H6R0DA16D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9e93ff</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF 10V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R61H104KE19D</field>
+        <field name="Pixels Part Number">SMD-C005</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C005"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R61H104KE19D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9e68c9</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF 6.3V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R60J475ME87D</field>
+        <field name="Pixels Part Number">SMD-C002</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C002"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R60J475ME87D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9e6858</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>6pF 10V 10%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GCM1555C1H6R0DA16D</field>
+        <field name="Pixels Part Number">SMD-C001</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C001"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GCM1555C1H6R0DA16D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9e9491</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100pF NP0 10V 5%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer Part Number">C0402C101J5GAC7411</field>
+        <field name="Pixels Part Number">SMD-C003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C003"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="Manufacturer Part Number" value="C0402C101J5GAC7411"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9ec48d</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>?? NP0</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Pixels Part Number">SMD-C004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C004"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9f2f2b</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF 10V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R61H104KE19D</field>
+        <field name="Pixels Part Number">SMD-C005</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C005"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R61H104KE19D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9e658d</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>?? NP0</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c098e6</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x14</value>
+      <footprint>Pixels-dice:FPC_14</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c641b91</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x11</value>
+      <footprint>Pixels-dice:FPC-POGO-11</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x11" description="Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006142cc59</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH 100mA 10%</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part Number">LBR2012T100K</field>
+        <field name="Pixels Part Number">SMD-L001</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-L001"/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer Part Number" value="LBR2012T100K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9e6f13</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>15nH 100mA 5%</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part Number">HK100515NJ-T</field>
+        <field name="Pixels Part Number">SMD-L002</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-L002"/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer Part Number" value="HK100515NJ-T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9e6fd8</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>??</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c08d16</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer Part Number">CRCW0402100KFKEDC</field>
+        <field name="Pixels Part Number">SMD-R006</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R006"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Manufacturer Part Number" value="CRCW0402100KFKEDC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cbb0f24</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer Part Number">CRCW0402100KFKEDC</field>
+        <field name="Pixels Part Number">SMD-R006</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R006"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Manufacturer Part Number" value="CRCW0402100KFKEDC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cbb0c6c</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>2.7k 5%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402JR-072K7L</field>
+        <field name="Pixels Part Number">SMD-R021</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402JR-072K7L"/>
+      <property name="Pixels Part Number" value="SMD-R021"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e1314f</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>2.7k 5%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402JR-072K7L</field>
+        <field name="Pixels Part Number">SMD-R021</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402JR-072K7L"/>
+      <property name="Pixels Part Number" value="SMD-R021"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e13158</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>N52810_QFN32</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">Nordic Semiconductor</field>
+        <field name="Manufacturer Part Number">NRF52810-QCAA-R</field>
+        <field name="Pixels Part Number">SMD-U001</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="N52810_QFN32" description=""/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Manufacturer" value="Nordic Semiconductor"/>
+      <property name="Manufacturer Part Number" value="NRF52810-QCAA-R"/>
+      <property name="Pixels Part Number" value="SMD-U001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bd78eca</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>KXTJ3-1057</value>
+      <footprint>Package_LGA:LGA-12_2x2mm_P0.5mm</footprint>
+      <fields>
+        <field name="Manufacturer">Kionix</field>
+        <field name="Manufacturer Part Number">KXTJ3-1057</field>
+        <field name="Pixels Part Number">SMD-U002-ALT1</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="KXTJ3-1057" description=""/>
+      <property name="Manufacturer" value="Kionix"/>
+      <property name="Manufacturer Part Number" value="KXTJ3-1057"/>
+      <property name="Pixels Part Number" value="SMD-U002-ALT1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e13170</tstamps>
+    </comp>
+    <comp ref="W1">
+      <value>RXI</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bb76107</tstamps>
+    </comp>
+    <comp ref="W2">
+      <value>TXO</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bb7644e</tstamps>
+    </comp>
+    <comp ref="W5">
+      <value>LED_EN</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bd056e2</tstamps>
+    </comp>
+    <comp ref="W7">
+      <value>ACC_INT</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bd24569</tstamps>
+    </comp>
+    <comp ref="W8">
+      <value>SCL</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bd245f9</tstamps>
+    </comp>
+    <comp ref="W9">
+      <value>SDA</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bd24657</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32MHz 40ppm</value>
+      <footprint>Pixels-dice:Crystal_SMD_2016-4Pin_2.0x1.6mm</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">XRCGB32M000F2P00R0</field>
+        <field name="Pixels Part Number">SMD-Y001</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="XRCGB32M000F2P00R0"/>
+      <property name="Pixels Part Number" value="SMD-Y001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b9e9338</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF 10V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R61H104KE19D</field>
+        <field name="Pixels Part Number">SMD-C005</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C005"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R61H104KE19D"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdd6ec7</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF 10V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R61H104KE19D</field>
+        <field name="Pixels Part Number">SMD-C005</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C005"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R61H104KE19D"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdeb2e8</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-000060dd9d27</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00006142e12b</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00006142e6f8</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00006142eaa8</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00006142ef5e</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00006142f3bb</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00006142f83e</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00006142fd2c</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-0000614304e6</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-0000614308a4</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-000061431567</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>TX1812Z_2020</value>
+      <footprint>Pixels-dice:TX1812Z_2020</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">TCWIN</field>
+        <field name="Manufacturer Part Number">TX1812Z 2020</field>
+        <field name="Pixels Part Number">SMD-D002-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX1812Z_2020" description=""/>
+      <property name="Manufacturer" value="TCWIN"/>
+      <property name="Manufacturer Part Number" value="TX1812Z 2020"/>
+      <property name="Pixels Part Number" value="SMD-D002-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-0000614319e7</tstamps>
+    </comp>
+    <comp ref="W22">
+      <value>LED_DATA1</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/00000000-0000-0000-0000-00005bc88abf/"/>
+      <tstamps>00000000-0000-0000-0000-00005bbb3f1e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF 25V 10%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">AC0402KPX7R9BB103</field>
+        <field name="Pixels Part Number">SMD-C009</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C009"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="AC0402KPX7R9BB103"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005e5dc7cc</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF 6.3V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R60J475ME87D</field>
+        <field name="Pixels Part Number">SMD-C002</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C002"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R60J475ME87D"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-0000614e533c</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>4.7uF 6.3V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R60J475ME87D</field>
+        <field name="Pixels Part Number">SMD-C002</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C002"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R60J475ME87D"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005bc2a48a</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>22pF 10V 5%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402JRNPO9BN220</field>
+        <field name="Pixels Part Number">SMD-C007</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C007"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402JRNPO9BN220"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005bc02443</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>4.7uF 6.3V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R60J475ME87D</field>
+        <field name="Pixels Part Number">SMD-C002</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C002"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R60J475ME87D"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005bbe0bc9</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>2.2uH 20mA 10%</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer Part Number">CV201210-2R2K</field>
+        <field name="Pixels Part Number">SMD-L004</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-L004"/>
+      <property name="Manufacturer" value="Bourns"/>
+      <property name="Manufacturer Part Number" value="CV201210-2R2K"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005bbe0b13</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k 5%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402JR-0710KL</field>
+        <field name="Pixels Part Number">SMD-R002</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402JR-0710KL"/>
+      <property name="Pixels Part Number" value="SMD-R002"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-000061519cb3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>402k 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-07402KL</field>
+        <field name="Pixels Part Number">SMD-R001</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R001"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-07402KL"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005bc0541b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer Part Number">CRCW0402100KFKEDC</field>
+        <field name="Pixels Part Number">SMD-R006</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R006"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Manufacturer Part Number" value="CRCW0402100KFKEDC"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005bc05255</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.02M 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer Part Number">CRCW04024M02FKED</field>
+        <field name="Pixels Part Number">SMD-R003</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R003"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Manufacturer Part Number" value="CRCW04024M02FKED"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005e5dc7b8</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10M 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Pixels Part Number">SMD-R004</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R004"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005e5dc7c2</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LN3435</value>
+      <footprint>Pixels-dice:SOT-23-5</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">NATLINEAR</field>
+        <field name="Manufacturer Part Number">LN3435</field>
+        <field name="Pixels Part Number">SMD-U004-ALT1</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="LN3406" description=""/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Manufacturer" value="NATLINEAR"/>
+      <property name="Manufacturer Part Number" value="LN3435"/>
+      <property name="Pixels Part Number" value="SMD-U004-ALT1"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005bbf5595</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MT9700</value>
+      <footprint>Pixels-dice:SOT-23-5</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">XI'AN Aerosemi Tech</field>
+        <field name="Manufacturer Part Number">MT9700</field>
+        <field name="Pixels Part Number">SMD-U006-ALT2</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="MT9700" description=""/>
+      <property name="Manufacturer" value="XI'AN Aerosemi Tech"/>
+      <property name="Manufacturer Part Number" value="MT9700"/>
+      <property name="Pixels Part Number" value="SMD-U006-ALT2"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-000061518cd5</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>SN74LVC1G08</value>
+      <footprint>Pixels-dice:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">UMW(Youtai Semiconductor Co., Ltd.)</field>
+        <field name="Manufacturer Part Number">SN74LVC1G08DCKR</field>
+        <field name="Pixels Part Number">SMD-U007</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="74AHC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Manufacturer" value="UMW(Youtai Semiconductor Co., Ltd.)"/>
+      <property name="Manufacturer Part Number" value="SN74LVC1G08DCKR"/>
+      <property name="Pixels Part Number" value="SMD-U007"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005cf24b7e</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TMR1366</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">Multi Dimension</field>
+        <field name="Manufacturer Part Number">TMR1366S</field>
+        <field name="Pixels Part Number">SMD-U008-ALT8</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TMR1366" description=""/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Manufacturer" value="Multi Dimension"/>
+      <property name="Manufacturer Part Number" value="TMR1366S"/>
+      <property name="Pixels Part Number" value="SMD-U008-ALT8"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00006143ac96</tstamps>
+    </comp>
+    <comp ref="W12">
+      <value>VLED_S</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005e6ccf00</tstamps>
+    </comp>
+    <comp ref="W18">
+      <value>FB</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005bb120ae</tstamps>
+    </comp>
+    <comp ref="W21">
+      <value>LED2</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005bb1c04e</tstamps>
+    </comp>
+    <comp ref="W23">
+      <value>MAG1_</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce68cde</tstamps>
+    </comp>
+    <comp ref="W25">
+      <value>VDD</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
+      <tstamps>00000000-0000-0000-0000-00005cf84f56</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>4.7uF 25V 20%</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R61E475KE11D</field>
+        <field name="Pixels Part Number">SMD-C010</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C010"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM188R61E475KE11D"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>0fad7d6e-4a55-4fb0-bc91-a8854ff7ced8</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>4.7uF 6.3V 20%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R60J475ME87D</field>
+        <field name="Pixels Part Number">SMD-C002</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C002"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R60J475ME87D"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>ba6330bc-6bc2-4582-9c02-62fdf3b143c7</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>56nF 50V 5% NP0</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM31C5C1H823JA01L</field>
+        <field name="Pixels Part Number">SMD-C011</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C011"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM31C5C1H823JA01L"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>3504434d-83b4-4e69-ac84-f5b53cc6339a</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10nF 25V 10%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">AC0402KPX7R9BB103</field>
+        <field name="Pixels Part Number">SMD-C009</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C009"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="AC0402KPX7R9BB103"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>f7dea254-df7a-4c19-9856-9a4eb5c540e4</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10nF 25V 10%</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">AC0402KPX7R9BB103</field>
+        <field name="Pixels Part Number">SMD-C009</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C009"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="AC0402KPX7R9BB103"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>745305e7-75f0-4cf1-9f7b-0b324473ea96</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAV99S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Infineon</field>
+        <field name="Manufacturer Part Number">BAV99SH6327XTSA1</field>
+        <field name="Pixels Part Number">SMD-D001</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="BAV99S-diode" description=""/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Manufacturer" value="Infineon"/>
+      <property name="Manufacturer Part Number" value="BAV99SH6327XTSA1"/>
+      <property name="Pixels Part Number" value="SMD-D001"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>eff98dc9-1b40-4b59-b285-cd5c69689eda e1337ee9-7467-4345-935a-98bcab1c767f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Pixels-dice:Hongjie 10100 Connector</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>a59d93f7-95b2-4aa2-ae3e-40e6be98f22b</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>COILA</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>c5304ace-7f5d-4315-9189-21bfcc9b4acc</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>COILB</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>c3082384-0abe-410a-835f-394d12ab75a2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.02M 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer Part Number">CRCW04024M02FKED</field>
+        <field name="Pixels Part Number">SMD-R003</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R003"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Manufacturer Part Number" value="CRCW04024M02FKED"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>63f42a53-0285-4ca5-b9d9-462427d0116f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10M 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Pixels Part Number">SMD-R004</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R004"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>6b16250e-cb23-4e9c-b730-66272542c57a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>22k 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0722KL</field>
+        <field name="Pixels Part Number">SMD-R002</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R002"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0722KL"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>4b854ca6-8609-499d-a23b-7207c2405844</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.02M 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer Part Number">CRCW04024M02FKED</field>
+        <field name="Pixels Part Number">SMD-R003</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R003"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Manufacturer Part Number" value="CRCW04024M02FKED"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>518e4319-18b8-4faf-a723-3854467bd0d4</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10M 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Pixels Part Number">SMD-R004</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-R004"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>527de518-35ac-4fee-b2f3-ef792e28e09d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>PJ75AL50SA</value>
+      <footprint>Pixels-dice:SOT-23</footprint>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">PJSEMI</field>
+        <field name="Manufacturer Part Number">PJ75AL50SA</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="HX6306P502MR" description=""/>
+      <property name="Manufacturer" value="PJSEMI"/>
+      <property name="Manufacturer Part Number" value="PJ75AL50SA"/>
+      <property name="Pixels Part Number" value=""/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>c946cd18-05c3-476d-9bf8-0a1fe39a471a</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MCP73832T-2ACI/OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Manufacturer Part Number">MCP73832T-2ACI/OT</field>
+        <field name="Pixels Part Number">SMD-U005</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="MCP73831-2-OT-battery_management" description=""/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Manufacturer" value="Microchip"/>
+      <property name="Manufacturer Part Number" value="MCP73832T-2ACI/OT"/>
+      <property name="Pixels Part Number" value="SMD-U005"/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>5c613574-4262-4d27-966b-dd539c79e20a</tstamps>
+    </comp>
+    <comp ref="W13">
+      <value>5V_S</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>3294775e-d849-4336-8c1b-53f7e369f7f3</tstamps>
+    </comp>
+    <comp ref="W14">
+      <value>BATT</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>c01e0c1d-6e4f-420c-b420-dcbdd130f84b</tstamps>
+    </comp>
+    <comp ref="W15">
+      <value>+5V</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>cbf840c0-d9f2-4d8e-99c8-7eb4934de5e5</tstamps>
+    </comp>
+    <comp ref="W16">
+      <value>VIN</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>22af1b82-0acf-431c-8159-84ed922f7953</tstamps>
+    </comp>
+    <comp ref="W17">
+      <value>STAT</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>75907a39-d09c-43b8-9898-1cdf63fd2133</tstamps>
+    </comp>
+    <comp ref="W19">
+      <value>GND</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>be9a8150-382a-48ad-92dc-5feba5a807d5</tstamps>
+    </comp>
+    <comp ref="W20">
+      <value>VBAT_S</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value="Wireless Charging"/>
+      <property name="Sheetfile" value="wireless.kicad_sch"/>
+      <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
+      <tstamps>c5812952-ef2f-494c-82d8-30dcdb502ada</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x11">
+      <description>Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x11</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna">
+      <description>Antenna</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="74AHC1G08">
+      <description>Single AND Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AHC1G08</field>
+        <field name="Datasheet">http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="BAV99S-diode">
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV99S-diode</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+        <pin num="3" name="K1A2" type="passive"/>
+        <pin num="4" name="A3" type="passive"/>
+        <pin num="5" name="K4" type="passive"/>
+        <pin num="6" name="K3A4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="HX6306P502MR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HX6306P502MR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="KXTJ3-1057">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KXTJ3-1057</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="SDA" type="bidirectional"/>
+        <pin num="3" name="IO_VDD" type="power_in"/>
+        <pin num="4" name="RES" type="passive"/>
+        <pin num="5" name="INT" type="output"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="VDD" type="power_in"/>
+        <pin num="11" name="IO_VDD" type="power_in"/>
+        <pin num="12" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="LN3406">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LN3406</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CE" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="LX" type="power_out"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="MCP73831-2-OT-battery_management">
+      <footprints>
+        <fp>*SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-2-OT-battery_management</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="MT9700">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MT9700</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SET" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="N52810_QFN32">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">N52810_QFN32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DEC1" type="power_out"/>
+        <pin num="2" name="P0.00/XL1" type="bidirectional"/>
+        <pin num="3" name="P0.01/XL2" type="bidirectional"/>
+        <pin num="4" name="P0.04/AIN2" type="bidirectional"/>
+        <pin num="5" name="P0.05/AIN3" type="bidirectional"/>
+        <pin num="6" name="P0.06" type="bidirectional"/>
+        <pin num="7" name="P0.09" type="bidirectional"/>
+        <pin num="8" name="P0.10" type="bidirectional"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="P0.12" type="bidirectional"/>
+        <pin num="11" name="P0.14" type="bidirectional"/>
+        <pin num="12" name="P0.15" type="bidirectional"/>
+        <pin num="13" name="P0.16/TDATA1" type="bidirectional"/>
+        <pin num="14" name="P0.18/TDATA0" type="bidirectional"/>
+        <pin num="15" name="P0.20/TCLK" type="bidirectional"/>
+        <pin num="16" name="P0.16" type="bidirectional"/>
+        <pin num="17" name="SWDCLK" type="bidirectional"/>
+        <pin num="18" name="SWDIO" type="bidirectional"/>
+        <pin num="19" name="ANT" type="output"/>
+        <pin num="20" name="VSS" type="output"/>
+        <pin num="21" name="DEC2" type="output"/>
+        <pin num="22" name="DEC3" type="output"/>
+        <pin num="23" name="XC1" type="output"/>
+        <pin num="24" name="XC2" type="input"/>
+        <pin num="25" name="VDD" type="power_in"/>
+        <pin num="26" name="P0.25" type="bidirectional"/>
+        <pin num="27" name="P0.28/AIN4" type="bidirectional"/>
+        <pin num="28" name="P0.30/AIN6" type="bidirectional"/>
+        <pin num="29" name="VSS" type="power_in"/>
+        <pin num="30" name="DEC4" type="output"/>
+        <pin num="31" name="DCC" type="output"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="TEST_1P-conn">
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="TMR1366">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMR1366</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="TX1812Z_2020">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TX1812Z_2020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="input"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="DOUT" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Pixels-dice">
+      <uri>C:\Projects\Pixels-dice\Electrical\Dice\D12\D12v1/../../../Lib/Pixels-dice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U5" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="W15" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="VBAT" pintype="power_out"/>
+      <node ref="U6" pin="5" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="W14" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/5V_SENSE">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="P0.04/AIN2" pintype="bidirectional"/>
+      <node ref="W13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/ACC_INT">
+      <node ref="U1" pin="10" pinfunction="P0.12" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="INT" pintype="output"/>
+      <node ref="W7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/ARC_ANTENNA">
+      <node ref="AE2" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/LED_DATA">
+      <node ref="D2" pin="1" pinfunction="DIN" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="P0.06" pintype="bidirectional"/>
+      <node ref="W22" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/LED_EN">
+      <node ref="U1" pin="2" pinfunction="P0.00/XL1" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pintype="input"/>
+      <node ref="W5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/Power Supply/LED_EN_OUT">
+      <node ref="U6" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U7" pin="4" pintype="output"/>
+      <node ref="W21" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/Power Supply/MAG1_">
+      <node ref="U4" pin="1" pinfunction="CE" pintype="input"/>
+      <node ref="U7" pin="2" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="W23" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/SCL">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="P0.14" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="SCL" pintype="input"/>
+      <node ref="W8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/SDA">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="P0.15" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="W9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/STATS">
+      <node ref="U1" pin="3" pinfunction="P0.01/XL2" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="STAT" pintype="output"/>
+      <node ref="W17" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/VBAT_SENSE">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="P0.05/AIN3" pintype="bidirectional"/>
+      <node ref="W20" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/VLED_SENSE">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="P0.30/AIN6" pintype="bidirectional"/>
+      <node ref="W12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D1" pin="4" pinfunction="A3" pintype="passive"/>
+      <node ref="D10" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D11" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D12" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D13" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D7" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D8" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D9" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="VSS" pintype="output"/>
+      <node ref="U1" pin="29" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="W19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="DEC4" pintype="output"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="XC2" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="DEC1" pintype="power_out"/>
+    </net>
+    <net code="19" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="XC1" pintype="output"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="DEC3" pintype="output"/>
+    </net>
+    <net code="21" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="ANT" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="FB" pintype="input"/>
+      <node ref="W18" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="K1A2" pintype="passive"/>
+      <node ref="P5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="D1" pin="6" pinfunction="K3A4" pintype="passive"/>
+      <node ref="P6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D2-Pad3)">
+      <node ref="D2" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D3" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(D3-Pad3)">
+      <node ref="D3" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D4" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(D4-Pad3)">
+      <node ref="D4" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D5" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(D5-Pad3)">
+      <node ref="D5" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D6" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(D6-Pad3)">
+      <node ref="D6" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D7" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(D7-Pad3)">
+      <node ref="D7" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D8" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(D8-Pad3)">
+      <node ref="D8" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D9" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1" pinfunction="DIN" pintype="input"/>
+      <node ref="D9" pin="3" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="33" name="Net-(D10-Pad3)">
+      <node ref="D10" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D11" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(D11-Pad3)">
+      <node ref="D11" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D12" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(D12-Pad3)">
+      <node ref="D12" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D13" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="DCC" pintype="output"/>
+    </net>
+    <net code="37" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(L4-Pad1)">
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="LX" pintype="power_out"/>
+    </net>
+    <net code="39" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="SET" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="P0.28/AIN4" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="P0.25" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="RESET">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="P0.16" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="RXI">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="P0.20/TCLK" pintype="bidirectional"/>
+      <node ref="W1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="45" name="SWDCLK">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="SWDCLK" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="SWDIO">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="SWO">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="P0.18/TDATA0" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="TXO">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="P0.16/TDATA1" pintype="bidirectional"/>
+      <node ref="W2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="49" name="VDC">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D11" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D12" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D13" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D2" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D3" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D4" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D5" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D6" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D7" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D8" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D9" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="50" name="VDD">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="ADDR" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="IO_VDD" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="IO_VDD" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="VDD" pintype="power_in"/>
+      <node ref="W25" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="51" name="VEE">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K2" pintype="passive"/>
+      <node ref="D1" pin="5" pinfunction="K4" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="W16" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(D13-Pad3)">
+      <node ref="D13" pin="3" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="P0.09" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="P0.10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="DEC2" pintype="output+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="RES" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

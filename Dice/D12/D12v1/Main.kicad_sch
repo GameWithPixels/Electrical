@@ -3906,7 +3906,7 @@
       (reference "U6") (unit 1) (value "MT9700") (footprint "Pixels-dice:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005bb44a54/00000000-0000-0000-0000-00005cf24b7e"
-      (reference "U7") (unit 1) (value "74AHC1G08") (footprint "Pixels-dice:SOT-353_SC-70-5")
+      (reference "U7") (unit 1) (value "SN74LVC1G08") (footprint "Pixels-dice:SOT-353_SC-70-5")
     )
     (path "/00000000-0000-0000-0000-00005bb44a54/00000000-0000-0000-0000-00006143ac96"
       (reference "U8") (unit 1) (value "TMR1366") (footprint "Package_TO_SOT_SMD:SOT-23")
