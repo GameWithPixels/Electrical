@@ -3762,7 +3762,7 @@
       (reference "C18") (unit 1) (value "4.7uF 6.3V 20%") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/3504434d-83b4-4e69-ac84-f5b53cc6339a"
-      (reference "C19") (unit 1) (value "56nF 50V 5% NP0") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C19") (unit 1) (value "33nF 50V 5% NP0") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/f7dea254-df7a-4c19-9856-9a4eb5c540e4"
       (reference "C21") (unit 1) (value "10nF 25V 10%") (footprint "Capacitor_SMD:C_0402_1005Metric")
