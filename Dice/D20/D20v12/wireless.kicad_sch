@@ -1149,7 +1149,7 @@
     (property "Datasheet" "" (id 3) (at 78.74 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Generic OK" "GRM31C5C1H823JA01L" (id 4) (at 78.74 67.31 0)
+    (property "Generic OK" "GRM3195C1H333JA01J" (id 4) (at 78.74 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Pixels Part Number" "SMD-C011" (id 5) (at 78.74 67.31 0)

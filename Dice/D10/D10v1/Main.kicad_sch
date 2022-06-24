@@ -1122,9 +1122,6 @@
   (junction (at 182.88 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 6cb93665-0bcd-4104-8633-fffd1811eee0)
   )
-  (junction (at 182.88 105.41) (diameter 0) (color 0 0 0 0)
-    (uuid 718e5c6d-0e4c-46d8-a149-2f2bfc54c7f1)
-  )
   (junction (at 82.55 152.4) (diameter 0) (color 0 0 0 0)
     (uuid 8b290a17-6328-4178-9131-29524d345539)
   )
@@ -1629,10 +1626,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9b6bb172-1ac4-440a-ac75-c1917d9d59c7)
   )
-  (wire (pts (xy 182.88 105.41) (xy 182.88 106.68))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9e0e6fc0-a269-4822-b93d-4c5e6689ff11)
-  )
   (wire (pts (xy 116.84 40.64) (xy 124.46 40.64))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9e813ec2-d4ce-4e2e-b379-c6fedb4c45db)
@@ -1900,10 +1893,6 @@
   (wire (pts (xy 259.08 106.68) (xy 259.08 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f44d04c5-0d17-4d52-8328-ef3b4fdfba5f)
-  )
-  (wire (pts (xy 182.88 114.3) (xy 182.88 116.84))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f50dae73-c5b5-475d-ac8c-5b555be54fa3)
   )
   (wire (pts (xy 222.25 29.21) (xy 224.79 29.21))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3075,37 +3064,6 @@
     (pin "2" (uuid 244e555f-4ba2-49b0-9ab3-1f451564f5a8))
   )
 
-  (symbol (lib_id "Device:C") (at 182.88 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061c098e6)
-    (property "Reference" "C11" (id 0) (at 175.26 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "?? NP0" (id 1) (at 186.69 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 183.8452 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 182.88 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Generic OK" "YES" (id 4) (at 182.88 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pixels Part Number" "" (id 5) (at 182.88 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "" (id 6) (at 182.88 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "" (id 7) (at 182.88 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 35a62a6a-d780-4de6-8d8f-210f9f6c15eb))
-    (pin "2" (uuid bd5571f1-4b78-4344-bcd5-aa3ffff83009))
-  )
-
   (symbol (lib_id "Device:Antenna") (at 217.17 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c0ad7a)
@@ -3122,22 +3080,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9524b06c-953c-4a20-943f-f03d2661394f))
-  )
-
-  (symbol (lib_id "power:GND") (at 182.88 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061c0d6bd)
-    (property "Reference" "#PWR049" (id 0) (at 182.88 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 183.007 121.2342 0))
-    (property "Footprint" "" (id 2) (at 182.88 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 182.88 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fd73dd67-2076-4ce2-8acc-416f3fd36d1e))
   )
 
   (symbol (lib_id "Device:R") (at 200.66 143.51 0) (unit 1)
@@ -3596,9 +3538,6 @@
     (path "/00000000-0000-0000-0000-000061e13190"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061c0d6bd"
-      (reference "#PWR049") (unit 1) (value "GND") (footprint "")
-    )
     (path "/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/9939dcb8-f9a9-4b62-ac89-9d3eafe84144"
       (reference "#PWR050") (unit 1) (value "GND") (footprint "")
     )
@@ -3683,20 +3622,8 @@
     (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-00005bd7309c"
       (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-00005bd730bf"
-      (reference "#PWR0121") (unit 1) (value "VDC") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-00005bd730c5"
       (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-00005bd730cb"
-      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-00005bd730e3"
-      (reference "#PWR0124") (unit 1) (value "VDC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-00005bd7311b"
-      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-00005bdeb14b"
       (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
@@ -3742,9 +3669,6 @@
     )
     (path "/00000000-0000-0000-0000-00005b9e658d"
       (reference "C10") (unit 1) (value "0.1uF 10V 20%") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061c098e6"
-      (reference "C11") (unit 1) (value "?? NP0") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/0fad7d6e-4a55-4fb0-bc91-a8854ff7ced8"
       (reference "C13") (unit 1) (value "4.7uF 25V 20%") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3811,12 +3735,6 @@
     )
     (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-0000614308a4"
       (reference "D11") (unit 1) (value "TX1812Z_2020") (footprint "Pixels-dice:TX1812Z_2020")
-    )
-    (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-000061431567"
-      (reference "D12") (unit 1) (value "TX1812Z_2020") (footprint "Pixels-dice:TX1812Z_2020")
-    )
-    (path "/00000000-0000-0000-0000-00005bc88abf/00000000-0000-0000-0000-0000614319e7"
-      (reference "D13") (unit 1) (value "TX1812Z_2020") (footprint "Pixels-dice:TX1812Z_2020")
     )
     (path "/00000000-0000-0000-0000-00005c641b91"
       (reference "J1") (unit 1) (value "Conn_01x14") (footprint "Pixels-dice:FPC_14")
