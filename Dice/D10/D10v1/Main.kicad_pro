@@ -2,7 +2,7 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.25,
+        "board_outline_line_width": 0.049999999999999996,
         "copper_line_width": 0.09999999999999999,
         "copper_text_italic": false,
         "copper_text_size_h": 1.0,
@@ -26,16 +26,16 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.09999999999999999,
+        "other_line_width": 0.049999999999999996,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.7,
-          "width": 0.7
+          "drill": 0.8,
+          "height": 3.7,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -419,9 +419,7 @@
     "meta": {
       "version": 2
     },
-    "net_colors": {
-      "VDD": "rgb(255, 153, 0)"
-    }
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {

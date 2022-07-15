@@ -1,4 +1,4 @@
-19947733774844120
+19959483429454964
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73773,6 +73773,13 @@ DFN package size 1006 3 pins
 2
 2
 Pixels-dice
+0402_RF
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Pixels-dice
 1007
 
 
@@ -73871,6 +73878,13 @@ COIL
 2
 2
 Pixels-dice
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Pixels-dice
 ChargerCoil_15mm
 
 
@@ -73959,7 +73973,7 @@ Hongjie 10100 Connector
 
 
 0
-10
+2
 2
 Pixels-dice
 ICP-POGO-11-BOTTOM
@@ -74053,6 +74067,13 @@ Mouse_Bites_3
 0
 0
 Pixels-dice
+Murata 4700
+
+
+0
+4
+4
+Pixels-dice
 PT11-21C_L41_TR8
 
 
@@ -74095,6 +74116,13 @@ RN8-1506
 16
 16
 Pixels-dice
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Pixels-dice
 Round-Pixels
 
 
@@ -74129,6 +74157,13 @@ SK6812-1515
 0
 4
 4
+Pixels-dice
+SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm
+SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+13
+9
 Pixels-dice
 SOIC-8_3.9x4.9mm_P1.27mm
 SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -74207,13 +74242,6 @@ SOT89
 4
 3
 Pixels-dice
-SOT753
-
-
-0
-0
-0
-Pixels-dice
 SOT762
 
 
@@ -74242,6 +74270,20 @@ TS51224
 25
 25
 Pixels-dice
+TSB001
+
+
+0
+2
+2
+Pixels-dice
+TX Coil
+
+
+0
+0
+0
+Pixels-dice
 TX1812Z_2020
 
 
@@ -74255,6 +74297,13 @@ TX1812_1010
 0
 4
 4
+Pixels-dice
+TestPoint_THTPad_1.5x1.5mm_Drill0.7mm
+THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm
+test point THT pad rectangle square
+0
+1
+1
 Pixels-dice
 U.FL-R-SMT-1(80)
 
