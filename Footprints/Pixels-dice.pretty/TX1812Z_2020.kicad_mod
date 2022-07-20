@@ -1,6 +1,6 @@
 (footprint "TX1812Z_2020" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62CDDA91)
+  (tedit 62D2130A)
   (attr through_hole)
   (fp_text reference "REF**" (at -0.1 2.3 180) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -20,9 +20,9 @@
   (pad "2" smd roundrect (at -0.5 -0.85 90) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp d4f4dd60-7f1f-403d-a8be-9d541794b9e6))
   (pad "3" smd roundrect (at -0.5 0.85 90) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp f57ac558-3bed-49a4-9a5e-e90ee2837eba))
   (pad "4" smd roundrect (at 0.5 0.85 90) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 1d6aaa6a-0f86-41cb-904c-4d79a6787f8a))
-  (model "C:/Projects/Pixels-dice/Electrical/Footprints/Step Files/TX1812Z 2020 v1.step"
+  (model "C:/Projects/Pixels-dice/Electrical/Footprints/Step Files/TX1812Z 2020 v2.iges"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 0))
   )
 )
