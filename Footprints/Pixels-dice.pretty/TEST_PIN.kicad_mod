@@ -1,9 +1,14 @@
-(module TEST_PIN (layer F.Cu) (tedit 613D16AC)
-  (fp_text reference W24 (at 0 1.2) (layer F.Fab) hide
+(footprint "TEST_PIN" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62D85D27)
+  (attr smd exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "W24" (at 0 1.2) (layer "F.Fab") hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
+    (tstamp 3ca90cd9-c77c-495e-8205-da1632481604)
   )
-  (fp_text value LED_CLK1 (at 1.25 -1.27) (layer F.SilkS)
+  (fp_text value "LED_CLK1" (at 1.25 -1.27) (layer "F.SilkS")
     (effects (font (size 0.5 0.5) (thickness 0.1)))
+    (tstamp 53322dfb-5a3a-415f-bd6f-0e06fab042f3)
   )
-  (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Mask))
+  (pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask") (tstamp ffc4b5f5-c725-4a12-90ca-e5be3e60da7a))
 )
