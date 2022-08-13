@@ -1,6 +1,6 @@
 (footprint "TX1812Z_2020" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62D2130A)
+  (tedit 62DAC3C3)
   (attr through_hole)
   (fp_text reference "REF**" (at -0.1 2.3 180) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -23,6 +23,6 @@
   (model "C:/Projects/Pixels-dice/Electrical/Footprints/Step Files/TX1812Z 2020 v2.iges"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )

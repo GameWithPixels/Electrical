@@ -950,6 +950,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 185.42 139.7 0))
+    (property "Generic OK" "N/A" (id 4) (at 185.42 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid afbb8590-5b7c-4f3a-9207-82d55d9bd1e6))
   )
 
@@ -966,6 +969,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 147.32 54.61 0))
+    (property "Generic OK" "N/A" (id 4) (at 142.24 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ac34767a-2b7c-4e95-98f6-7277656429a3))
   )
 
@@ -1322,6 +1328,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 87.63 96.52 0))
+    (property "Generic OK" "N/A" (id 4) (at 82.55 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 41b13946-31dc-40af-b088-8539b36aaf7a))
   )
 
@@ -1404,6 +1413,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 205.74 111.76 0))
+    (property "Generic OK" "N/A" (id 4) (at 200.66 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 443167d1-7c9e-4c4b-abc9-f3338629d2f5))
   )
 
@@ -1529,6 +1541,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 214.63 58.42 0))
+    (property "Generic OK" "N/A" (id 4) (at 214.63 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 35e6168d-2888-40f5-8bc0-8d505dde2410))
   )
 

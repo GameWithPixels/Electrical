@@ -1,6 +1,6 @@
 (footprint "TSB001" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 625333CA)
+  (tedit 62E88F69)
   (attr smd)
   (fp_text reference "REF**" (at -0.05 -2.75 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -43,4 +43,9 @@
   (pad "" np_thru_hole circle (at 1.15 0) (size 0.8 0.8) (drill 0.8) (layers F&B.Cu *.Mask) (tstamp 613f91d9-f558-4d13-9dbe-381a11812bcf))
   (pad "1" smd rect (at -2.1 1.45) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 164bd13a-1a70-40fe-aded-c145d5c285c2))
   (pad "2" smd rect (at 2.1 1.45) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp db159669-3d24-456b-a18e-49fd28341d21))
+  (model "C:/Projects/Pixels-dice/Electrical/Footprints/Step Files/TSB001A3526A02 v1.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

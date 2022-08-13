@@ -1,4 +1,4 @@
-19952838814612134
+19961386215276483
 AEMAntennas
 ARC_Antenna
 
@@ -73780,6 +73780,13 @@ DFN package size 1006 3 pins
 2
 2
 Pixels-dice
+0402_RF
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Pixels-dice
 1007
 
 
@@ -73843,6 +73850,13 @@ ARC_Antenna
 1
 1
 Pixels-dice
+ARC_Antenna_Mirrored
+
+
+0
+1
+1
+Pixels-dice
 BARREL_JACK
 DC Barrel Jack
 Power Jack
@@ -73874,6 +73888,13 @@ Pixels-dice
 COIL
 
 
+0
+2
+2
+Pixels-dice
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
 0
 2
 2
@@ -73955,6 +73976,13 @@ FPC_CON_14
 16
 16
 Pixels-dice
+Game With Pixels - Round
+
+
+0
+0
+0
+Pixels-dice
 HLW4R-2C7LF
 
 
@@ -73966,7 +73994,7 @@ Hongjie 10100 Connector
 
 
 0
-10
+2
 2
 Pixels-dice
 ICP-POGO-11-BOTTOM
@@ -74108,6 +74136,13 @@ RN8-1506
 0
 16
 16
+Pixels-dice
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
 Pixels-dice
 Round-Pixels
 

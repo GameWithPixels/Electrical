@@ -114,7 +114,7 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.19999999999999998,
+        "min_track_width": 0.09999999999999999,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
@@ -359,7 +359,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -376,7 +376,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -384,7 +384,10 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Antenna",
-        "nets": [],
+        "nets": [
+          "/ANT_CHIP",
+          "/ANT_NRF"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
@@ -394,7 +397,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -406,10 +409,7 @@
           "+4V",
           "+5V",
           "+BATT",
-          "+VDC",
           "GND",
-          "Net-(C50-Pad1)",
-          "Net-(C50-Pad2)",
           "VBUS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -508,6 +508,10 @@
       "Charger 8"
     ],
     [
+      "09309d8b-aeba-4aee-bb2f-9e0da1817fb1",
+      "Sense1"
+    ],
+    [
       "e35b8488-ef81-439e-a7be-d117b1b2adb9",
       "Multiplexed Chargers"
     ],
@@ -518,6 +522,34 @@
     [
       "74ac5f77-97aa-42ab-b054-bca601be99e5",
       "Charger 5"
+    ],
+    [
+      "23558f1b-6bb9-4521-b874-bf275f331641",
+      "Sense"
+    ],
+    [
+      "57eb1ca5-3881-4d6a-a748-a847939bd3c1",
+      "Sense2"
+    ],
+    [
+      "d689e405-5deb-4453-b92d-709a8149d047",
+      "Sense3"
+    ],
+    [
+      "fbad58f1-1802-490a-880a-c9585f983cbc",
+      "Sense4"
+    ],
+    [
+      "35844d7b-31c4-4a28-9912-646981a55f4f",
+      "Sense5"
+    ],
+    [
+      "091f8c45-40a0-41b0-b620-eb65d5348d27",
+      "Sense6"
+    ],
+    [
+      "fa8475d3-47cc-4c42-a5ca-a1de1451dcf2",
+      "Sense7"
     ]
   ],
   "text_variables": {}
