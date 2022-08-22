@@ -1495,6 +1495,15 @@
     (uuid fefad5ad-b8c1-4f89-8ac6-ffbd99df9310)
   )
 
+  (text "Programming Header" (at 224.79 52.07 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7ba9a7d4-c6c8-404a-863d-c0e445ccd889)
+  )
+  (text "Indication LEDs" (at 68.58 38.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9de57010-2301-4135-bfe5-758ae0dd931e)
+  )
+
   (label "ANT_NRF" (at 163.83 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 22e90dd4-d352-4136-9cc5-99f8e6ce30f2)
@@ -3384,30 +3393,6 @@
     )
     (path "/e731244b-aeeb-4eef-a11b-6fee6c259427/2966884f-cacc-4537-ad80-14f3801729f5"
       (reference "F1") (unit 1) (value "1500mA <150mR") (footprint "Fuse:Fuse_1206_3216Metric")
-    )
-    (path "/e35b8488-ef81-439e-a7be-d117b1b2adb9/8af72263-6d88-467b-83e1-c201fdc50a07/2bc9588a-f66e-49ef-a8c5-ccca57647b64"
-      (reference "F2") (unit 1) (value "500mA ~150mR") (footprint "Fuse:Fuse_0805_2012Metric")
-    )
-    (path "/e35b8488-ef81-439e-a7be-d117b1b2adb9/ed29ac94-f438-4815-84dc-9d59ce796ab9/2bc9588a-f66e-49ef-a8c5-ccca57647b64"
-      (reference "F3") (unit 1) (value "500mA ~150mR") (footprint "Fuse:Fuse_0805_2012Metric")
-    )
-    (path "/e35b8488-ef81-439e-a7be-d117b1b2adb9/6ffd278f-2ed2-4c10-bbf4-f24eb181e718/2bc9588a-f66e-49ef-a8c5-ccca57647b64"
-      (reference "F4") (unit 1) (value "500mA ~150mR") (footprint "Fuse:Fuse_0805_2012Metric")
-    )
-    (path "/e35b8488-ef81-439e-a7be-d117b1b2adb9/742e9abf-9b09-497a-9821-0c13525c859b/2bc9588a-f66e-49ef-a8c5-ccca57647b64"
-      (reference "F5") (unit 1) (value "500mA ~150mR") (footprint "Fuse:Fuse_0805_2012Metric")
-    )
-    (path "/e35b8488-ef81-439e-a7be-d117b1b2adb9/ec4b00e0-9133-4ad7-9808-92f5f0ec8326/2bc9588a-f66e-49ef-a8c5-ccca57647b64"
-      (reference "F6") (unit 1) (value "500mA ~150mR") (footprint "Fuse:Fuse_0805_2012Metric")
-    )
-    (path "/e35b8488-ef81-439e-a7be-d117b1b2adb9/57ecd05a-d695-45ff-87ee-583d71c721bb/2bc9588a-f66e-49ef-a8c5-ccca57647b64"
-      (reference "F7") (unit 1) (value "500mA ~150mR") (footprint "Fuse:Fuse_0805_2012Metric")
-    )
-    (path "/e35b8488-ef81-439e-a7be-d117b1b2adb9/fa5bda9c-6b97-49ea-bd43-4da0b8bab2c1/2bc9588a-f66e-49ef-a8c5-ccca57647b64"
-      (reference "F8") (unit 1) (value "500mA ~150mR") (footprint "Fuse:Fuse_0805_2012Metric")
-    )
-    (path "/e35b8488-ef81-439e-a7be-d117b1b2adb9/74ac5f77-97aa-42ab-b054-bca601be99e5/2bc9588a-f66e-49ef-a8c5-ccca57647b64"
-      (reference "F9") (unit 1) (value "500mA ~150mR") (footprint "Fuse:Fuse_0805_2012Metric")
     )
     (path "/beae0be6-6ff9-4ff6-a5eb-09840d35fdd8"
       (reference "J1") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
