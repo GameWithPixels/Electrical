@@ -7,3 +7,6 @@ desktop.ini
 *.bak
 DXF/
 Gerbers*/
+*.kicad_prl
+\#auto_saved_files\#
+fp-info-cache

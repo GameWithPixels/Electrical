@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.09,
-          "width": 0.09
+          "height": 0.6096,
+          "width": 1.3494
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.09999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -348,7 +348,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Pixels-dice"
+    ]
   },
   "meta": {
     "filename": "Main.kicad_pro",
@@ -384,8 +386,6 @@
         "microvia_drill": 0.1,
         "name": "Antenna",
         "nets": [
-          "/ANT_50",
-          "/ANT_NRF",
           "/ARC_ANTENNA"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -417,9 +417,7 @@
     "meta": {
       "version": 2
     },
-    "net_colors": {
-      "VDD": "rgb(255, 153, 0)"
-    }
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
@@ -464,7 +462,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "PDFs/",
+    "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -474,18 +472,6 @@
     [
       "cfa5c16e-7859-460d-a0b8-cea7d7ea629c",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-00005bc88abf",
-      "LEDs"
-    ],
-    [
-      "00000000-0000-0000-0000-00005bb44a54",
-      "Power Supply"
-    ],
-    [
-      "a0086b8f-a2d2-428c-9599-7d909b2bf8ec",
-      "Wireless Charging"
     ]
   ],
   "text_variables": {}

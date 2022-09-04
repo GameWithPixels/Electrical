@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Pixels D20 Schematic, Main")
+    (date "2022-08-26")
+    (rev "13")
+    (company "Systemic Games, LLC")
+    (comment 1 "Wireless Charging Circuitry")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
