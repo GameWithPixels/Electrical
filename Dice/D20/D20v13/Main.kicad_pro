@@ -2,7 +2,7 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.25,
+        "board_outline_line_width": 0.049999999999999996,
         "copper_line_width": 0.09999999999999999,
         "copper_text_italic": false,
         "copper_text_size_h": 1.0,
@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.09,
-          "width": 0.09
+          "height": 0.6096,
+          "width": 1.25
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -384,9 +384,9 @@
         "microvia_drill": 0.1,
         "name": "Antenna",
         "nets": [
+          "/ANTENNA",
           "/ANT_50",
-          "/ANT_NRF",
-          "/ARC_ANTENNA"
+          "/ANT_NRF"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -427,7 +427,7 @@
       "idf": "",
       "netlist": "Protoboard5.net",
       "specctra_dsn": "",
-      "step": "Step/Main.step",
+      "step": "Main.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
