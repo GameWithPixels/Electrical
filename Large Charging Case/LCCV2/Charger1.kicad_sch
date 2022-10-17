@@ -580,7 +580,7 @@
     (uuid f0057bc0-3e35-452c-b7ad-4e39a97a8b37)
   )
 
-  (symbol (lib_id "Pixels-dice:XKT335") (at 187.96 95.25 0) (mirror y)
+  (symbol (lib_id "Pixels-dice:XKT335") (at 187.96 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 23a9b3df-ce2e-4f15-92a4-05c00d9cd2cc)
     (property "Reference" "U9" (id 0) (at 187.96 85.725 0))
@@ -613,7 +613,7 @@
     (pin "8" (uuid dc9823c9-958f-4ebb-96c5-159cad0b2341))
   )
 
-  (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 148.59 104.14 270)
+  (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 148.59 104.14 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3099aac3-de20-4ae5-be8b-164c9e8cfa59)
     (property "Reference" "W23" (id 0) (at 153.289 103.2315 90)
@@ -629,7 +629,7 @@
     (pin "1" (uuid 0970517f-6cb0-4b64-8e0e-50a1e2c633a8))
   )
 
-  (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 135.89 86.36 0)
+  (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 135.89 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 58649918-4caf-4312-87ca-bee40c1faef6)
     (property "Reference" "W20" (id 0) (at 137.287 82.1495 0)
@@ -645,7 +645,7 @@
     (pin "1" (uuid a3883662-2d57-4471-9f3d-7b28e4d02ced))
   )
 
-  (symbol (lib_id "Device:R") (at 130.81 97.79 0) (mirror x)
+  (symbol (lib_id "Device:R") (at 130.81 97.79 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6ab77c87-4a7c-4d75-964d-ce186b337dcb)
     (property "Reference" "R9" (id 0) (at 129.54 96.52 0)
@@ -679,7 +679,7 @@
     (pin "2" (uuid 467e4075-f5fb-4b6b-aadc-5845b758f1cd))
   )
 
-  (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 130.81 68.58 0)
+  (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 130.81 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 73b55618-f902-4a02-846a-b8d7ef23a5a8)
     (property "Reference" "W19" (id 0) (at 132.207 64.3695 0)
@@ -695,7 +695,7 @@
     (pin "1" (uuid 77cc3e79-9e03-4c5b-9950-dac55ad01c87))
   )
 
-  (symbol (lib_id "Device:C") (at 210.82 85.09 0) (mirror x)
+  (symbol (lib_id "Device:C") (at 210.82 85.09 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 86ced170-a793-43d2-8b82-4f9e31885135)
     (property "Reference" "C25" (id 0) (at 212.09 81.28 90)
@@ -729,7 +729,7 @@
     (pin "2" (uuid cf573ebb-4e77-4a7c-822b-e8512bd3ac37))
   )
 
-  (symbol (lib_id "Pixels-dice:XKT001") (at 157.48 91.44 0) (mirror y)
+  (symbol (lib_id "Pixels-dice:XKT001") (at 157.48 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9042990a-b399-4117-8078-5761730246af)
     (property "Reference" "U8" (id 0) (at 157.48 83.185 0))
@@ -760,7 +760,7 @@
     (pin "6" (uuid 5af55f91-716b-4e7d-8c75-1fd345b7c35e))
   )
 
-  (symbol (lib_id "Device:C") (at 116.84 77.47 0)
+  (symbol (lib_id "Device:C") (at 116.84 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 93d2313f-0919-4c6f-b07d-ab630442d056)
     (property "Reference" "C23" (id 0) (at 115.57 82.55 90)
@@ -794,7 +794,7 @@
     (pin "2" (uuid 8dfc800f-bbc1-4904-adda-6117ec751bf8))
   )
 
-  (symbol (lib_id "Device:R") (at 135.89 97.79 0) (mirror x)
+  (symbol (lib_id "Device:R") (at 135.89 97.79 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b6fdfb81-c406-4c88-ae0b-ee646ef2d740)
     (property "Reference" "R10" (id 0) (at 137.16 96.52 0)
@@ -828,7 +828,7 @@
     (pin "2" (uuid 34e7faba-97d7-42e6-a0e1-28c41f9bdbc0))
   )
 
-  (symbol (lib_id "Device:C") (at 123.19 77.47 0)
+  (symbol (lib_id "Device:C") (at 123.19 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bc964bc0-a69c-442b-8523-2abfc302e59b)
     (property "Reference" "C24" (id 0) (at 124.46 72.39 0)
@@ -862,7 +862,7 @@
     (pin "2" (uuid 65e36e29-7a79-403a-a1b5-d40ad42edffb))
   )
 
-  (symbol (lib_id "Device:C") (at 218.44 85.09 0) (mirror x)
+  (symbol (lib_id "Device:C") (at 218.44 85.09 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c39ffbd7-3e51-47d1-b7bf-50e41c82f512)
     (property "Reference" "C26" (id 0) (at 219.71 81.28 90)
@@ -896,7 +896,7 @@
     (pin "2" (uuid e8092471-fd1b-4ebc-a2ed-5061dd61fc09))
   )
 
-  (symbol (lib_id "Pixels-dice:TX_Coil") (at 232.41 85.09 0)
+  (symbol (lib_id "Pixels-dice:TX_Coil") (at 232.41 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ced23a17-cc8a-4c5d-95f6-018b51394a9f)
     (property "Reference" "J12" (id 0) (at 234.95 86.36 90)
@@ -913,7 +913,7 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Female") (at 232.41 76.2 90) (mirror x)
+  (symbol (lib_id "Connector:Conn_01x01_Female") (at 232.41 76.2 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d92585aa-452e-4bb8-9772-e4eb958de396)
     (property "Reference" "J11" (id 0) (at 234.95 74.93 0)
@@ -931,7 +931,7 @@
     (pin "1" (uuid 8446dd72-3d3d-4e93-add2-1fa278f95796))
   )
 
-  (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 198.12 90.17 0)
+  (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 198.12 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f71ffbfe-7487-46f7-9787-7603011b3ed0)
     (property "Reference" "W22" (id 0) (at 199.517 85.9595 0)
@@ -947,7 +947,7 @@
     (pin "1" (uuid 1f797175-97b5-4fed-b82b-5985f9063700))
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Female") (at 232.41 93.98 270) (mirror x)
+  (symbol (lib_id "Connector:Conn_01x01_Female") (at 232.41 93.98 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f7e200ad-0805-42f5-9f32-792f4044fcf7)
     (property "Reference" "J13" (id 0) (at 234.95 95.25 0)
