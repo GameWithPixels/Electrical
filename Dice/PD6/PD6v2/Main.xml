@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>C:\Projects\Pixels-dice\Electrical\Dice\PD6\PD6v2\Main.kicad_sch</source>
-    <date>7/27/2022 10:48:35 AM</date>
-    <tool>Eeschema (6.0.1)</tool>
+    <date>11/8/2022 12:23:49 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Pixels D20 Schematic, Main</title>
@@ -78,20 +78,22 @@
     </sheet>
   </design>
   <components>
-    <comp ref="AE2">
-      <value>ARC</value>
-      <footprint>Pixels-dice:ARC_Antenna</footprint>
+    <comp ref="AE1">
+      <value>Antenna_Chip</value>
+      <footprint>Pixels-dice:CHIP_ANT</footprint>
       <fields>
-        <field name="Generic OK">N/A</field>
-        <field name="Manufacturer">AEM Antennas</field>
+        <field name="Generic OK">NO</field>
+        <field name="Manufacturer">Microgate</field>
+        <field name="Manufacturer Part Number">MGMA3216H2450-A02</field>
       </fields>
-      <libsource lib="Device" part="Antenna" description="Antenna"/>
-      <property name="Manufacturer" value="AEM Antennas"/>
-      <property name="Generic OK" value="N/A"/>
+      <libsource lib="Device" part="Antenna_Chip" description="Ceramic chip antenna with pin for PCB trace"/>
+      <property name="Generic OK" value="NO"/>
+      <property name="Manufacturer" value="Microgate"/>
+      <property name="Manufacturer Part Number" value="MGMA3216H2450-A02"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>67283219-078e-4f98-8e18-0325c4535e8b</tstamps>
+      <tstamps>c8c8fc2c-2203-417c-a24b-4b8dba8d60d1</tstamps>
     </comp>
     <comp ref="C1">
       <value>4.7uF 6.3V 20%</value>
@@ -118,14 +120,14 @@
       <fields>
         <field name="Generic OK">YES</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Manufacturer Part Number">GRM1555C2A8R0DA01D</field>
+        <field name="Manufacturer Part Number">GRT1555C2A8R0DA02</field>
         <field name="Pixels Part Number">SMD-C001</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C001"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Manufacturer Part Number" value="GRM1555C2A8R0DA01D"/>
+      <property name="Manufacturer Part Number" value="GRT1555C2A8R0DA02"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -175,14 +177,14 @@
       <fields>
         <field name="Generic OK">YES</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Manufacturer Part Number">GRM1555C2A8R0DA01D</field>
+        <field name="Manufacturer Part Number">GRT1555C2A8R0DA02</field>
         <field name="Pixels Part Number">SMD-C001</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C001"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Manufacturer Part Number" value="GRM1555C2A8R0DA01D"/>
+      <property name="Manufacturer Part Number" value="GRT1555C2A8R0DA02"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -193,15 +195,15 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer Part Number">C0402C101J5GAC7411</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GCM1555C1H101JA16J</field>
         <field name="Pixels Part Number">SMD-C003</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C003"/>
-      <property name="Manufacturer" value="Kemet"/>
-      <property name="Manufacturer Part Number" value="C0402C101J5GAC7411"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GCM1555C1H101JA16J"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -213,18 +215,18 @@
       <fields>
         <field name="Generic OK">YES</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Manufacturer Part Number">GCM1555C1HR80BA16D</field>
+        <field name="Manufacturer Part Number">GJM1555C1HR80BB01</field>
         <field name="Pixels Part Number">SMD-C004</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C004"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Manufacturer Part Number" value="GCM1555C1HR80BA16D"/>
+      <property name="Manufacturer Part Number" value="GJM1555C1HR80BB01"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7f9381c1-f49f-4787-b85d-e2dbde8b95d7</tstamps>
+      <tstamps>aae20ce1-dc7b-4983-b76e-f90e25fa2b13</tstamps>
     </comp>
     <comp ref="C10">
       <value>0.1uF 10V 20%</value>
@@ -246,23 +248,40 @@
       <tstamps>00000000-0000-0000-0000-00005b9e658d</tstamps>
     </comp>
     <comp ref="C11">
-      <value>1.8pF 10V 5% NP0</value>
+      <value>DNP</value>
+      <footprint>Pixels-dice:0402_RF</footprint>
+      <fields>
+        <field name="Generic OK">YES</field>
+        <field name="Pixels Part Number">SMD-C004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Generic OK" value="YES"/>
+      <property name="Pixels Part Number" value="SMD-C004"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e23cb4e-aadd-45fd-83be-bd0c8f51a9e0</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.5pF 10V 5% C0G</value>
       <footprint>Pixels-dice:0402_RF</footprint>
       <fields>
         <field name="Generic OK">YES</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Manufacturer Part Number">GCM1555C1H1R8BA16D</field>
+        <field name="Manufacturer Part Number">GJM1555C1HR50BB01</field>
         <field name="Pixels Part Number">SMD-C004</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C004"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Manufacturer Part Number" value="GCM1555C1H1R8BA16D"/>
+      <property name="Manufacturer Part Number" value="GJM1555C1HR50BB01"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fc429a50-a0c7-46e0-83ea-3e5edfb07375</tstamps>
+      <tstamps>fac6df9b-11be-4732-826e-33e0a3874d2b</tstamps>
     </comp>
     <comp ref="J1">
       <value>Conn_01x14</value>
@@ -290,20 +309,33 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e9eeecae-ef52-4016-9d2e-4a9724d53c50</tstamps>
     </comp>
+    <comp ref="J4">
+      <value>DNP</value>
+      <footprint>RFFrontEnd:MFH3.RECE.20369.001E.01</footprint>
+      <fields>
+        <field name="Generic OK">N/A</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="W.FL" description=""/>
+      <property name="Generic OK" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>558b2e40-49a1-46d0-91dd-0e104e28671f</tstamps>
+    </comp>
     <comp ref="L1">
       <value>10uH 100mA 10%</value>
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Taiyo Yuden</field>
-        <field name="Manufacturer Part Number">LBR2012T100K</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">LQM21FN100M80L</field>
         <field name="Pixels Part Number">SMD-L001</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-L001"/>
-      <property name="Manufacturer" value="Taiyo Yuden"/>
-      <property name="Manufacturer Part Number" value="LBR2012T100K"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="LQM21FN100M80L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -314,37 +346,37 @@
       <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Taiyo Yuden</field>
-        <field name="Manufacturer Part Number">HK100515NJ-T</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">LQG15HS15NJ02D</field>
         <field name="Pixels Part Number">SMD-L002</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-L002"/>
-      <property name="Manufacturer" value="Taiyo Yuden"/>
-      <property name="Manufacturer Part Number" value="HK100515NJ-T"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="LQG15HS15NJ02D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005b9e6fd8</tstamps>
     </comp>
     <comp ref="L3">
-      <value>4.7nH 5%</value>
+      <value>1.8nH 5%</value>
       <footprint>Pixels-dice:0402_RF</footprint>
       <fields>
         <field name="Generic OK">YES</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Manufacturer Part Number">LQG15HN4N7S02D</field>
+        <field name="Manufacturer Part Number">LQG15HZ1N8C02D</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value=""/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Manufacturer Part Number" value="LQG15HN4N7S02D"/>
+      <property name="Manufacturer Part Number" value="LQG15HZ1N8C02D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f6014403-0d75-467d-9024-4802c80f969a</tstamps>
+      <tstamps>b9b5d18c-c0b0-4bbe-9a94-405a11a2c0a7</tstamps>
     </comp>
     <comp ref="L5">
       <value>3.9nH 5%</value>
@@ -362,21 +394,21 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1d5dd387-4f70-4c11-b1a3-f6e6760c186d</tstamps>
+      <tstamps>62180376-ebf4-439b-bf2e-2cc210fb8c2b</tstamps>
     </comp>
     <comp ref="R9">
       <value>150k 1%</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">AF0402FR-07150KL</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF1503TCE</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value=""/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="AF0402FR-07150KL"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF1503TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -387,15 +419,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">CRCW0402100KFKEDC</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF1003TCE</field>
         <field name="Pixels Part Number">SMD-R006</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R006"/>
-      <property name="Manufacturer" value="Vishay"/>
-      <property name="Manufacturer Part Number" value="CRCW0402100KFKEDC"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF1003TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -406,14 +438,14 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0402JR-072K7L</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGJ0272TCE</field>
         <field name="Pixels Part Number">SMD-R021</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="RC0402JR-072K7L"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGJ0272TCE"/>
       <property name="Pixels Part Number" value="SMD-R021"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
@@ -425,14 +457,14 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0402JR-072K7L</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGJ0272TCE</field>
         <field name="Pixels Part Number">SMD-R021</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="RC0402JR-072K7L"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGJ0272TCE"/>
       <property name="Pixels Part Number" value="SMD-R021"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
@@ -1048,53 +1080,53 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">AC0402KPX7R9BB103</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R71H103KA88</field>
         <field name="Pixels Part Number">SMD-C009</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C009"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="AC0402KPX7R9BB103"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R71H103KA88"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
       <tstamps>00000000-0000-0000-0000-00005e5dc7cc</tstamps>
     </comp>
     <comp ref="C9">
-      <value>4.7uF 6.3V 20%</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <value>10uF 6.3V 20%</value>
+      <footprint>Pixels-dice:C_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Manufacturer Part Number">GRM155R60J475ME87D</field>
+        <field name="Manufacturer Part Number">GRM155R60J106ME05J</field>
         <field name="Pixels Part Number">SMD-C002</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C002"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Manufacturer Part Number" value="GRM155R60J475ME87D"/>
+      <property name="Manufacturer Part Number" value="GRM155R60J106ME05J"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
       <tstamps>00000000-0000-0000-0000-0000614e533c</tstamps>
     </comp>
     <comp ref="C16">
-      <value>4.7uF 6.3V 20%</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <value>10uF 6.3V 20%</value>
+      <footprint>Pixels-dice:C_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Manufacturer Part Number">GRM155R60J475ME87D</field>
+        <field name="Manufacturer Part Number">GRM155R60J106ME05J</field>
         <field name="Pixels Part Number">SMD-C002</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C002"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Manufacturer Part Number" value="GRM155R60J475ME87D"/>
+      <property name="Manufacturer Part Number" value="GRM155R60J106ME05J"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
@@ -1105,15 +1137,15 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402JRNPO9BN220</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GCM1555C1H220JA16J</field>
         <field name="Pixels Part Number">SMD-C007</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C007"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="CC0402JRNPO9BN220"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GCM1555C1H220JA16J"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
@@ -1143,15 +1175,15 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Bourns</field>
-        <field name="Manufacturer Part Number">CV201210-2R2K</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">LQM21PN2R2MC0</field>
         <field name="Pixels Part Number">SMD-L004</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-L004"/>
-      <property name="Manufacturer" value="Bourns"/>
-      <property name="Manufacturer Part Number" value="CV201210-2R2K"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="LQM21PN2R2MC0"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
@@ -1162,14 +1194,14 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0402JR-0710KL</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGJ0103TCE</field>
         <field name="Pixels Part Number">SMD-R002</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="RC0402JR-0710KL"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGJ0103TCE"/>
       <property name="Pixels Part Number" value="SMD-R002"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
@@ -1181,15 +1213,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0402FR-07402KL</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF4023TCE</field>
         <field name="Pixels Part Number">SMD-R001</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R001"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="RC0402FR-07402KL"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF4023TCE"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
@@ -1200,15 +1232,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">CRCW0402100KFKEDC</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF1003TCE</field>
         <field name="Pixels Part Number">SMD-R006</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R006"/>
-      <property name="Manufacturer" value="Vishay"/>
-      <property name="Manufacturer Part Number" value="CRCW0402100KFKEDC"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF1003TCE"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
@@ -1219,15 +1251,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">CRCW04024M02FKED</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF4024TCE</field>
         <field name="Pixels Part Number">SMD-R003</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R003"/>
-      <property name="Manufacturer" value="Vishay"/>
-      <property name="Manufacturer Part Number" value="CRCW04024M02FKED"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF4024TCE"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
@@ -1238,15 +1270,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF1005TCE</field>
         <field name="Pixels Part Number">SMD-R004</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R004"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF1005TCE"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-00005bb44a54/"/>
@@ -1455,15 +1487,15 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">AC0402KPX7R9BB103</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R71H103KA88</field>
         <field name="Pixels Part Number">SMD-C009</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C009"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="AC0402KPX7R9BB103"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R71H103KA88"/>
       <property name="Sheetname" value="Wireless Charging"/>
       <property name="Sheetfile" value="wireless.kicad_sch"/>
       <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
@@ -1474,15 +1506,15 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">AC0402KPX7R9BB103</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM155R71H103KA88</field>
         <field name="Pixels Part Number">SMD-C009</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-C009"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="AC0402KPX7R9BB103"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part Number" value="GRM155R71H103KA88"/>
       <property name="Sheetname" value="Wireless Charging"/>
       <property name="Sheetfile" value="wireless.kicad_sch"/>
       <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
@@ -1552,15 +1584,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">CRCW04024M02FKED</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF4024TCE</field>
         <field name="Pixels Part Number">SMD-R003</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R003"/>
-      <property name="Manufacturer" value="Vishay"/>
-      <property name="Manufacturer Part Number" value="CRCW04024M02FKED"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF4024TCE"/>
       <property name="Sheetname" value="Wireless Charging"/>
       <property name="Sheetfile" value="wireless.kicad_sch"/>
       <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
@@ -1571,15 +1603,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF1005TCE</field>
         <field name="Pixels Part Number">SMD-R004</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R004"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF1005TCE"/>
       <property name="Sheetname" value="Wireless Charging"/>
       <property name="Sheetfile" value="wireless.kicad_sch"/>
       <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
@@ -1590,15 +1622,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0402FR-0722KL</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF2202TCE</field>
         <field name="Pixels Part Number">SMD-R002</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R002"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="RC0402FR-0722KL"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF2202TCE"/>
       <property name="Sheetname" value="Wireless Charging"/>
       <property name="Sheetfile" value="wireless.kicad_sch"/>
       <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
@@ -1609,15 +1641,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">CRCW04024M02FKED</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF4024TCE</field>
         <field name="Pixels Part Number">SMD-R003</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R003"/>
-      <property name="Manufacturer" value="Vishay"/>
-      <property name="Manufacturer Part Number" value="CRCW04024M02FKED"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF4024TCE"/>
       <property name="Sheetname" value="Wireless Charging"/>
       <property name="Sheetfile" value="wireless.kicad_sch"/>
       <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
@@ -1628,15 +1660,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Generic OK">YES</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0402FR-0710ML</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF1005TCE</field>
         <field name="Pixels Part Number">SMD-R004</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Generic OK" value="YES"/>
       <property name="Pixels Part Number" value="SMD-R004"/>
-      <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer Part Number" value="RC0402FR-0710ML"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF1005TCE"/>
       <property name="Sheetname" value="Wireless Charging"/>
       <property name="Sheetfile" value="wireless.kicad_sch"/>
       <sheetpath names="/Wireless Charging/" tstamps="/a0086b8f-a2d2-428c-9599-7d909b2bf8ec/"/>
@@ -1857,16 +1889,17 @@
         <pin num="14" name="Pin_14" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Antenna">
-      <description>Antenna</description>
+    <libpart lib="Device" part="Antenna_Chip">
+      <description>Ceramic chip antenna with pin for PCB trace</description>
       <docs>~</docs>
       <fields>
         <field name="Reference">AE</field>
-        <field name="Value">Antenna</field>
+        <field name="Value">Antenna_Chip</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="A" type="input"/>
+        <pin num="1" name="FEED" type="input"/>
+        <pin num="2" name="PCB_Trace" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -2124,6 +2157,18 @@
         <pin num="4" name="GND" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="Pixels-dice" part="W.FL">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">W.FL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="RF" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector_Generic">
@@ -2171,19 +2216,21 @@
       <node ref="U2" pin="5" pinfunction="INT" pintype="output"/>
       <node ref="W7" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="5" name="/ANT_50">
+    <net code="5" name="/ANTENNA">
+      <node ref="AE1" pin="1" pinfunction="FEED" pintype="input"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/ANT_50">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="RF" pintype="passive"/>
       <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="6" name="/ANT_NRF">
+    <net code="7" name="/ANT_NRF">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="19" pinfunction="ANT" pintype="output"/>
-    </net>
-    <net code="7" name="/ARC_ANTENNA">
-      <node ref="AE2" pin="1" pinfunction="A" pintype="input"/>
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
     </net>
     <net code="8" name="/LED_DATA">
       <node ref="D2" pin="1" pinfunction="DIN" pintype="input"/>
@@ -2245,6 +2292,7 @@
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C16" pin="2" pintype="passive"/>
@@ -2292,6 +2340,9 @@
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pintype="passive"/>
+      <node ref="J4" pin="3" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
@@ -2554,13 +2605,16 @@
       <node ref="U3" pin="3" pinfunction="VIN" pintype="power_in"/>
       <node ref="W16" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="63" name="unconnected-(U1-Pad7)">
+    <net code="63" name="unconnected-(AE1-Pad2)">
+      <node ref="AE1" pin="2" pinfunction="PCB_Trace" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-Pad7)">
       <node ref="U1" pin="7" pinfunction="P0.09" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="64" name="unconnected-(U1-Pad21)">
+    <net code="65" name="unconnected-(U1-Pad21)">
       <node ref="U1" pin="21" pinfunction="DEC2" pintype="output+no_connect"/>
     </net>
-    <net code="65" name="unconnected-(U2-Pad4)">
+    <net code="66" name="unconnected-(U2-Pad4)">
       <node ref="U2" pin="4" pinfunction="RES" pintype="passive+no_connect"/>
     </net>
   </nets>
