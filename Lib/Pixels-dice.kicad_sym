@@ -4960,7 +4960,7 @@
       )
     )
   )
-  (symbol "TEST_1P-conn" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+  (symbol "TEST_1P-conn" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom no) (on_board yes)
     (property "Reference" "W" (id 0) (at 0 6.858 0)
       (effects (font (size 1.27 1.27)))
     )

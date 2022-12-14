@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Pixels-dice")(type "KiCad")(uri "C:/Projects/Pixels-dice/Electrical/Footprints/Pixels-dice.pretty")(options "")(descr ""))
+)
