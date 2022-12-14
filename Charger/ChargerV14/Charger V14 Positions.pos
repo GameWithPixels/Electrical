@@ -1,0 +1,27 @@
+### Module positions - created on Tue Nov 29 18:42:11 2022 ###
+### Printed by Pcbnew version (6.0.7)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                      Package                             PosX       PosY       Rot  Side
+J1        TX_Coil                  TX_Coil                        -149.9000  -101.5000  -90.0000  bottom
+C1        0.1uF_16V                C_0603_1608Metric               151.3500   -94.5000   90.0000  top
+C2        100uF_10V_20%_X5R        C_1206_3216Metric               149.2200   -95.3100   90.0000  top
+C3        100nF_50V_NP0            C_1206_3216Metric               158.0000  -101.5000   90.0000  top
+C4        56nF_50V_NP0             C_1206_3216Metric               160.2000  -101.5000   90.0000  top
+D1        D_TVS                    D_0402_1005Metric               146.2800  -100.1700   90.0000  top
+F1        250mA_150mR              Fuse_0805_2012Metric            144.5500   -97.8200   90.0000  top
+J8        USB_C_Receptacle_USB2.0  USB-C-SMD_10P-P1.00-L6.8-W8.9   140.3000  -101.5200  180.0000  top
+R1        5.1k_1%                  R_0402_1005Metric               144.6000  -102.1000  180.0000  top
+R2        5.1k_1%                  R_0402_1005Metric               144.6000  -101.0500  180.0000  top
+R4        200k_1%                  R_0603_1608Metric               155.4000  -100.2000    0.0000  top
+R5        84.5k_1%                 R_0603_1608Metric               156.3000   -97.9000   90.0000  top
+U2        XKT335                   SOIC-8_3.9x4.9mm_P1.27mm        153.4100  -106.8100   90.0000  top
+U3        XKT001                   SOT-23-6                        153.7500   -97.4000    0.0000  top
+W1        5V                       TEST_PIN                        158.6000   -95.5000    0.0000  top
+W2        G                        TEST_PIN                        154.1000  -103.2500    0.0000  top
+W3        D                        TEST_PIN                        155.7300  -103.0900    0.0000  top
+W4        R                        TEST_PIN                        157.3000   -97.1000    0.0000  top
+W5        GND                      TEST_PIN                        145.2500  -104.9500    0.0000  top
+W6        R                        TEST_PIN                        154.8000  -102.0000    0.0000  top
+W9        VBUS                     TEST_PIN                        146.2500   -98.8000    0.0000  top
+## End

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Projects\Pixels-dice\Electrical\Charger\ChargerV14\Main.kicad_sch</source>
+    <date>11/29/2022 6:41:22 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Main.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part Number">C66501</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KO8NNNC</field>
+        <field name="Pixels Part Number">SMD-C101</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part Number" value="C66501"/>
+      <property name="Part Number" value="CL10B104KO8NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Pixels Part Number" value="SMD-C101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607c8622</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100uF 10V 20% X5R</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM31CR61A107MEA8K</field>
+        <field name="Pixels Part Number">SMD-C102</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part Number" value=""/>
+      <property name="Part Number" value="GRM31CR61A107MEA8K"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Pixels Part Number" value="SMD-C102"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607c83c0</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF 50V NP0</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC Part Number">C21812</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM31C5C1H104JA01L</field>
+        <field name="Pixels Part Number">SMD-C103</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part Number" value="C21812"/>
+      <property name="Part Number" value="GRM31C5C1H104JA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Pixels Part Number" value="SMD-C103"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39a298c9-e803-486c-92b8-def8b11ee40f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>56nF 50V NP0</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC Part Number">C441752</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM31M5C1H563JA01L</field>
+        <field name="Pixels Part Number">SMD-C104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part Number" value="C441752"/>
+      <property name="Part Number" value="GRM31M5C1H563JA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Pixels Part Number" value="SMD-C104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607b9b06</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">LXES1UTAA1-157</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Part Number" value="LXES1UTAA1-157"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3639dc2-2d4b-4f18-85bb-e7c6acafb9c8</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>250mA 150mR</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part Number">C2982256</field>
+        <field name="Manufacturer">Shenzhen JDT Fuse</field>
+        <field name="Part Number">ASMD0603-025-16V</field>
+        <field name="Pixels Part Number">SMD-F101</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Manufacturer" value="Shenzhen JDT Fuse"/>
+      <property name="Part Number" value="ASMD0603-025-16V"/>
+      <property name="LCSC Part Number" value="C2982256"/>
+      <property name="Pixels Part Number" value="SMD-F101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd0dfb1f-92bb-49bf-83f6-a5e3c0effca1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TX_Coil</value>
+      <footprint>Pixels-dice:TX Coil</footprint>
+      <fields>
+        <field name="Pixels Part Number">THT-TXCOIL-1</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="TX_Coil" description=""/>
+      <property name="Pixels Part Number" value="THT-TXCOIL-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be95b8d2-75fc-46c7-a190-6da140eae99c</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Coil B</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060827952</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Pixels-dice:USB-C-SMD_10P-P1.00-L6.8-W8.9</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C283540</field>
+        <field name="Manufacturer">Korean Hroparts Elec</field>
+        <field name="Part Number">TYPE-C-31-M-17</field>
+        <field name="Pixels Part Number">SMD-J108</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="USB_C_Receptacle_USB2.0" description=""/>
+      <property name="LCSC Part Number" value="C283540"/>
+      <property name="Part Number" value="TYPE-C-31-M-17"/>
+      <property name="Manufacturer" value="Korean Hroparts Elec"/>
+      <property name="Pixels Part Number" value="SMD-J108"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607b35f9</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Coil A</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060827086</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part Number">C25905</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Part Number">0402WGF5101TCE</field>
+        <field name="Pixels Part Number">SMD-R101</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part Number" value="C25905"/>
+      <property name="Part Number" value="0402WGF5101TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Pixels Part Number" value="SMD-R101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ff1a08</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k 1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part Number">C25905</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Part Number">0402WGF5101TCE</field>
+        <field name="Pixels Part Number">SMD-R101</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part Number" value="C25905"/>
+      <property name="Part Number" value="0402WGF5101TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Pixels Part Number" value="SMD-R101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607c452f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>200k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part Number">C25811</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Part Number">0603WAF2003T5E</field>
+        <field name="Pixels Part Number">SMD-R104</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part Number" value="C25811"/>
+      <property name="Part Number" value="0603WAF2003T5E"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Pixels Part Number" value="SMD-R104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e2543d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>84.5k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part Number">C23118</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Part Number">0603WAF8452T5E</field>
+        <field name="Pixels Part Number">SMD-R105</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part Number" value="C23118"/>
+      <property name="Part Number" value="0603WAF8452T5E"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Pixels Part Number" value="SMD-R105"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e264df</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>XKT335</value>
+      <footprint>Pixels-dice:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Manufacturer">XKT</field>
+        <field name="Part Number">XKT335</field>
+        <field name="Pixels Part Number">SMD-U102</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="XKT335" description=""/>
+      <property name="Manufacturer" value="XKT"/>
+      <property name="Part Number" value="XKT335"/>
+      <property name="Pixels Part Number" value="SMD-U102"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e1a636</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>XKT001</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Manufacturer">XKT</field>
+        <field name="Part Number">XKT001</field>
+        <field name="Pixels Part Number">SMD-U103</field>
+      </fields>
+      <libsource lib="Pixels-dice" part="XKT001" description=""/>
+      <property name="Manufacturer" value="XKT"/>
+      <property name="Part Number" value="XKT001"/>
+      <property name="Pixels Part Number" value="SMD-U103"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e19b7b</tstamps>
+    </comp>
+    <comp ref="W1">
+      <value>5V</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>761492e2-a989-4596-80c3-fcd6943df072</tstamps>
+    </comp>
+    <comp ref="W2">
+      <value>G</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca00461b-5d0f-4d8e-a71d-92068dde40d4</tstamps>
+    </comp>
+    <comp ref="W3">
+      <value>D</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8957fc3b-a848-4152-8b47-2efcadc74ec1</tstamps>
+    </comp>
+    <comp ref="W4">
+      <value>R</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8759f374-5e05-4350-8b59-b3c99a65e158</tstamps>
+    </comp>
+    <comp ref="W5">
+      <value>GND</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>472e94c0-a898-4fa7-9e12-6667bf6d7653</tstamps>
+    </comp>
+    <comp ref="W6">
+      <value>R</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ffadbde-2a48-420b-a225-6054ed9e605f</tstamps>
+    </comp>
+    <comp ref="W9">
+      <value>VBUS</value>
+      <footprint>Pixels-dice:TEST_PIN</footprint>
+      <libsource lib="Pixels-dice" part="TEST_1P-conn" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fba17ab6-f318-4535-83b0-c31aeca09411</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="TEST_1P-conn">
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="TX_Coil">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TX_Coil</field>
+      </fields>
+    </libpart>
+    <libpart lib="Pixels-dice" part="USB_C_Receptacle_USB2.0">
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="XKT001">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XKT001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="R" type="passive"/>
+        <pin num="5" name="R" type="passive"/>
+        <pin num="6" name="N/F" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pixels-dice" part="XKT335">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XKT335</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="D" type="input"/>
+        <pin num="4" name="D" type="input"/>
+        <pin num="5" name="S" type="input"/>
+        <pin num="6" name="S" type="input"/>
+        <pin num="7" name="S" type="input"/>
+        <pin num="8" name="G" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Pixels-dice">
+      <uri>C:/Projects/Pixels-dice/Electrical/Lib/Pixels-dice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="N/F" pintype="input"/>
+      <node ref="W1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J8" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J8" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J8" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="S" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="S" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="S" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="W5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="D" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="D" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="D" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="D" pintype="input"/>
+      <node ref="W3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(J8-PadA5)">
+      <node ref="J8" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(J8-PadB5)">
+      <node ref="J8" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="R" pintype="passive"/>
+      <node ref="W6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="R" pintype="passive"/>
+      <node ref="W4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="G" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="W2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="VBUS">
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J8" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J8" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="W9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
