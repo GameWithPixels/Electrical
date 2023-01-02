@@ -26,7 +26,7 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.09999999999999999,
+        "other_line_width": 0.049999999999999996,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.7,
-          "width": 0.7
+          "height": 0.4,
+          "width": 1.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -64,7 +64,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "warning",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -121,6 +121,8 @@
       },
       "track_widths": [
         0.0,
+        0.09,
+        0.1,
         0.25,
         0.5
       ],
@@ -402,13 +404,16 @@
         "line_style": 0,
         "microvia_diameter": 0.25,
         "microvia_drill": 0.1,
-        "name": "Power",
-        "nets": [],
+        "name": "Charging",
+        "nets": [
+          "Net-(C19-Pad1)",
+          "Net-(C19-Pad2)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.7,
-        "via_drill": 0.25,
+        "track_width": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.15,
         "wire_width": 6.0
       }
     ],
