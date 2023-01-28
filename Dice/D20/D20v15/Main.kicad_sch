@@ -4043,7 +4043,7 @@
       (reference "C8") (unit 1) (value "0.8pF 10V 5% C0G") (footprint "Pixels-dice:0402_RF")
     )
     (path "/00000000-0000-0000-0000-00005bb44a54/00000000-0000-0000-0000-0000614e533c"
-      (reference "C9") (unit 1) (value "10uF 10V 20%") (footprint "Pixels-dice:C_0402_1005Metric")
+      (reference "C9") (unit 1) (value "10uF 6.3V 20%") (footprint "Pixels-dice:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005b9e658d"
       (reference "C10") (unit 1) (value "0.1uF 10V 20%") (footprint "Pixels-dice:C_0402_1005Metric")
@@ -4061,7 +4061,7 @@
       (reference "C15") (unit 1) (value "22uF 10V 20%") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005bb44a54/00000000-0000-0000-0000-00005bc2a48a"
-      (reference "C16") (unit 1) (value "10uF 10V 20%") (footprint "Pixels-dice:C_0402_1005Metric")
+      (reference "C16") (unit 1) (value "10uF 6.3V 20%") (footprint "Pixels-dice:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005bb44a54/00000000-0000-0000-0000-00005bbe0bc9"
       (reference "C18") (unit 1) (value "4.7uF 10V 20%") (footprint "Pixels-dice:C_0402_1005Metric")
