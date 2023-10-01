@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Pixels-dice")(type "Legacy")(uri "${KIPRJMOD}/../../../Lib/Pixels-dice.lib")(options "")(descr ""))
+  (lib (name "AmphenolUFL")(type "Legacy")(uri "${KIPRJMOD}/../../../Lib/AmphenolUFL.lib")(options "")(descr ""))
+  (lib (name "MFH3.RECE.20369.001E.01")(type "Legacy")(uri "${KIPRJMOD}/../../../Lib/MFH3.RECE.20369.001E.01.lib")(options "")(descr ""))
+)
