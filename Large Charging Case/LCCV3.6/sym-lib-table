@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "Pixels-dice")(type "KiCad")(uri "E:/Pixels/Electrical-main/Lib/Pixels-dice.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "Pixels-dice")(type "KiCad")(uri "C:/Projects/pixels-dice/Electrical/Lib/Pixels-dice.kicad_sym")(options "")(descr ""))
 )
