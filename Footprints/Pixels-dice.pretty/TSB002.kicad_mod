@@ -69,7 +69,7 @@
     ) (tstamp 3059576b-98f8-431e-a834-c9cc2863b241))
   (pad "1" smd rect (at -2.1 1.9) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 108d575c-9f4f-4e56-8b81-8ff4794dd985))
   (pad "2" smd rect (at 2.1 1.9) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9235504d-2075-46e1-9d8f-5e6c691d4ee0))
-  (model ":Custom Step Files:TSB001A3526A02 v1.step"
+  (model ":CUSTOMSTEPFILES:TSB001A3526A02 v1.step"
     (offset (xyz 0 -0.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
