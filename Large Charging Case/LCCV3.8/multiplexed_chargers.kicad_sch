@@ -1679,7 +1679,7 @@
     (property "Manufacturer" "Nexperia" (at 111.76 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer Part Number" "74HCT259PW" (at 111.76 165.1 0)
+    (property "Manufacturer Part Number" "74HCT259PW,118" (at 111.76 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Generic OK" "NO" (at 111.76 165.1 0)

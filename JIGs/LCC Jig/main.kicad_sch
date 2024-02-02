@@ -1672,7 +1672,7 @@
     (property "Reference" "R22" (at 74.93 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "150 5%" (at 74.93 85.09 0)
+    (property "Value" "150 1%" (at 74.93 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 70.612 83.82 90)
