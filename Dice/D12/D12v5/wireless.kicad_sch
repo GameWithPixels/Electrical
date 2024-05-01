@@ -1363,7 +1363,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 120.65 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 22af1b82-0acf-431c-8159-84ed922f7953)
     (property "Reference" "W16" (at 122.1232 46.482 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1441,7 +1441,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 54.61 129.54 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 3294775e-d849-4336-8c1b-53f7e369f7f3)
     (property "Reference" "W13" (at 51.562 128.0668 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1725,7 +1725,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 182.88 62.23 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 6abd9c82-bee7-4010-a127-e82fe86cb7ec)
     (property "Reference" "W3" (at 180.34 67.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1791,7 +1791,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 172.72 129.54 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 6c8e4181-666d-4dd1-990f-93a06fb350b2)
     (property "Reference" "W4" (at 169.672 128.0668 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1980,7 +1980,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 222.25 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 75907a39-d09c-43b8-9898-1cdf63fd2133)
     (property "Reference" "W17" (at 220.98 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2083,7 +2083,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 256.54 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a59d93f7-95b2-4aa2-ae3e-40e6be98f22b)
     (property "Reference" "J3" (at 258.572 57.3532 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2188,7 +2188,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 120.65 68.58 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid be9a8150-382a-48ad-92dc-5feba5a807d5)
     (property "Reference" "W19" (at 122.1232 69.2658 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2216,7 +2216,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 237.49 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c01e0c1d-6e4f-420c-b420-dcbdd130f84b)
     (property "Reference" "W14" (at 236.22 41.91 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2244,7 +2244,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 57.15 68.58 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c3082384-0abe-410a-835f-394d12ab75a2)
     (property "Reference" "P6" (at 53.34 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -2272,7 +2272,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 57.15 66.04 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c5304ace-7f5d-4315-9189-21bfcc9b4acc)
     (property "Reference" "P5" (at 53.34 66.04 0)
       (effects (font (size 1.27 1.27)))
@@ -2300,7 +2300,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 114.3 129.54 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c5812952-ef2f-494c-82d8-30dcdb502ada)
     (property "Reference" "W20" (at 111.252 128.0668 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2367,7 +2367,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 161.29 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid cbf840c0-d9f2-4d8e-99c8-7eb4934de5e5)
     (property "Reference" "W15" (at 162.7632 46.482 0)
       (effects (font (size 1.27 1.27)) (justify left))

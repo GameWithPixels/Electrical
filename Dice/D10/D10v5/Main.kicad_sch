@@ -2914,7 +2914,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 160.02 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb76107)
     (property "Reference" "W1" (at 157.48 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2942,7 +2942,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 162.56 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb7644e)
     (property "Reference" "W2" (at 162.56 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2970,7 +2970,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 88.9 152.4 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bd056e2)
     (property "Reference" "W5" (at 93.98 151.13 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2998,7 +2998,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 149.86 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bd24569)
     (property "Reference" "W7" (at 146.05 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3026,7 +3026,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 157.48 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bd245f9)
     (property "Reference" "W8" (at 153.67 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3054,7 +3054,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 165.1 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bd24657)
     (property "Reference" "W9" (at 161.29 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3176,7 +3176,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x14") (at 229.87 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c641b91)
     (property "Reference" "J1" (at 231.902 44.6532 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3849,7 +3849,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 269.24 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fac398f-079b-4167-a9b9-6ca819ddf451)
     (property "Reference" "J2" (at 271.78 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3953,7 +3953,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 139.7 100.33 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 87c8ab59-7625-4a65-bfa5-cac77a7ea9b4)
     (property "Reference" "W6" (at 132.08 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4019,7 +4019,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 142.24 100.33 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid ae138a7a-7751-46d7-bbf4-86caba4e2737)
     (property "Reference" "W10" (at 149.86 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))

@@ -503,7 +503,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 25.4 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bbb3f1e)
     (property "Reference" "W22" (at 20.32 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))

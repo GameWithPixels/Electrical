@@ -2880,7 +2880,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 160.02 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb76107)
     (property "Reference" "W1" (at 157.48 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2908,7 +2908,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 162.56 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb7644e)
     (property "Reference" "W2" (at 162.56 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2936,7 +2936,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 88.9 152.4 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bd056e2)
     (property "Reference" "W5" (at 93.98 151.13 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2964,7 +2964,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 149.86 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bd24569)
     (property "Reference" "W7" (at 146.05 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2992,7 +2992,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 157.48 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bd245f9)
     (property "Reference" "W8" (at 153.67 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3020,7 +3020,7 @@
   )
 
   (symbol (lib_id "Pixels-dice:TEST_1P-conn") (at 165.1 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bd24657)
     (property "Reference" "W9" (at 161.29 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3142,7 +3142,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x14") (at 229.87 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c641b91)
     (property "Reference" "J1" (at 231.902 44.6532 0)
       (effects (font (size 1.27 1.27)) (justify left))
