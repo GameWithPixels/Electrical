@@ -1,0 +1,173 @@
+(footprint "MHP1016UVACT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4743a1e1-5686-43ac-8710-4e458f4a2cb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MHP1016UVACT"
+		(at 0 1.275 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bfe30d2-cf91-4590-8418-f6b3c51a7dba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac728fb9-a203-467c-af79-1e30fa06d356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f2216de-0621-4cd2-896f-875403c5178e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1797e8de-3db2-4d79-9ae5-ffb85fa35406")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.65 -0.8)
+		(end -0.546922 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9c6506ba-c249-4a6c-a550-f085e41be267")
+	)
+	(fp_line
+		(start -0.8 -0.525)
+		(end 0.8 -0.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "715327fb-eaed-488e-bf3e-db4dbcf3f0ac")
+	)
+	(fp_line
+		(start -0.8 0.525)
+		(end -0.8 -0.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1199ee0d-295d-4fd8-8a6d-26661860b0a9")
+	)
+	(fp_line
+		(start 0.8 -0.525)
+		(end 0.8 0.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b0ea79d7-9e35-47a4-b5c1-853e1ca87be4")
+	)
+	(fp_line
+		(start 0.8 0.525)
+		(end -0.8 0.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "339554bd-21d0-4fce-9b8c-2d600f02953f")
+	)
+	(pad "1" smd custom
+		(at -0.6 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.45 -0.425) (xy -0.45 0.425) (xy 0.45 0.425) (xy 0.45 -0.175) (xy 0.3 -0.175) (xy 0.3 -0.425)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ebb79afb-a13c-47bd-b0cb-b47c18ffb4fc")
+	)
+	(pad "2" smd custom
+		(at 0.65 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.4 -0.425) (xy 0.4 0.425) (xy -0.5 0.425) (xy -0.5 -0.175) (xy -0.35 -0.175) (xy -0.35 -0.425)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "c069ff6f-c4ec-4921-94b9-fe0c47d248dd")
+	)
+	(model "${CUSTOMSTEPFILES}/MHP1016UVACT v1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
