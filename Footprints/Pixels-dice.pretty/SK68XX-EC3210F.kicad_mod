@@ -159,37 +159,41 @@
 		(layer "F.Fab")
 		(uuid "b2c39a7a-5756-4dd7-a39a-254a5f9c47ee")
 	)
-	(pad "1" smd rect
-		(at -0.425 -0.25)
-		(size 0.5 0.5)
+	(pad "1" smd roundrect
+		(at -0.425 -0.2)
+		(size 0.5 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
 		(thermal_bridge_angle 45)
 		(uuid "6b8667a5-4382-4dc1-ac8d-fe7fdec0f61a")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -1.505 0)
 		(size 0.7 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1428571429)
 		(thermal_bridge_angle 45)
 		(uuid "6e03137b-1320-4842-a0a6-142fd07acb62")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 1.505 0)
 		(size 0.7 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1428571429)
 		(thermal_bridge_angle 45)
 		(uuid "ed0f4446-24a7-401d-96bc-4565816e473b")
 	)
-	(pad "4" smd rect
-		(at 0.425 -0.25)
-		(size 0.5 0.5)
+	(pad "4" smd roundrect
+		(at 0.425 -0.2)
+		(size 0.5 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
 		(thermal_bridge_angle 45)
 		(uuid "3c3dd920-7126-4ab2-919b-529cb5625cee")
 	)
-	(model "${CUSTOMSTEPFILES}/SK68XX-EC3210F v4.step"
+	(model "${CUSTOMSTEPFILES}/SK68XX-EC3210F v5.step"
 		(offset
-			(xyz 0 0 0.5)
+			(xyz 0 0.05 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
