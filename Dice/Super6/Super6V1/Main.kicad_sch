@@ -3707,6 +3707,12 @@
 		(uuid "4cafb73d-1ad8-4d24-acf7-63d78095ae46")
 	)
 	(junction
+		(at 116.84 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50630234-bd11-4e4b-a2d6-00fb2db019c8")
+	)
+	(junction
 		(at 165.1 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3938,6 +3944,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 182.88) (xy 52.07 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b2d4ba-ddfc-408c-b002-437a4dc96780")
+	)
+	(wire
+		(pts
 			(xy 109.22 29.21) (xy 109.22 60.96)
 		)
 		(stroke
@@ -3955,6 +3971,16 @@
 			(type default)
 		)
 		(uuid "076046ab-4b56-4060-b8d9-0d80806d0277")
+	)
+	(wire
+		(pts
+			(xy 52.07 182.88) (xy 52.07 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07922498-8cc0-4bdf-9846-b353a6247068")
 	)
 	(wire
 		(pts
@@ -4488,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 175.26) (xy 49.53 170.18)
+			(xy 52.07 166.37) (xy 52.07 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4508,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 175.26) (xy 49.53 175.26)
+			(xy 39.37 166.37) (xy 52.07 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4848,6 +4874,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 185.42) (xy 39.37 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7364d9a6-2217-4051-850b-f2a1fb095242")
+	)
+	(wire
+		(pts
 			(xy 227.33 115.57) (xy 227.33 152.4)
 		)
 		(stroke
@@ -5178,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 177.8) (xy 114.3 177.8)
+			(xy 39.37 168.91) (xy 114.3 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5578,7 +5614,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 177.8) (xy 114.3 118.11)
+			(xy 116.84 124.46) (xy 116.84 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4dd2473-39ef-409e-867a-509a912c1df7")
+	)
+	(wire
+		(pts
+			(xy 114.3 168.91) (xy 114.3 118.11)
 		)
 		(stroke
 			(width 0)
@@ -10322,6 +10368,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 52.07 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d3651f4-a2fe-4fae-b65f-0e3aa484b054")
+		(property "Reference" "#PWR0116"
+			(at 52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 52.5018 173.4058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "631e6b73-b700-4d93-aad4-65eed0acf737")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 189.23 96.52 90)
 		(unit 1)
@@ -11097,7 +11208,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 49.53 170.18 0)
+		(at 52.07 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11105,7 +11216,7 @@
 		(dnp no)
 		(uuid "9b87e541-acb5-46f1-8f7a-08b1fc251968")
 		(property "Reference" "#PWR0105"
-			(at 49.53 173.99 0)
+			(at 52.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11225,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 49.911 165.7858 0)
+			(at 52.451 156.8958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 170.18 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +11242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 170.18 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +11251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 170.18 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11762,8 +11873,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 139.7)
-		(size 19.05 21.59)
+		(at 20.32 142.24)
+		(size 19.05 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -11774,7 +11885,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005bb44a54")
 		(property "Sheetname" "Power Supply"
-			(at 20.32 138.9884 0)
+			(at 20.32 141.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,7 +11894,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 20.32 161.8746 0)
+			(at 20.32 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11908,8 +12019,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 168.91)
-		(size 19.05 16.51)
+		(at 20.32 163.83)
+		(size 19.05 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -11920,7 +12031,7 @@
 		)
 		(uuid "06c1b9a1-090d-4b21-b721-8dbf78ee4a13")
 		(property "Sheetname" "UVLEDs"
-			(at 20.32 168.1984 0)
+			(at 20.32 163.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11929,7 +12040,7 @@
 			)
 		)
 		(property "Sheetfile" "UVLEDs.kicad_sch"
-			(at 20.32 186.0046 0)
+			(at 20.32 172.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11938,7 +12049,7 @@
 			)
 		)
 		(pin "UV_EN" input
-			(at 39.37 177.8 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11948,7 +12059,7 @@
 			(uuid "7e68e3c6-ed2b-47ba-9bf0-ca6bd5938231")
 		)
 		(pin "VBAT" input
-			(at 39.37 175.26 0)
+			(at 39.37 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12069,6 +12180,64 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 180.34)
+		(size 19.05 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f145d010-d98f-4c27-83fd-37648ef204ee")
+		(property "Sheetname" "Cap_Sense"
+			(at 20.32 179.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_sense.kicad_sch"
+			(at 20.32 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD" input
+			(at 39.37 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44c24fd2-5637-4c34-980a-774dcb2411cf")
+		)
+		(pin "TOUCH" output
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4b044a0-b279-47c5-aae7-b1c5214b1aad")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c"
+					(page "6")
 				)
 			)
 		)

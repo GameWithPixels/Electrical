@@ -567,22 +567,10 @@
 		(uuid "29baa0fa-2924-4171-a79e-decbe4167a49")
 	)
 	(junction
-		(at 245.11 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3db3b0c6-2580-488e-bb17-a9c7f714fb95")
-	)
-	(junction
 		(at 156.21 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40575954-c364-4a13-94f8-f67b74287f23")
-	)
-	(junction
-		(at 219.71 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "419784dd-7363-4130-867e-a27858f32822")
 	)
 	(junction
 		(at 181.61 110.49)
@@ -601,18 +589,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73fbfd01-313e-4d41-8e52-6f7f8419b3db")
-	)
-	(junction
-		(at 245.11 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "781e32f7-fbc2-47b2-a96d-14c029377a8f")
-	)
-	(junction
-		(at 232.41 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80a4e7f8-e654-45d1-8627-e0b3bdf9c6a0")
 	)
 	(junction
 		(at 207.01 81.28)
@@ -639,12 +615,6 @@
 		(uuid "bf7a87e9-1a39-4491-9fe4-da00b54d2e91")
 	)
 	(junction
-		(at 219.71 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9aa2852-c836-4e1a-95ef-f93c2943ba44")
-	)
-	(junction
 		(at 132.08 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -655,12 +625,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3fe6aac-2c81-410f-9940-53b6c205b190")
-	)
-	(junction
-		(at 232.41 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef8f79cb-bf8c-4544-950f-b629f1e9761c")
 	)
 	(junction
 		(at 156.21 81.28)
@@ -700,16 +664,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 110.49) (xy 232.41 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b02f2c-a6bc-4ddb-89a0-e70a4ea385bc")
-	)
-	(wire
-		(pts
 			(xy 156.21 81.28) (xy 168.91 81.28)
 		)
 		(stroke
@@ -727,16 +681,6 @@
 			(type default)
 		)
 		(uuid "25f6cddd-cc83-4a20-91ed-dfa03eac7944")
-	)
-	(wire
-		(pts
-			(xy 232.41 81.28) (xy 232.41 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2664c173-dccd-4001-98e1-0313addfd476")
 	)
 	(wire
 		(pts
@@ -767,16 +711,6 @@
 			(type default)
 		)
 		(uuid "2fed74d4-f571-4466-ab67-34ef7b3009b6")
-	)
-	(wire
-		(pts
-			(xy 245.11 92.71) (xy 245.11 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b68958-8978-4dcf-9ca9-94050655dcc2")
 	)
 	(wire
 		(pts
@@ -830,16 +764,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 105.41) (xy 257.81 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "476e8cdf-4c5a-483c-88aa-d18c7fd143d5")
-	)
-	(wire
-		(pts
 			(xy 168.91 92.71) (xy 168.91 97.79)
 		)
 		(stroke
@@ -847,16 +771,6 @@
 			(type default)
 		)
 		(uuid "4ec4610e-71a5-4adf-861b-f3927759a09d")
-	)
-	(wire
-		(pts
-			(xy 245.11 81.28) (xy 245.11 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51609e78-7723-4dac-9e35-7bee5b31009f")
 	)
 	(wire
 		(pts
@@ -870,26 +784,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 105.41) (xy 232.41 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d41da7-f4a7-4408-ae9c-dfcd6c0fade0")
-	)
-	(wire
-		(pts
-			(xy 232.41 92.71) (xy 232.41 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b4832ca-7c19-4aae-bdcc-f00478d2fb94")
-	)
-	(wire
-		(pts
 			(xy 162.56 110.49) (xy 162.56 114.3)
 		)
 		(stroke
@@ -897,26 +791,6 @@
 			(type default)
 		)
 		(uuid "6129b571-b418-4800-823f-7ab515e789cc")
-	)
-	(wire
-		(pts
-			(xy 245.11 105.41) (xy 245.11 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65596374-0ed2-44ac-8061-f73f5cdddb8b")
-	)
-	(wire
-		(pts
-			(xy 257.81 81.28) (xy 257.81 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "677f3c70-aa29-4ad9-92fe-a664d4730c27")
 	)
 	(wire
 		(pts
@@ -950,26 +824,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 81.28) (xy 245.11 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dfe2231-12f1-44b9-b746-afaea26d3564")
-	)
-	(wire
-		(pts
-			(xy 219.71 81.28) (xy 232.41 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8171243e-b5c6-4d86-bae9-5589c0b3ac6f")
-	)
-	(wire
-		(pts
 			(xy 219.71 105.41) (xy 219.71 110.49)
 		)
 		(stroke
@@ -977,26 +831,6 @@
 			(type default)
 		)
 		(uuid "84b6c291-3e47-45be-b329-38b020badba8")
-	)
-	(wire
-		(pts
-			(xy 245.11 81.28) (xy 257.81 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "854b175f-157f-429e-9e0a-d5e4f28c4144")
-	)
-	(wire
-		(pts
-			(xy 257.81 92.71) (xy 257.81 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "866bc253-494f-4f62-9a8c-20c28721c4f5")
 	)
 	(wire
 		(pts
@@ -1050,16 +884,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 110.49) (xy 245.11 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2ae0957-635c-4c7f-be72-6cff5872a9bf")
-	)
-	(wire
-		(pts
 			(xy 219.71 92.71) (xy 219.71 97.79)
 		)
 		(stroke
@@ -1087,16 +911,6 @@
 			(type default)
 		)
 		(uuid "b05b7c12-f527-4a86-8724-02fe28b68718")
-	)
-	(wire
-		(pts
-			(xy 232.41 110.49) (xy 219.71 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a78902-2382-4e57-8a74-2efb1dd2d0f5")
 	)
 	(wire
 		(pts
@@ -1520,94 +1334,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 257.81 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c807098-9f9a-4676-9a6a-22e8d85f1684")
-		(property "Reference" "R24"
-			(at 260.35 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33R 1%"
-			(at 260.35 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 256.032 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF330JTCE"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "571e69ea-f85c-4630-b0c9-c109fc9f7d61")
-		)
-		(pin "1"
-			(uuid "73c6115d-4438-4c4f-afab-34feda215dd9")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 162.56 114.3 0)
 		(unit 1)
@@ -1844,94 +1570,6 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
 					(reference "D48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 257.81 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2501d43d-fe5b-4ba9-be17-cd5850b8555f")
-		(property "Reference" "D51"
-			(at 261.62 89.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UV LED"
-			(at 261.62 91.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Pixels-dice:MHP1016UVACT"
-			(at 257.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 257.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "MHP1016UVACT"
-			(at 257.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MEIHUA"
-			(at 257.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "316dcadf-b277-47fe-9947-68436123d067")
-		)
-		(pin "1"
-			(uuid "62522f91-ae21-49e1-8fee-ef543e767831")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -2181,94 +1819,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 181.61 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31e85bfd-3586-45d2-9b98-337617b009d3")
-		(property "Reference" "D16"
-			(at 185.42 89.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UV LED"
-			(at 185.42 91.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Pixels-dice:MHP1016UVACT"
-			(at 181.61 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 181.61 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "MHP1016UVACT"
-			(at 181.61 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MEIHUA"
-			(at 181.61 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fcb2fb1f-85f1-4629-9da6-36a6edcc788f")
-		)
-		(pin "1"
-			(uuid "b4cad855-203b-4627-a88d-5c65b2df1131")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 132.08 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2357,94 +1907,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 245.11 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ad37912-50bb-446c-a6a9-bd8c55067a5c")
-		(property "Reference" "R23"
-			(at 247.65 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33R 1%"
-			(at 247.65 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 243.332 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 245.11 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 245.11 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF330JTCE"
-			(at 245.11 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d75a817-e613-4c03-b50c-f9a65f2e604f")
-		)
-		(pin "1"
-			(uuid "61b1f729-7f8f-400a-b34b-83bf98d617f2")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 144.78 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2526,94 +1988,6 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 181.61 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e17acc1-795f-42c6-86b0-b5e45a18fa5c")
-		(property "Reference" "R17"
-			(at 184.15 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33R 1%"
-			(at 184.15 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.832 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF330JTCE"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f970d57c-3230-4f4f-a75d-b5116b6f694f")
-		)
-		(pin "1"
-			(uuid "424bc5a2-ba8c-4ffc-9eba-5673091d7829")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2726,94 +2100,6 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 232.41 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67bf8a71-b31b-4c0e-9f19-9a988f6a2991")
-		(property "Reference" "D49"
-			(at 236.22 89.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UV LED"
-			(at 236.22 91.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Pixels-dice:MHP1016UVACT"
-			(at 232.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 232.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "MHP1016UVACT"
-			(at 232.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MEIHUA"
-			(at 232.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "461de57d-156c-49ce-b4c0-751991a7a68f")
-		)
-		(pin "1"
-			(uuid "227d88b5-34bc-4d6d-b07f-97d0f0073e9e")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -3167,182 +2453,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 232.41 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fa79a93-42fc-4def-b2c6-378cc6415662")
-		(property "Reference" "R22"
-			(at 234.95 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33R 1%"
-			(at 234.95 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 230.632 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 232.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 232.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF330JTCE"
-			(at 232.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3082227-b4f5-403c-9788-481f80ddb4c9")
-		)
-		(pin "1"
-			(uuid "21fa5750-02e3-4fa7-bbf2-f55248c3814c")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 156.21 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97249a84-c4a0-4e16-ba77-24c13659b35e")
-		(property "Reference" "D11"
-			(at 160.02 89.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UV LED"
-			(at 160.02 91.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Pixels-dice:MHP1016UVACT"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "MHP1016UVACT"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MEIHUA"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bcd63c2c-8e68-4c6e-9a00-a58e56cafc03")
-		)
-		(pin "1"
-			(uuid "fd28b72e-bd11-468a-ad6d-a9bb2fb0f6fa")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 144.78 88.9 90)
 		(unit 1)
@@ -3513,182 +2623,6 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 245.11 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4242d85-56f5-4d9b-b766-c24c4e034b38")
-		(property "Reference" "D50"
-			(at 248.92 89.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UV LED"
-			(at 248.92 91.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Pixels-dice:MHP1016UVACT"
-			(at 245.11 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 245.11 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "MHP1016UVACT"
-			(at 245.11 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MEIHUA"
-			(at 245.11 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "170e51e8-9009-4448-96ca-4d20dc05f9f7")
-		)
-		(pin "1"
-			(uuid "d429ad22-91e2-41f9-a230-ad2bdb74f603")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "D50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f59a3998-ad3d-4769-b8b3-2389b95d5964")
-		(property "Reference" "R14"
-			(at 158.75 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33R 1%"
-			(at 158.75 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.432 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 156.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF330JTCE"
-			(at 156.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7aa1703-fbba-4ac4-b361-d840df3d66bb")
-		)
-		(pin "1"
-			(uuid "a0038b82-0458-44f8-828a-5840dd93c7ab")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/06c1b9a1-090d-4b21-b721-8dbf78ee4a13"
-					(reference "R14")
 					(unit 1)
 				)
 			)

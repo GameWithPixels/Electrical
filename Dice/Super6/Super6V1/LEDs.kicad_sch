@@ -851,26 +851,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 63.5) (xy 72.39 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f92f302-016a-4f52-a344-b2c66413981e")
-	)
-	(wire
-		(pts
-			(xy 92.71 63.5) (xy 95.25 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10adba55-f030-4adb-88f2-ee58d116dc72")
-	)
-	(wire
-		(pts
 			(xy 245.11 93.98) (xy 247.65 93.98)
 		)
 		(stroke
@@ -908,16 +888,6 @@
 			(type default)
 		)
 		(uuid "15470e7d-9bad-41ce-8154-9fd61f2208c9")
-	)
-	(wire
-		(pts
-			(xy 74.93 63.5) (xy 72.39 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1593676e-b3a7-4861-9613-b77f3015d340")
 	)
 	(wire
 		(pts
@@ -2421,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 58.42) (xy 74.93 58.42)
+			(xy 67.31 58.42) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2458,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "c2d8567c-d4d0-44a4-bc28-3cb2de7afa43")
-	)
-	(wire
-		(pts
-			(xy 92.71 58.42) (xy 100.33 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c47c73df-fa36-4d41-b161-9a4dfd39a27e")
 	)
 	(wire
 		(pts
@@ -2678,16 +2638,6 @@
 			(type default)
 		)
 		(uuid "e07e1653-d05d-4bf2-bea3-6515a06de065")
-	)
-	(wire
-		(pts
-			(xy 95.25 63.5) (xy 95.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e140caf5-1d61-4441-b5c6-0fea09555fa3")
 	)
 	(wire
 		(pts
@@ -4692,71 +4642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 95.25 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1de106db-1285-480b-939a-3352c6399c94")
-		(property "Reference" "#PWR019"
-			(at 95.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 95.25 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08bf3dee-875e-4683-ace4-1a67ab3c8fa4")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bc88abf"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 148.59 97.79 0)
 		(unit 1)
@@ -6346,98 +6231,6 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bc88abf"
 					(reference "D33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pixels-dice:SK68XX-EC3210F")
-		(at 83.82 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f4bf01b-797e-4da4-8b08-8134706b67a4")
-		(property "Reference" "D29"
-			(at 83.82 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SK68XX-EC3210F"
-			(at 83.82 53.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Pixels-dice:SK68XX-EC3210F"
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "OPSCO"
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SK68XX-EC3210F"
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "756706af-f90f-40c5-9130-a79809d05bca")
-		)
-		(pin "1"
-			(uuid "53487146-ff57-4a73-8be1-30eff72f738a")
-		)
-		(pin "4"
-			(uuid "2f37b092-a655-4461-be99-3cb17b92f4f6")
-		)
-		(pin "3"
-			(uuid "e7a9ab2c-7c8f-42db-933c-c1fde50cf4f4")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bc88abf"
-					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -12123,71 +11916,6 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bc88abf"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e252bd43-1613-44aa-a249-875d204e7722")
-		(property "Reference" "#PWR018"
-			(at 72.39 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.517 71.7042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb31c498-7db8-4c69-a994-fbffa4481c69")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bc88abf"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
