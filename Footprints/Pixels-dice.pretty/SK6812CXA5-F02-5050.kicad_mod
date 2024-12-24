@@ -1,0 +1,128 @@
+(footprint "SK6812CXA5-F02-5050"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.075 0)
+		(layer "F.SilkS")
+		(uuid "ecf2d532-dfc9-48b2-b115-da71dc41bf0d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "TX1812CXA5-F02-5050"
+		(at 0.025 -3 0)
+		(layer "F.Fab")
+		(uuid "06f5f4db-029d-44ca-82cc-6b045b66962d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8da80d4-c0e5-4476-bc35-56230b3bb369")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7857fb1f-ffe3-4074-991f-1eea49527bba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "233b1691-1450-4d64-b46c-0df0e7756553")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -3.775 -1.75)
+		(end -3.663197 -1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9ded16e5-6bf4-4649-b802-605dfb13e095")
+	)
+	(fp_rect
+		(start -2.5 -2.475)
+		(end 2.5 2.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "27c62667-a717-4920-831b-aa39ad2dc6ad")
+	)
+	(pad "1" smd roundrect
+		(at -2.4 -1.75)
+		(size 1.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "af69ec26-5b40-4eaa-b967-43c3e010b582")
+	)
+	(pad "2" smd roundrect
+		(at -2.4 1.75)
+		(size 1.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "3ff8628c-2d89-4ae6-bfd4-42a101aaefde")
+	)
+	(pad "3" smd roundrect
+		(at 2.4 1.75)
+		(size 1.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "931bf048-36e2-4e07-b0c5-5000f504c4da")
+	)
+	(pad "4" smd roundrect
+		(at 2.4 -1.75)
+		(size 1.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "32a72b7d-7476-4807-8b57-00edba8afd56")
+	)
+	(model "C:/Users/frogi/OneDrive - Systemic Games, LLC/Pixels/Electrical/Footprints/Step Files/SK6812-1515 v1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

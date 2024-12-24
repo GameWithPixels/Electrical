@@ -1,0 +1,158 @@
+(footprint "SK68XX-EC3210F-TOPMOUNT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0ad9e6a4-eda8-4c71-9eb9-ce45975a5d6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK68XX-EC3210F-TOPMOUNT"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "794397fe-1cc5-4580-b757-f073846624ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f92862b-85a8-4506-8303-9efd2bbf96e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0735d0d2-441b-4083-b079-f3db33bd5f24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ffe5125-e3d4-4243-ab00-d3757547f94d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.925 -0.35)
+		(end -1.825 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "c1c71eb9-71e3-4b64-8ea3-e467f05961a2")
+	)
+	(fp_rect
+		(start -1.625 -0.5)
+		(end 1.625 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0a6b3653-a0f1-4cba-9c7f-a13c94fb3244")
+	)
+	(pad "1" smd custom
+		(at -0.425 -0.25)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.2 -0.3) (xy -1.2 0.1) (xy -0.25 0.1) (xy -0.25 0.8) (xy 0.25 0.8) (xy 0.25 -0.3)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "6b8667a5-4382-4dc1-ac8d-fe7fdec0f61a")
+	)
+	(pad "2" smd rect
+		(at -1.35 0.35)
+		(size 0.55 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "6e03137b-1320-4842-a0a6-142fd07acb62")
+	)
+	(pad "3" smd rect
+		(at 1.35 0.35)
+		(size 0.55 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ed0f4446-24a7-401d-96bc-4565816e473b")
+	)
+	(pad "4" smd custom
+		(at 0.425 -0.25)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.2 -0.3) (xy 1.2 0.1) (xy 0.25 0.1) (xy 0.25 0.8) (xy -0.25 0.8) (xy -0.25 -0.3)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3c3dd920-7126-4ab2-919b-529cb5625cee")
+	)
+	(model "${CUSTOMSTEPFILES}/SK68XX-EC3210F v5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1766,7 +1766,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005bbb3f1e")
 		(property "Reference" "W22"
 			(at 20.32 41.91 0)
