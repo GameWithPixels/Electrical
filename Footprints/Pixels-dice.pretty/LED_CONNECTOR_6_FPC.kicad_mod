@@ -1,0 +1,418 @@
+(footprint "LED_CONNECTOR_6_FPC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.05 -2.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ab1c7879-dfc3-4de4-9504-fe004e469c4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_CONNECTOR_6_FPC"
+		(at 0.01 4.26 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50d46b0b-7e63-46bc-9e90-9c7ef813ff4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "736a3c9e-189e-4a3d-81cd-c38e61651c0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be02c7de-ac97-4a83-a637-4ae6c98765fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0.01 5.61 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "adaec4fa-4f2c-49b6-bc34-ce0ccd58b85f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.5 -0.52)
+		(size 0.7 1.2)
+		(drill 0.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "c4b8eb7c-7323-41c5-b1bb-d0fa10347022")
+	)
+	(pad "1" smd custom
+		(at -2.5 -0.45)
+		(size 0.5 0.5)
+		(layers "B.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.15 -0.35)
+						(mid -0.256066 -0.306066)
+						(end -0.3 -0.2)
+					)
+					(arc
+						(start -0.3 0.336389)
+						(mid -0.282251 0.407168)
+						(end -0.233205 0.461197)
+					)
+					(arc
+						(start -0.142822 0.521452)
+						(mid -0.106821 0.55521)
+						(end -0.083725 0.598825)
+					)
+					(xy 0 0.85)
+					(arc
+						(start 0.083725 0.598825)
+						(mid 0.106821 0.55521)
+						(end 0.142822 0.521452)
+					)
+					(arc
+						(start 0.233205 0.461197)
+						(mid 0.282251 0.407168)
+						(end 0.3 0.336389)
+					)
+					(arc
+						(start 0.3 -0.2)
+						(mid 0.256066 -0.306066)
+						(end 0.15 -0.35)
+					)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "8873b4ee-984b-4c7d-9259-f96d19175603")
+	)
+	(pad "2" thru_hole roundrect
+		(at -1.5 -0.52)
+		(size 0.7 1.2)
+		(drill 0.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "bcccd78f-9eef-4962-a262-5fdf1a54e11f")
+	)
+	(pad "2" smd custom
+		(at -1.5 -0.45)
+		(size 0.5 0.5)
+		(layers "B.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.15 -0.35)
+						(mid -0.256066 -0.306066)
+						(end -0.3 -0.2)
+					)
+					(arc
+						(start -0.3 0.336389)
+						(mid -0.282251 0.407168)
+						(end -0.233205 0.461197)
+					)
+					(arc
+						(start -0.142822 0.521452)
+						(mid -0.106821 0.55521)
+						(end -0.083725 0.598825)
+					)
+					(xy 0 0.85)
+					(arc
+						(start 0.083725 0.598825)
+						(mid 0.106821 0.55521)
+						(end 0.142822 0.521452)
+					)
+					(arc
+						(start 0.233205 0.461197)
+						(mid 0.282251 0.407168)
+						(end 0.3 0.336389)
+					)
+					(arc
+						(start 0.3 -0.2)
+						(mid 0.256066 -0.306066)
+						(end 0.15 -0.35)
+					)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "45db6144-428a-4a90-88df-1153f78e1080")
+	)
+	(pad "3" thru_hole roundrect
+		(at -0.5 -0.52)
+		(size 0.7 1.2)
+		(drill 0.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "0a6d25ec-6817-4404-9c25-4f6d6f0396db")
+	)
+	(pad "3" smd custom
+		(at -0.5 -0.45)
+		(size 0.5 0.5)
+		(layers "B.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.15 -0.35)
+						(mid -0.256066 -0.306066)
+						(end -0.3 -0.2)
+					)
+					(arc
+						(start -0.3 0.336389)
+						(mid -0.282251 0.407168)
+						(end -0.233205 0.461197)
+					)
+					(arc
+						(start -0.142822 0.521452)
+						(mid -0.106821 0.55521)
+						(end -0.083725 0.598825)
+					)
+					(xy 0 0.85)
+					(arc
+						(start 0.083725 0.598825)
+						(mid 0.106821 0.55521)
+						(end 0.142822 0.521452)
+					)
+					(arc
+						(start 0.233205 0.461197)
+						(mid 0.282251 0.407168)
+						(end 0.3 0.336389)
+					)
+					(arc
+						(start 0.3 -0.2)
+						(mid 0.256066 -0.306066)
+						(end 0.15 -0.35)
+					)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "88232710-2b01-4179-bcd8-9df1bd86516c")
+	)
+	(pad "4" thru_hole roundrect
+		(at 0.5 -0.52)
+		(size 0.7 1.2)
+		(drill 0.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "4684966d-5800-484e-a178-1e094f682622")
+	)
+	(pad "4" smd custom
+		(at 0.5 -0.45)
+		(size 0.5 0.5)
+		(layers "B.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.15 -0.35)
+						(mid -0.256066 -0.306066)
+						(end -0.3 -0.2)
+					)
+					(arc
+						(start -0.3 0.336389)
+						(mid -0.282251 0.407168)
+						(end -0.233205 0.461197)
+					)
+					(arc
+						(start -0.142822 0.521452)
+						(mid -0.106821 0.55521)
+						(end -0.083725 0.598825)
+					)
+					(xy 0 0.85)
+					(arc
+						(start 0.083725 0.598825)
+						(mid 0.106821 0.55521)
+						(end 0.142822 0.521452)
+					)
+					(arc
+						(start 0.233205 0.461197)
+						(mid 0.282251 0.407168)
+						(end 0.3 0.336389)
+					)
+					(arc
+						(start 0.3 -0.2)
+						(mid 0.256066 -0.306066)
+						(end 0.15 -0.35)
+					)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "ad578c7b-2bc8-40d8-9286-d6d1e17a67c7")
+	)
+	(pad "5" thru_hole roundrect
+		(at 1.5 -0.52)
+		(size 0.7 1.2)
+		(drill 0.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "07495f7c-2eb1-449a-b7ea-b31514ca4d35")
+	)
+	(pad "5" smd custom
+		(at 1.5 -0.45)
+		(size 0.5 0.5)
+		(layers "B.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.15 -0.35)
+						(mid -0.256066 -0.306066)
+						(end -0.3 -0.2)
+					)
+					(arc
+						(start -0.3 0.336389)
+						(mid -0.282251 0.407168)
+						(end -0.233205 0.461197)
+					)
+					(arc
+						(start -0.142822 0.521452)
+						(mid -0.106821 0.55521)
+						(end -0.083725 0.598825)
+					)
+					(xy 0 0.85)
+					(arc
+						(start 0.083725 0.598825)
+						(mid 0.106821 0.55521)
+						(end 0.142822 0.521452)
+					)
+					(arc
+						(start 0.233205 0.461197)
+						(mid 0.282251 0.407168)
+						(end 0.3 0.336389)
+					)
+					(arc
+						(start 0.3 -0.2)
+						(mid 0.256066 -0.306066)
+						(end 0.15 -0.35)
+					)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "60909bb9-f73c-4dc3-954d-192130e0b59c")
+	)
+	(pad "6" thru_hole roundrect
+		(at 2.5 -0.52)
+		(size 0.7 1.2)
+		(drill 0.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "9add07ec-4fe7-4074-b82b-1b47815dc41a")
+	)
+	(pad "6" smd custom
+		(at 2.5 -0.45)
+		(size 0.5 0.5)
+		(layers "B.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.15 -0.35)
+						(mid -0.256066 -0.306066)
+						(end -0.3 -0.2)
+					)
+					(arc
+						(start -0.3 0.336389)
+						(mid -0.282251 0.407168)
+						(end -0.233205 0.461197)
+					)
+					(arc
+						(start -0.142822 0.521452)
+						(mid -0.106821 0.55521)
+						(end -0.083725 0.598825)
+					)
+					(xy 0 0.85)
+					(arc
+						(start 0.083725 0.598825)
+						(mid 0.106821 0.55521)
+						(end 0.142822 0.521452)
+					)
+					(arc
+						(start 0.233205 0.461197)
+						(mid 0.282251 0.407168)
+						(end 0.3 0.336389)
+					)
+					(arc
+						(start 0.3 -0.2)
+						(mid 0.256066 -0.306066)
+						(end 0.15 -0.35)
+					)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "0e0736f6-dd43-4937-98fb-df15887cb903")
+	)
+	(embedded_fonts no)
+)

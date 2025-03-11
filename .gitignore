@@ -15,3 +15,5 @@ fp-info-cache
 **/Main.csv
 **/Main.step
 **/Main.step
+production/
+~*.lck

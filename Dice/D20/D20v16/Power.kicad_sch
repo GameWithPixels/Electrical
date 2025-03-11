@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "974c48bf-534e-4335-98e1-b0426c783e99")
 	(paper "A4")
 	(title_block
@@ -13,7 +13,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -86,7 +88,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -98,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -147,9 +149,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -268,6 +273,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Pixels-dice:74AHC1G08"
 			(pin_names
@@ -339,9 +345,9 @@
 			)
 			(symbol "74AHC1G08_0_1"
 				(arc
-					(start 0 -2.54)
+					(start 0 2.54)
 					(mid 2.529 0)
-					(end 0 2.54)
+					(end 0 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -401,6 +407,24 @@
 					)
 				)
 				(pin power_in line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "GND"
@@ -436,25 +460,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "VCC"
-						(effects
-							(font
-								(size 0.254 0.254)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Pixels-dice:ME6215"
 			(exclude_from_sim no)
@@ -535,24 +542,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 -3.81 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -571,17 +560,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 -3.81 180)
+				(pin power_in line
+					(at -7.62 -3.81 0)
 					(length 2.54)
-					(name "NC"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -607,7 +596,26 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Pixels-dice:MT9700"
 			(pin_names
@@ -673,53 +681,17 @@
 				)
 			)
 			(symbol "MT9700_1_1"
-				(pin power_out line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 0 -10.16 90)
+					(at -12.7 2.54 0)
 					(length 5.08)
-					(name "GND"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "SET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -745,17 +717,53 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -12.7 2.54 0)
+				(pin input line
+					(at -12.7 -2.54 0)
 					(length 5.08)
-					(name "VIN"
+					(name "SET"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -764,11 +772,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Pixels-dice:TEST_1P-conn"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -846,6 +859,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Pixels-dice:TMR1366"
 			(pin_names
@@ -927,24 +941,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 11.43 1.27 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -11.43 -2.54 0)
 					(length 5.08)
@@ -963,7 +959,26 @@
 						)
 					)
 				)
+				(pin output line
+					(at 11.43 1.27 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+BATT"
 			(power)
@@ -1041,7 +1056,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1053,7 +1068,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1067,7 +1082,8 @@
 			(symbol "+BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+BATT"
 						(effects
 							(font
@@ -1084,6 +1100,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1163,7 +1180,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1180,6 +1198,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VDC"
 			(power)
@@ -1257,7 +1276,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1269,7 +1288,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1283,7 +1302,8 @@
 			(symbol "VDC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VDC"
 						(effects
 							(font
@@ -1300,6 +1320,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VDD"
 			(power)
@@ -1377,7 +1398,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1389,7 +1410,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1403,7 +1424,8 @@
 			(symbol "VDD_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VDD"
 						(effects
 							(font
@@ -1420,7 +1442,74 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "LOGIC POWER SUPPLY"
+		(exclude_from_sim no)
+		(at 198.12 157.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify right bottom)
+		)
+		(uuid "0873e2b8-0cd8-4ce8-ac15-13eac9ecbaab")
+	)
+	(text "ON/OFF MAGNET"
+		(exclude_from_sim no)
+		(at 74.93 135.89 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify right bottom)
+		)
+		(uuid "35ace176-d156-4615-8f7e-dc5c3725a4f6")
+	)
+	(text "LED_PWR is ON when\nMagnet NOT present and\nCPU turns LED_EN ON"
+		(exclude_from_sim no)
+		(at 119.38 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4270d617-4ee8-4d11-afae-5d1a337b2398")
+	)
+	(text "LED POWER CONTROL"
+		(exclude_from_sim no)
+		(at 196.85 88.9 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify right bottom)
+		)
+		(uuid "9201d787-49e4-42c5-a9d6-7848bef7c988")
+	)
+	(text "VDD = 3.0V"
+		(exclude_from_sim no)
+		(at 185.42 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d08cbd9-f625-4bec-ada0-4088294ec3e1")
+	)
+	(text "10k -> ~700mA cutoff\n(We only draw 150mA max)"
+		(exclude_from_sim no)
+		(at 158.75 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6c7f556-10bb-4a6d-b61b-a732ec6fa5cc")
 	)
 	(junction
 		(at 142.24 62.23)
@@ -1992,75 +2081,8 @@
 		)
 		(uuid "f674b8e7-203d-419e-988a-58e0f9ae4fad")
 	)
-	(text "LOGIC POWER SUPPLY"
-		(exclude_from_sim no)
-		(at 198.12 157.48 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify right bottom)
-		)
-		(uuid "0873e2b8-0cd8-4ce8-ac15-13eac9ecbaab")
-	)
-	(text "ON/OFF MAGNET"
-		(exclude_from_sim no)
-		(at 74.93 135.89 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify right bottom)
-		)
-		(uuid "35ace176-d156-4615-8f7e-dc5c3725a4f6")
-	)
-	(text "LED_PWR is ON when\nMagnet NOT present and\nCPU turns LED_EN ON"
-		(exclude_from_sim no)
-		(at 119.38 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4270d617-4ee8-4d11-afae-5d1a337b2398")
-	)
-	(text "LED POWER CONTROL"
-		(exclude_from_sim no)
-		(at 196.85 88.9 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify right bottom)
-		)
-		(uuid "9201d787-49e4-42c5-a9d6-7848bef7c988")
-	)
-	(text "VDD = 3.0V"
-		(exclude_from_sim no)
-		(at 185.42 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9d08cbd9-f625-4bec-ada0-4088294ec3e1")
-	)
-	(text "10k -> ~700mA cutoff\n(We only draw 150mA max)"
-		(exclude_from_sim no)
-		(at 158.75 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a6c7f556-10bb-4a6d-b61b-a732ec6fa5cc")
-	)
 	(label "MAG1_"
 		(at 73.66 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2071,7 +2093,6 @@
 	)
 	(label "VLED"
 		(at 196.85 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2082,7 +2103,6 @@
 	)
 	(label "LED_EN_OUT"
 		(at 144.78 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2094,7 +2114,6 @@
 	(hierarchical_label "LED_EN"
 		(shape input)
 		(at 52.07 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2106,7 +2125,6 @@
 	(hierarchical_label "VDD"
 		(shape output)
 		(at 255.27 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2118,7 +2136,6 @@
 	(hierarchical_label "VLED"
 		(shape output)
 		(at 255.27 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

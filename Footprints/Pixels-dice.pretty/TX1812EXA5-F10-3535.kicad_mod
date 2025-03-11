@@ -125,4 +125,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/TX1812EXA5-F10-3535 v0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

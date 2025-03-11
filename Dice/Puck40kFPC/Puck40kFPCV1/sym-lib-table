@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pixels-dice")(type "KiCad")(uri "${KIPRJMOD}/../../../Lib/Pixels-dice.kicad_sym")(options "")(descr ""))
+)

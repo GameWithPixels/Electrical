@@ -1,0 +1,139 @@
+(footprint "AW35122"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.15 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5284dc92-0d46-44d2-a948-616dd6ce236e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AW35122"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1a7f68b1-5baa-4574-8791-68220a64b645")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d4f7752-18a7-4cf1-bbbe-eb77ee2880e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59aa6919-ce79-487a-9af7-289cae256ded")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b13d9c2-30c9-4048-84c3-0f074cfa3d5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2b0b5fa0-1e2a-4830-95f3-aab922b44802")
+	)
+	(fp_circle
+		(center -0.75 -0.75)
+		(end -0.638197 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "4e038c31-ad21-44c1-b31f-6a20f0e9102b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5476776-7ef6-46be-99ab-ba614f810a29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.25 -0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d247ccc0-13be-4ebc-bbbc-e3a464297720")
+	)
+	(pad "A2" smd circle
+		(at 0.25 -0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "250a3efc-c9bb-4b0b-94c4-3259d9047359")
+	)
+	(pad "B1" smd circle
+		(at -0.25 0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5d12e61d-59ed-4d56-b05d-e4a838a2bdbd")
+	)
+	(pad "B2" smd circle
+		(at 0.25 0.25)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8f0fdecf-952d-4796-a2cd-c04536d7acc2")
+	)
+	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/AW35122 v0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

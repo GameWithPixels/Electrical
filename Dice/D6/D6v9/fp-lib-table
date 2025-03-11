@@ -1,5 +1,6 @@
 (fp_lib_table
-  (lib (name "Pixels-dice")(type "KiCad")(uri "${KIPRJMOD}/../../../Footprints/Pixels-dice.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "Pixels-dice")(type "KiCad")(uri "C:/Projects/pixels-dice/Electrical/Footprints/Pixels-dice.pretty")(options "")(descr ""))
   (lib (name "AEMAntennas")(type "KiCad")(uri "${KIPRJMOD}/../../../Footprints/AEMAntennas.pretty")(options "")(descr ""))
   (lib (name "RFFrontEnd")(type "KiCad")(uri "C:/Projects/Pixels-dice/Electrical/Footprints/RFFrontEnd.pretty")(options "")(descr ""))
 )

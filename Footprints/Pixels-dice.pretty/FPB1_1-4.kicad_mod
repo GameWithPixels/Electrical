@@ -1,0 +1,197 @@
+(footprint "FPB1_1-4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8e867813-3f22-4238-8a10-b51a77a3e41e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FPB1*1-4"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a3fa75a5-a8d8-44db-b282-8cf60d012a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b569daf2-7c87-444e-911c-4d57fc4cb45d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be764187-1dfc-4aa3-89ad-2f783cb0ced9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "014c2bbe-bd7f-423b-a27f-9014f150262a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.6 -0.6)
+		(end 0.6 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "29e3a7a9-96e6-453a-8bab-581db8c213f3")
+	)
+	(fp_circle
+		(center -0.8 0.8)
+		(end -0.7 0.8)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "c24f32aa-402e-42e1-8cae-ca6c124466b8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98f7e469-b3a5-4bc7-a756-36208a93374c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 0 45)
+		(size 0.42 0.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "59e924a7-946c-4198-9803-2bb41cca2a29")
+	)
+	(pad "1" smd custom
+		(at -0.325 0.325 90)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1275 -0.1275) (xy 0.1075 -0.1275) (xy 0.1075 0) (xy 0 0.1075) (xy -0.1275 0.1075)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "1bdb3f9e-aa7a-4ea8-a073-cc7ee76b2757")
+	)
+	(pad "2" smd custom
+		(at 0.325 0.325 180)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1275 -0.1275) (xy 0.1075 -0.1275) (xy 0.1075 0) (xy 0 0.1075) (xy -0.1275 0.1075)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "34e6051c-bc7f-4d6c-9a4f-00aa63db7ef4")
+	)
+	(pad "3" smd custom
+		(at 0.325 -0.325 270)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1275 -0.1275) (xy 0.1075 -0.1275) (xy 0.1075 0) (xy 0 0.1075) (xy -0.1275 0.1075)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "97d79ab6-d784-4138-a154-24de306bf1b6")
+	)
+	(pad "4" smd custom
+		(at -0.325 -0.325)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1275 -0.1275) (xy 0.1075 -0.1275) (xy 0.1075 0) (xy 0 0.1075) (xy -0.1275 0.1075)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5c208c8a-dc2b-48db-8e08-4757076be7f9")
+	)
+	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/FBP1_1-4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

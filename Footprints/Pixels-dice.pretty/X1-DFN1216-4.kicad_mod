@@ -1,0 +1,167 @@
+(footprint "X1-DFN1216-4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "becaec72-9b7a-449a-b800-7d5d3bf5e539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "X1-DFN1216-4"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a0fcb8a7-566c-406e-bcae-ac258f95c716")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "488aa2d0-bd3e-47c9-9a0d-4994ea5886b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8dd524e-4fbd-45cf-b7ba-3f83647a39df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74846271-8ffa-4156-9e39-ebbca2194d8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.55 -0.8)
+		(end -0.55 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14f4d049-6ef6-4a21-b51e-6bedd8a4cac5")
+	)
+	(fp_line
+		(start 0.55 0.8)
+		(end 0.55 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f07a778b-9847-417a-b748-189d87aa6105")
+	)
+	(fp_circle
+		(center -0.5 1.25)
+		(end -0.45 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "41512637-26d8-4c24-902f-987efb33c0a5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "375bbe4c-854a-4f3c-8ed2-2e020aee6f40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd custom
+		(at 0 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.45 -0.35) (xy 0.45 -0.35) (xy 0.45 0.35) (xy -0.25 0.35) (xy -0.45 0.15)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "feba3af7-6862-4249-ad33-e23f6a4f315b")
+	)
+	(pad "1" smd rect
+		(at -0.325 0.75)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "faffc584-a6da-43d4-87de-962f49fcb6ab")
+	)
+	(pad "2" smd rect
+		(at 0.325 0.75)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f10f25d9-6e81-448d-b9fd-273c907c0de7")
+	)
+	(pad "3" smd rect
+		(at 0.325 -0.75)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ec943645-da66-42b0-a01b-df4a2369c663")
+	)
+	(pad "4" smd rect
+		(at -0.325 -0.75)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "748192e1-bb39-488c-9b2d-6aa9c6084619")
+	)
+	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/AH1912 v1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
