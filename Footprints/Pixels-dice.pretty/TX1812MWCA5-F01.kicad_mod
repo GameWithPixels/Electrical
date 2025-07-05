@@ -1,7 +1,7 @@
 (footprint "TX1812MWCA5-F01"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.5 0)
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e9993c06-4b68-4e08-887e-de81cf189497")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5db2317c-39eb-4d70-9e12-e9b6e879e01e")
 		(effects
 			(font
 				(size 1 1)
@@ -96,7 +83,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "35c11772-e3df-4f2f-b9ef-f5e6fa306d7b")
 	)
@@ -107,7 +94,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ca696b06-feba-4421-8948-4ed4dc3e11dc")
 	)
@@ -126,7 +113,7 @@
 	(pad "1" smd roundrect
 		(at -0.5 0.725)
 		(size 0.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "564e6544-603e-49cb-b6bd-df75b4330631")
@@ -134,7 +121,7 @@
 	(pad "2" smd roundrect
 		(at 0.5 0.725)
 		(size 0.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "1e30f311-234b-42fe-8f29-5345cd64999b")
@@ -142,7 +129,7 @@
 	(pad "3" smd roundrect
 		(at 0.5 -0.725)
 		(size 0.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "3d158825-4b45-4e70-ae6d-ec4b6842e9c4")
@@ -150,9 +137,21 @@
 	(pad "4" smd roundrect
 		(at -0.5 -0.725)
 		(size 0.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "9235fcea-248f-4a01-9cba-edec8564b510")
+	)
+	(embedded_fonts no)
+	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/TX1812MJA5 v1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
 	)
 )

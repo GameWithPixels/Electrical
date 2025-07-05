@@ -1,0 +1,98 @@
+(footprint "Pyre_Con4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fbea33a2-94f7-413a-9945-52bec27eb927")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Pyre_Con4"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a15f814a-3c30-4a9a-9976-c0973db94a24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38c28919-1a3f-40b7-ab20-de044478e1ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bf81c73-7934-4fad-8de8-e1f005bff667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98651815-c43e-481a-a156-c03d6567881e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at -0.9 0)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d0c8780b-c0f4-4ea8-9325-e840816308a2")
+	)
+	(pad "2" connect rect
+		(at 0.9 0)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c58d9046-a15b-43d3-8592-39b4a49e357e")
+	)
+	(pad "3" connect rect
+		(at 0.9 0)
+		(size 1.4 1.6)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fb96131f-6c22-4b14-8586-9440e69934f6")
+	)
+	(pad "4" connect rect
+		(at -0.9 0)
+		(size 1.4 1.6)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fc7b3fcf-1fe1-4942-b082-8bb99410249e")
+	)
+	(embedded_fonts no)
+)

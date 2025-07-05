@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Pixels-dice")(type "KiCad")(uri "C:/Projects/Pixels-dice/Electrical/Lib/Pixels-dice.kicad_sym")(options "")(descr ""))
+  (lib (name "AmphenolUFL")(type "KiCad")(uri "C:/Projects/Pixels-dice/Electrical/Lib/AmphenolUFL.kicad_sym")(options "")(descr ""))
+  (lib (name "MFH3.RECE.20369.001E.01")(type "KiCad")(uri "C:/Projects/Pixels-dice/Electrical/Lib/MFH3.RECE.20369.001E.01.kicad_sym")(options "")(descr ""))
+)

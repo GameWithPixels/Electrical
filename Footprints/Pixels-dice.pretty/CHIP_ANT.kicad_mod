@@ -1,7 +1,7 @@
 (footprint "CHIP_ANT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "AE1"
 		(at -1.276815 -2.639743 90)
@@ -23,18 +23,6 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "04d4798c-725f-4a2e-a652-3eceaf5884e2")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -156,17 +144,18 @@
 	(pad "1" smd roundrect
 		(at 0 0)
 		(size 1.6 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "0912ba9d-b7e5-484f-9c2f-4e12bce3af52")
 	)
 	(pad "2" smd roundrect
 		(at 0.000001 -3.400001)
 		(size 1.6 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "a5274cf5-41db-491c-91d0-d3a4835f26a9")
 	)
+	(embedded_fonts no)
 	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/AMCA31-2R450G-SIF-T3 v1-combined.step"
 		(offset
 			(xyz 0 1.7 0)

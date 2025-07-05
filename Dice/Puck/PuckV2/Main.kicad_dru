@@ -1,0 +1,4 @@
+(version 1)
+
+(rule ZeroLength
+	(constraint track_segment_length (min 0.001mm)))

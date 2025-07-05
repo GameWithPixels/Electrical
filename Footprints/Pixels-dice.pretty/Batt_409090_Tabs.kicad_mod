@@ -67,13 +67,13 @@
 		)
 	)
 	(pad "1" connect rect
-		(at -2.3 0)
+		(at -2.5 0)
 		(size 1.8 2)
 		(layers "F.Cu" "F.Mask")
 		(uuid "8a4c7bae-399c-46c1-934f-408574db3773")
 	)
 	(pad "2" connect rect
-		(at 2.3 0)
+		(at 2.5 0)
 		(size 1.8 2)
 		(layers "F.Cu" "F.Mask")
 		(uuid "2751664a-c2af-4f79-a818-c64eb96da319")

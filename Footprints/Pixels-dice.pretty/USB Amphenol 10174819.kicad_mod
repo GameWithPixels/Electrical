@@ -1,0 +1,193 @@
+(footprint "USB Amphenol 10174819"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.5 0 90)
+		(layer "F.SilkS")
+		(uuid "57931706-c346-4a7a-a088-d7fce4a080b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB Amphenol 10174819"
+		(at 0 -8.7 0)
+		(layer "F.Fab")
+		(uuid "3ad5ce09-4485-426d-8c30-b2754707e711")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9c22202-81f8-4e33-a94e-f6865f5840ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6526b63e-d568-4773-8055-1f7f9ce5b59f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 4.3 8)
+		(end 4.3 -7.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4440e4dc-3ee6-40aa-a3be-ebd68179bd00")
+	)
+	(fp_line
+		(start -2.1 -4.3)
+		(end 4.3 -4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bda7727b-9c68-4bfc-8fdf-3ec02ad1f0c9")
+	)
+	(fp_line
+		(start -2.1 4.3)
+		(end -2.1 -4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b2a3cb06-3bd7-4473-8e59-05b592fe5248")
+	)
+	(fp_line
+		(start 4.3 -4.3)
+		(end 4.3 -7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a4cd7112-436b-4bbb-8925-94b826c97a0a")
+	)
+	(fp_line
+		(start 4.3 4.3)
+		(end -2.1 4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "480b60a0-d142-4609-9fb8-8c3cb4825a38")
+	)
+	(fp_line
+		(start 4.3 8)
+		(end 4.3 4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c3dc8599-cbe6-4dc5-82de-0c2643f30e9c")
+	)
+	(pad "A5" smd rect
+		(at -2.9 0.5 90)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6a350fa0-228e-4ab4-baeb-840cc9b843ba")
+	)
+	(pad "A9" smd rect
+		(at -2.9 -1.52 90)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5a95b8fd-4168-4006-8524-7498eefd4f12")
+	)
+	(pad "A12" smd rect
+		(at -2.9 -2.75 90)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1a6eb817-9bf8-4858-9b35-aea45400a292")
+	)
+	(pad "B5" smd rect
+		(at -2.9 -0.5 90)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5d6def5c-821c-4885-a01a-4879a37ace2b")
+	)
+	(pad "B9" smd rect
+		(at -2.9 1.52 90)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e5d7f2f-2271-499f-bb1d-6541cdd318b9")
+	)
+	(pad "B12" smd rect
+		(at -2.9 2.75 90)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "42debff9-8933-44aa-9f59-69dcaf6ea4eb")
+	)
+	(pad "S1" thru_hole circle
+		(at -1.7 -5.58)
+		(size 1.9 1.9)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c57ea270-3d48-40cf-a01e-0b622f1fc1a9")
+	)
+	(pad "S1" thru_hole circle
+		(at -1.7 5.58)
+		(size 1.9 1.9)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d33bc76-b623-4bcb-9cbc-c2af6cc8cd03")
+	)
+	(pad "S1" thru_hole circle
+		(at 1.9 -5.58)
+		(size 2.2 2.2)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e734a4cc-a36d-4e4c-a60d-cf1c67f0f035")
+	)
+	(pad "S1" thru_hole circle
+		(at 1.9 5.58)
+		(size 2.2 2.2)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d7054d17-b5cb-464c-b6d9-be4ed196f008")
+	)
+	(embedded_fonts no)
+	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/10174819-00011LF.stp"
+		(offset
+			(xyz 1.6 0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
