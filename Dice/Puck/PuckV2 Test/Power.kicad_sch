@@ -426,6 +426,124 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pixels-dice:SL1605"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 4.064 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SL1605"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SL1605_0_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SL1605_1_1"
+				(pin power_in line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Pixels-dice:TEST_1P-conn"
 			(pin_numbers
 				(hide yes)
@@ -1036,6 +1154,12 @@
 		(uuid "9c5933cf-1535-4465-90dd-da9b75afcdcf")
 	)
 	(junction
+		(at 124.46 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a05afa1c-3f85-4b9f-9d86-9269ccc99ef0")
+	)
+	(junction
 		(at 130.81 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1048,16 +1172,20 @@
 		(uuid "be5e299f-22b7-4504-ad81-f5bad33e682c")
 	)
 	(junction
-		(at 130.81 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea25b65e-48a2-4231-ac10-4936b8cadc68")
-	)
-	(junction
 		(at 215.9 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2700b6d-d7be-4a6d-ad67-8286a3bce1af")
+	)
+	(wire
+		(pts
+			(xy 54.61 124.46) (xy 54.61 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b145893-a64e-4463-9ad6-c006bfe44212")
 	)
 	(wire
 		(pts
@@ -1078,6 +1206,36 @@
 			(type default)
 		)
 		(uuid "1a90be83-7a73-44df-9820-f0c2ac72c5ab")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 130.81 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a61c8f-3162-467d-a41a-2c7bf94bd0ad")
+	)
+	(wire
+		(pts
+			(xy 76.2 121.92) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c816df7-fa75-4fe7-b5ae-2d5d928efb15")
+	)
+	(wire
+		(pts
+			(xy 124.46 116.84) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381d67c0-ba79-4210-9a91-3b8259cf81ad")
 	)
 	(wire
 		(pts
@@ -1141,6 +1299,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 121.92) (xy 157.48 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ceda14a-f44c-4014-976a-54ab802aaff7")
+	)
+	(wire
+		(pts
 			(xy 200.66 119.38) (xy 255.27 119.38)
 		)
 		(stroke
@@ -1171,16 +1339,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 128.27) (xy 130.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "637e9edf-ffed-49a2-8408-fa110c9a4c79")
-	)
-	(wire
-		(pts
 			(xy 162.56 59.69) (xy 157.48 59.69)
 		)
 		(stroke
@@ -1201,13 +1359,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 107.95) (xy 130.81 119.38)
+			(xy 58.42 124.46) (xy 54.61 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f1beb86-67e1-46bf-8c2b-6d1e1485d5c0")
+		(uuid "70d74220-4fd0-4668-9ae7-a5c06cf91f41")
 	)
 	(wire
 		(pts
@@ -1228,6 +1386,16 @@
 			(type default)
 		)
 		(uuid "7eb32ed1-4320-49ba-8487-1c88e4824fe3")
+	)
+	(wire
+		(pts
+			(xy 54.61 119.38) (xy 58.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3df631-83af-4b9a-ad88-0ecbaf5239e6")
 	)
 	(wire
 		(pts
@@ -1281,6 +1449,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 115.57) (xy 54.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1fe9c7-0947-4877-96eb-fd671f6313b8")
+	)
+	(wire
+		(pts
 			(xy 191.77 41.91) (xy 191.77 59.69)
 		)
 		(stroke
@@ -1311,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 121.92) (xy 130.81 119.38)
+			(xy 130.81 119.38) (xy 130.81 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1348,16 +1526,6 @@
 			(type default)
 		)
 		(uuid "fab1d98f-d363-48e0-8c91-ee0af6e9b2e6")
-	)
-	(wire
-		(pts
-			(xy 130.81 121.92) (xy 157.48 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd177842-0a83-40c0-a893-893bd3dca6f9")
 	)
 	(label "VLED"
 		(at 196.85 41.91 0)
@@ -1439,7 +1607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 147.32 54.61 0)
 			(effects
 				(font
@@ -2166,7 +2334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 205.74 106.68 0)
 			(effects
 				(font
@@ -2457,6 +2625,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 54.61 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37730d92-456a-4009-88ed-5d4f6fd23de6")
+		(property "Reference" "#PWR045"
+			(at 54.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.737 131.3942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e47c070-e026-422f-97cc-b54e66a140b5")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bb44a54"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDC")
 		(at 209.55 39.37 0)
 		(unit 1)
@@ -2582,6 +2815,99 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bb44a54"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pixels-dice:TEST_1P-conn")
+		(at 124.46 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7afe410-6838-4fae-ba08-69929cb1d8e3")
+		(property "Reference" "W13"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VDD_EN"
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pixels-dice:TEST_PIN"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic OK" "N/A"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate PN" ""
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7387f9f9-30a1-446c-86e3-7fc5b3c34417")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bb44a54"
+					(reference "W13")
 					(unit 1)
 				)
 			)
@@ -2734,6 +3060,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Pixels-dice:SL1605")
+		(at 67.31 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b130a5ab-1e07-4ddb-a91d-74559f111580")
+		(property "Reference" "U8"
+			(at 67.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SL1605"
+			(at 67.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Slkor(SLKORMICRO Elec.)"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SL1605TL"
+			(at 67.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2826474"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a68bd08-29a2-49e0-ab06-97fe348e2974")
+		)
+		(pin "4"
+			(uuid "0594f25d-cf44-4548-b865-39e6319ebf30")
+		)
+		(pin "5"
+			(uuid "a8b175ae-173c-4262-a220-aad846249564")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bb44a54"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 54.61 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba7aa9ef-9056-4281-ab63-c5ea9f74e3d5")
+		(property "Reference" "#PWR044"
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 55.0418 111.1758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "effcf589-ef5e-49df-8841-962a01c5fd25")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bb44a54"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pixels-dice:TEST_1P-conn")
 		(at 215.9 40.64 0)
 		(unit 1)
@@ -2760,7 +3248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 220.98 40.64 0)
 			(effects
 				(font

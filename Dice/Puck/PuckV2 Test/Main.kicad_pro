@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.35,
-          "width": 1.0
+          "drill": 0.5,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -59,7 +59,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|199700000|72340000|bf310857-61cf-4d1d-a010-f183f05e20e3|2f73913a-13c6-453e-ba36-bb7a8834af4b",
+          ""
+        ],
+        [
+          "hole_clearance|200300000|73765000|bdbf3622-c71a-4cb3-967a-92a6c898ef6b|90b81ec3-1243-412d-83c0-28ff54ab43b8",
+          ""
+        ],
+        [
+          "hole_clearance|200300000|74465000|bdbf3622-c71a-4cb3-967a-92a6c898ef6b|e04cfbff-b14a-4291-b4be-63ddf2485a7a",
+          ""
+        ],
+        [
+          "hole_clearance|208980000|72765000|ad234054-b58c-4503-8fe8-ca0fca332714|01a368a0-fc4b-4c02-802f-c61943206e82",
+          ""
+        ],
+        [
+          "hole_clearance|208980000|73615000|ad234054-b58c-4503-8fe8-ca0fca332714|b056c74f-6b52-47c3-b242-5bdeab042c11",
+          ""
+        ],
+        [
+          "hole_clearance|208980000|74465000|ad234054-b58c-4503-8fe8-ca0fca332714|6084bf94-06de-4fa3-8908-8860be35404a",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -509,7 +534,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Protoboard5.net",
-      "plot": "Gerbers",
+      "plot": "DXFs",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Main.step",
@@ -640,7 +665,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

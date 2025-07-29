@@ -2316,6 +2316,18 @@
 		(uuid "25b7ce4d-9342-4f8c-afe4-8c6b35c9d786")
 	)
 	(junction
+		(at 180.34 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b1a0a2d-e9f5-4ff3-9d97-1726aa217e85")
+	)
+	(junction
+		(at 180.34 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e573d44-2166-4eaf-8e4b-2e37726c709a")
+	)
+	(junction
 		(at 153.67 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2454,10 +2466,16 @@
 		(uuid "d5fd8527-c609-45d6-a8ff-f566da6e4235")
 	)
 	(junction
-		(at 180.34 68.58)
+		(at 222.25 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee6fa81e-8718-4e4d-a210-5e98fefc3be6")
+		(uuid "d8a9f665-0eb5-4b8b-91d3-1e93c6231396")
+	)
+	(junction
+		(at 180.34 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe20e7b3-bb0c-44c1-89bf-32e047284b55")
 	)
 	(wire
 		(pts
@@ -2481,17 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 57.15) (xy 180.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0475cabd-3e66-4dad-b5ad-c2f8ec3b1094")
-	)
-	(wire
-		(pts
-			(xy 153.67 59.69) (xy 191.77 59.69)
+			(xy 153.67 59.69) (xy 180.34 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2781,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 26.67) (xy 180.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325bbde2-ff12-4d98-a9b3-be095fc6343a")
+	)
+	(wire
+		(pts
 			(xy 234.95 30.48) (xy 234.95 40.64)
 		)
 		(stroke
@@ -3031,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 29.21) (xy 176.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b419de-add2-42d6-8666-0adc9ec5b5c1")
+	)
+	(wire
+		(pts
 			(xy 245.11 50.8) (xy 246.38 50.8)
 		)
 		(stroke
@@ -3121,6 +3149,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 59.69) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e47426-c231-4fa9-b941-e5a8f7235324")
+	)
+	(wire
+		(pts
+			(xy 176.53 31.75) (xy 180.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97058000-e903-4b4f-8684-1156634cdf77")
+	)
+	(wire
+		(pts
 			(xy 69.85 128.27) (xy 69.85 134.62)
 		)
 		(stroke
@@ -3128,6 +3176,16 @@
 			(type default)
 		)
 		(uuid "980701e3-c07f-4779-8872-3757324221a4")
+	)
+	(wire
+		(pts
+			(xy 222.25 50.8) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990dca47-e6d0-4824-97de-faac12ca26a6")
 	)
 	(wire
 		(pts
@@ -3221,6 +3279,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 48.26) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87c5c7c-21d0-4ac3-b018-fc4d5f9bb856")
+	)
+	(wire
+		(pts
 			(xy 48.26 104.14) (xy 48.26 101.6)
 		)
 		(stroke
@@ -3238,16 +3306,6 @@
 			(type default)
 		)
 		(uuid "ae3795a7-b79a-4014-858e-efabec906e3c")
-	)
-	(wire
-		(pts
-			(xy 161.29 68.58) (xy 180.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b18ea5bd-a979-4ef3-9025-cb1901dd67b8")
 	)
 	(wire
 		(pts
@@ -3371,13 +3429,23 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 50.8) (xy 226.06 50.8)
+			(xy 219.71 50.8) (xy 222.25 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6d66a16-eda6-492b-9139-68696ec0a6d1")
+	)
+	(wire
+		(pts
+			(xy 180.34 31.75) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8256f92-7c7e-4aa3-bfb2-e4224e995aa9")
 	)
 	(wire
 		(pts
@@ -3551,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 68.58) (xy 180.34 72.39)
+			(xy 180.34 57.15) (xy 180.34 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3681,14 +3749,14 @@
 	)
 	(hierarchical_label "PROG"
 		(shape output)
-		(at 161.29 68.58 180)
+		(at 180.34 26.67 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "53e77095-ff80-469a-bd34-8d5f7e4bd6bb")
+		(uuid "10a398eb-590c-4920-a3a7-1fe8cc59972f")
 	)
 	(hierarchical_label "COILA"
 		(shape input)
@@ -4046,7 +4114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 228.6 123.19 0)
 			(effects
 				(font
@@ -4439,7 +4507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 116.84 33.02 0)
 			(effects
 				(font
@@ -5385,7 +5453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 250.19 58.42 0)
 			(effects
 				(font
@@ -6348,7 +6416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 137.16 179.0943 0)
 			(effects
 				(font
@@ -6674,7 +6742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 215.9 63.5 0)
 			(effects
 				(font
@@ -6850,7 +6918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 238.76 113.03 0)
 			(effects
 				(font
@@ -7446,7 +7514,7 @@
 	)
 	(symbol
 		(lib_id "Pixels-dice:TEST_1P-conn")
-		(at 180.34 72.39 180)
+		(at 176.53 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7454,7 +7522,7 @@
 		(dnp no)
 		(uuid "ad400fe3-f90c-4bef-a213-f5c48b1488e6")
 		(property "Reference" "W18"
-			(at 181.61 77.47 90)
+			(at 175.26 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +7531,7 @@
 			)
 		)
 		(property "Value" "PROG"
-			(at 179.07 77.47 90)
+			(at 177.8 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,8 +7539,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 175.26 72.39 0)
+		(property "Footprint" "Pixels-dice:TEST_PIN"
+			(at 181.61 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 72.39 0)
+			(at 181.61 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +7558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 72.39 0)
+			(at 176.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +7567,7 @@
 			)
 		)
 		(property "Generic OK" "N/A"
-			(at 180.34 72.39 0)
+			(at 176.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,7 +7576,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 180.34 72.39 0)
+			(at 176.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7585,7 @@
 			)
 		)
 		(property "Pixels Part Number" ""
-			(at 180.34 72.39 0)
+			(at 176.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7594,7 @@
 			)
 		)
 		(property "Alternate Manufacturer" ""
-			(at 180.34 72.39 0)
+			(at 176.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7603,7 @@
 			)
 		)
 		(property "Alternate PN" ""
-			(at 180.34 72.39 0)
+			(at 176.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +7650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 128.27 179.07 0)
 			(effects
 				(font
@@ -8042,7 +8110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 106.68 52.07 0)
 			(effects
 				(font
@@ -8153,7 +8221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 240.03 30.48 0)
 			(effects
 				(font
@@ -8370,7 +8438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 162.56 33.02 0)
 			(effects
 				(font
@@ -8481,7 +8549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 180.34 116.84 0)
 			(effects
 				(font
@@ -8573,7 +8641,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d36b6dee-f8bb-48ca-a5ae-77c21394d69c")
 		(property "Reference" "U7"
 			(at 233.68 39.37 0)
@@ -9186,6 +9253,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Pixels-dice:TEST_1P-conn")
+		(at 222.25 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7ab6c52-00f0-42cc-874b-9059bfaf472e")
+		(property "Reference" "W12"
+			(at 223.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM"
+			(at 223.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pixels-dice:TEST_PIN"
+			(at 227.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic OK" "N/A"
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate PN" ""
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b6fe77f-9136-44e4-94fe-85ce1deb0dce")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
+					(reference "W12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 48.26 107.95 0)
 		(unit 1)
@@ -9362,7 +9522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pixels-dice:TEST_PIN"
 			(at 119.38 179.07 0)
 			(effects
 				(font

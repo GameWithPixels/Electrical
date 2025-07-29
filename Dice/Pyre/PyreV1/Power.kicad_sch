@@ -1030,6 +1030,12 @@
 		(uuid "35fb7c56-dc85-43f7-b954-81b8040a8500")
 	)
 	(junction
+		(at 124.46 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73962f8e-835f-4f2c-9b17-974efcd621cb")
+	)
+	(junction
 		(at 191.77 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1048,10 +1054,10 @@
 		(uuid "be5e299f-22b7-4504-ad81-f5bad33e682c")
 	)
 	(junction
-		(at 130.81 121.92)
+		(at 215.9 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea25b65e-48a2-4231-ac10-4936b8cadc68")
+		(uuid "f2700b6d-d7be-4a6d-ad67-8286a3bce1af")
 	)
 	(wire
 		(pts
@@ -1065,7 +1071,27 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 41.91) (xy 209.55 41.91)
+			(xy 215.9 41.91) (xy 209.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a90be83-7a73-44df-9820-f0c2ac72c5ab")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c04f7eb-2edf-48fd-8895-8ce50b92c7bb")
+	)
+	(wire
+		(pts
+			(xy 255.27 41.91) (xy 215.9 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1155,16 +1181,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 128.27) (xy 130.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "637e9edf-ffed-49a2-8408-fa110c9a4c79")
-	)
-	(wire
-		(pts
 			(xy 162.56 59.69) (xy 157.48 59.69)
 		)
 		(stroke
@@ -1212,6 +1228,16 @@
 			(type default)
 		)
 		(uuid "7eb32ed1-4320-49ba-8487-1c88e4824fe3")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac289c97-4e92-4dce-a051-eb6c75abd023")
 	)
 	(wire
 		(pts
@@ -1265,6 +1291,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 121.92) (xy 157.48 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de88ab00-fd66-4e36-a70c-d2031a57cf12")
+	)
+	(wire
+		(pts
 			(xy 191.77 41.91) (xy 191.77 59.69)
 		)
 		(stroke
@@ -1295,7 +1331,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 121.92) (xy 130.81 119.38)
+			(xy 130.81 119.38) (xy 130.81 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1315,6 +1351,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 40.64) (xy 215.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fffd1f-2ca9-4de1-9543-8d82545d27c2")
+	)
+	(wire
+		(pts
 			(xy 177.8 119.38) (xy 196.85 119.38)
 		)
 		(stroke
@@ -1322,16 +1368,6 @@
 			(type default)
 		)
 		(uuid "fab1d98f-d363-48e0-8c91-ee0af6e9b2e6")
-	)
-	(wire
-		(pts
-			(xy 130.81 121.92) (xy 157.48 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd177842-0a83-40c0-a893-893bd3dca6f9")
 	)
 	(label "VLED"
 		(at 196.85 41.91 0)
@@ -1374,6 +1410,17 @@
 			(justify left)
 		)
 		(uuid "051b8cb0-ae77-4e09-98a7-bf2103319e66")
+	)
+	(hierarchical_label "VDD_EN"
+		(shape input)
+		(at 119.38 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1490aaea-64bc-482b-b301-c1e6e82b1ac2")
 	)
 	(hierarchical_label "VLED"
 		(shape output)
@@ -1449,33 +1496,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 142.24 54.61 0)
 			(effects
@@ -1494,7 +1514,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part Number" ""
 			(at 142.24 54.61 0)
 			(effects
 				(font
@@ -1652,34 +1672,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1849652"
-			(at 200.66 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "GRM155R61A475MEAAJ"
-			(at 200.66 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 200.66 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 200.66 124.46 0)
 			(effects
 				(font
@@ -1706,7 +1699,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C23733"
+		(property "Alternate LCSC Part #" "C23733"
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1849652"
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 200.66 124.46 0)
 			(effects
 				(font
@@ -1997,34 +2008,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C23692971"
-			(at 130.81 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "CGA0402X5R106M6R3GT"
-			(at 130.81 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 130.81 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 130.81 132.08 0)
 			(effects
 				(font
@@ -2051,7 +2035,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C23692971"
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 130.81 132.08 0)
 			(effects
 				(font
@@ -2203,33 +2196,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 200.66 106.68 0)
 			(effects
@@ -2248,7 +2214,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part Number" ""
 			(at 200.66 106.68 0)
 			(effects
 				(font
@@ -2341,34 +2307,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C23692971"
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "CGA0402X5R106M6R3GT"
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -2395,7 +2334,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C23692971"
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -2551,6 +2499,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Pixels-dice:TEST_1P-conn")
+		(at 124.46 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6637b2f4-57a9-4690-b6c3-959d6f0c6bed")
+		(property "Reference" "W6"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAG1"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pixels-dice:TEST_PIN"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic OK" "N/A"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate PN" ""
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac36ab5f-fb60-48d4-87cc-44fe4a3fcd53")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bb44a54"
+					(reference "W6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 144.78 0)
 		(unit 1)
@@ -2668,33 +2718,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2925772"
-			(at 167.64 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 167.64 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 167.64 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "MICRONE(Nanjing Micro One Elec)"
 			(at 167.64 121.92 0)
 			(effects
@@ -2713,7 +2736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate Manufacturer" ""
+		(property "Alternate Manufacturer" "ChipLink Tech"
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -2722,7 +2745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate PN" ""
+		(property "Alternate PN" "CL9906A30F4N"
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -2731,7 +2754,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "Alternate LCSC Part #" "C5297658"
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2925772"
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -2756,6 +2797,108 @@
 			(project ""
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bb44a54"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pixels-dice:TEST_1P-conn")
+		(at 215.9 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c403121b-f108-4cbb-b72f-46abc4bdd274")
+		(property "Reference" "W4"
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VDC"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pixels-dice:TEST_PIN"
+			(at 220.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic OK" "N/A"
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate PN" ""
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cab1c58-e4da-4434-9ffc-9fe6d773c7c6")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/00000000-0000-0000-0000-00005bb44a54"
+					(reference "W4")
 					(unit 1)
 				)
 			)
@@ -2880,33 +3023,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C5125911"
-			(at 175.26 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 175.26 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 175.26 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "AWINIC(Shanghai Awinic Tech)"
 			(at 175.26 62.23 0)
 			(effects
@@ -2943,7 +3059,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C5125911"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 175.26 62.23 0)
 			(effects
 				(font

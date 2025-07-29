@@ -61,7 +61,47 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|164200000|112100000|63c1880c-f79e-4c2a-9c69-b177e00884e3|00000000-0000-0000-0000-000000000000",
+          "copper_edge_clearance|165230000|107967500|281a3e58-2ca1-4625-b682-6d3314b29235|1f752b56-5909-44a1-b7ac-adf957b1ccfd",
+          ""
+        ],
+        [
+          "copper_edge_clearance|165230000|109158125|281a3e58-2ca1-4625-b682-6d3314b29235|ecc5c183-b62a-4d93-869a-f9fe7365b0f1",
+          ""
+        ],
+        [
+          "copper_edge_clearance|165292500|110286250|281a3e58-2ca1-4625-b682-6d3314b29235|75b9a5cc-9b1c-489d-bbca-f10e99bb203f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|165292500|111226875|281a3e58-2ca1-4625-b682-6d3314b29235|6655471d-82f4-4464-8a42-4e322a628f47",
+          ""
+        ],
+        [
+          "copper_edge_clearance|165292500|112167500|281a3e58-2ca1-4625-b682-6d3314b29235|7027a3dc-5854-4a0b-b4b8-2c234243ef58",
+          ""
+        ],
+        [
+          "copper_edge_clearance|165292500|113108125|281a3e58-2ca1-4625-b682-6d3314b29235|a1785b2d-e6d9-4569-9286-925a7461c2ea",
+          ""
+        ],
+        [
+          "copper_edge_clearance|165292500|114048750|281a3e58-2ca1-4625-b682-6d3314b29235|52d546e8-ef67-46a7-a4df-b85fb6680d5f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|165292500|114989375|281a3e58-2ca1-4625-b682-6d3314b29235|eb96afc8-78fc-4934-9f6a-0b1dc07ddb73",
+          ""
+        ],
+        [
+          "isolated_copper|131242539|99789685|146e1020-581a-4051-8a2b-03b972ec2e84|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|141441458|106757111|146e1020-581a-4051-8a2b-03b972ec2e84|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|149452539|108019685|146e1020-581a-4051-8a2b-03b972ec2e84|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -114,7 +154,8 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -530,9 +571,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.7,
-        "via_drill": 0.25,
+        "track_width": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.15,
         "wire_width": 6
       }
     ],
@@ -561,6 +602,10 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/COIL*"
       }
     ]
   },

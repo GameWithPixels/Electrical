@@ -406,217 +406,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_Photo_NPN"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_Photo_NPN"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NPN phototransistor, collector/emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "phototransistor NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_Photo_NPN_0_1"
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.905 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_Photo_NPN_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1820,28 +1609,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pixels-dice:XT4051"
+		(symbol "Pixels-dice:WS4518D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 5.334 -6.35 0)
+				(at 5.08 -8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "XT4051"
-				(at 0 1.27 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-				(at 0 1.27 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1850,7 +1639,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 1.27 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1859,7 +1648,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 1.27 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1867,10 +1656,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "XT4051_0_1"
+			(symbol "WS4518D_0_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -1880,9 +1669,27 @@
 					)
 				)
 			)
-			(symbol "XT4051_1_1"
+			(symbol "WS4518D_1_1"
 				(pin input line
-					(at -10.16 -2.54 0)
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "TEMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "PROG"
 						(effects
@@ -1891,7 +1698,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1900,7 +1707,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 7.62 270)
+					(at 0 8.89 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -1909,7 +1716,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1918,7 +1725,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at 0 -8.89 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1935,8 +1742,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 2.54 -8.89 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
-					(at 10.16 2.54 180)
+					(at 10.16 3.81 180)
 					(length 2.54)
 					(name "BAT"
 						(effects
@@ -1945,7 +1770,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1954,7 +1779,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 -2.54 180)
+					(at 10.16 -3.81 180)
 					(length 2.54)
 					(name "CHRG"
 						(effects
@@ -1963,7 +1788,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2563,17 +2388,6 @@
 		)
 		(uuid "6f24b60c-a6e5-44f6-8c57-2bf06ec03d48")
 	)
-	(text "~35mA Max\nCharge Rate"
-		(exclude_from_sim no)
-		(at 166.624 58.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0fd5299-c17b-4a14-a8f9-db585e4e8a47")
-	)
 	(text "Discharge\nResistor"
 		(exclude_from_sim no)
 		(at 161.29 50.8 0)
@@ -2586,22 +2400,28 @@
 		(uuid "dc9ceb94-1d9b-466b-9488-f4f5795a0e5c")
 	)
 	(junction
+		(at 245.11 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "071a5f18-98f9-485e-9f88-05149fc6c7e9")
+	)
+	(junction
 		(at 88.9 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "092a8b08-3b2b-456a-9a0d-74c836ae0922")
 	)
 	(junction
+		(at 180.34 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d8fecf5-1fa5-4058-8cdc-7e875c7d0e57")
+	)
+	(junction
 		(at 245.11 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f4a322f-e7b3-4325-9056-ba5c2e0f6aac")
-	)
-	(junction
-		(at 255.27 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12aefe6f-1672-4a04-ae4a-f0610728abea")
 	)
 	(junction
 		(at 43.18 101.6)
@@ -2622,18 +2442,6 @@
 		(uuid "1a5218bd-e175-4bdc-a44c-f72c39a4d0b1")
 	)
 	(junction
-		(at 255.27 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c8152e1-c21e-4228-93af-c3b5192e6f7a")
-	)
-	(junction
-		(at 163.83 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21ba0f56-f850-439e-be0c-35e6493b4dad")
-	)
-	(junction
 		(at 77.47 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2644,12 +2452,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25b7ce4d-9342-4f8c-afe4-8c6b35c9d786")
-	)
-	(junction
-		(at 180.34 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ec682fb-b8c3-4c1b-8c1f-4658068f1001")
 	)
 	(junction
 		(at 153.67 50.8)
@@ -2682,6 +2484,12 @@
 		(uuid "52d6b8dc-38e8-431c-9012-390786b9e3cf")
 	)
 	(junction
+		(at 180.34 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e79594-9f8f-43a1-baae-c99ecdc60390")
+	)
+	(junction
 		(at 137.16 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2700,10 +2508,10 @@
 		(uuid "577f272c-9fc2-4ee8-ae5a-4e3b249d773e")
 	)
 	(junction
-		(at 255.27 55.88)
+		(at 222.25 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70884614-6a09-4c8b-b65e-a61aabfa8708")
+		(uuid "5ccc29a1-5810-445b-b471-183f5981af60")
 	)
 	(junction
 		(at 233.68 119.38)
@@ -2736,6 +2544,12 @@
 		(uuid "9a938d1f-86fb-42c8-8f12-b2fe8dfe1f55")
 	)
 	(junction
+		(at 255.27 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e5faaf6-e4f9-4be4-9b35-246fe04f37b8")
+	)
+	(junction
 		(at 153.67 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2758,12 +2572,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab7c5d90-6a9a-482c-85aa-a3df06688f5f")
-	)
-	(junction
-		(at 245.11 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac90693e-4a2b-4125-b804-6fac9ef7838a")
 	)
 	(junction
 		(at 69.85 144.78)
@@ -2790,20 +2598,28 @@
 		(uuid "d5fd8527-c609-45d6-a8ff-f566da6e4235")
 	)
 	(junction
-		(at 180.34 68.58)
+		(at 180.34 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee6fa81e-8718-4e4d-a210-5e98fefc3be6")
+		(uuid "e0ec7644-d633-44c1-a08e-f27c59aa5733")
 	)
-	(wire
-		(pts
-			(xy 245.11 40.64) (xy 245.11 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02089e97-da70-4580-bd2f-55bf7c161d03")
+	(junction
+		(at 255.27 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed62358-d363-4e7f-b1dd-d8be6c74adbe")
+	)
+	(junction
+		(at 255.27 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2e2993-eca5-4e5c-b3ba-1d9c999ff75a")
+	)
+	(junction
+		(at 173.99 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f558673d-c841-428e-ab6b-a0de3b1505ff")
 	)
 	(wire
 		(pts
@@ -2817,33 +2633,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 57.15) (xy 180.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0475cabd-3e66-4dad-b5ad-c2f8ec3b1094")
-	)
-	(wire
-		(pts
-			(xy 153.67 59.69) (xy 191.77 59.69)
+			(xy 153.67 59.69) (xy 173.99 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "050d46f5-56ed-4280-bb3f-45ff9f9e840c")
-	)
-	(wire
-		(pts
-			(xy 245.11 50.8) (xy 241.3 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "067d18c5-77b4-44d5-9919-dc07ac078474")
 	)
 	(wire
 		(pts
@@ -2887,16 +2683,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 144.78) (xy 191.77 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf4e46f-ed40-4f87-bb36-ff61b383868f")
-	)
-	(wire
-		(pts
 			(xy 77.47 157.48) (xy 69.85 157.48)
 		)
 		(stroke
@@ -2917,6 +2703,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 144.78) (xy 240.03 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8c9b79-b39c-4832-b426-51ed3cb156c3")
+	)
+	(wire
+		(pts
 			(xy 153.67 50.8) (xy 153.67 59.69)
 		)
 		(stroke
@@ -2934,16 +2730,6 @@
 			(type default)
 		)
 		(uuid "109bb09d-b350-4275-b4e3-6fe45ac04c7e")
-	)
-	(wire
-		(pts
-			(xy 255.27 43.18) (xy 260.35 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1166a716-e3ec-488f-91d0-885f65e0208b")
 	)
 	(wire
 		(pts
@@ -2977,6 +2763,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 40.64) (xy 173.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18957d9e-cf5e-4c80-9e5a-f5fe08a00f5a")
+	)
+	(wire
+		(pts
 			(xy 204.47 63.5) (xy 210.82 63.5)
 		)
 		(stroke
@@ -2994,16 +2790,6 @@
 			(type default)
 		)
 		(uuid "1a5de3cd-a3d7-405c-9e52-671e28aba850")
-	)
-	(wire
-		(pts
-			(xy 163.83 142.24) (xy 163.83 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2dd801-d9f0-4092-90e9-50c59fcf84e8")
 	)
 	(wire
 		(pts
@@ -3067,13 +2853,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 132.08) (xy 163.83 134.62)
+			(xy 180.34 59.69) (xy 191.77 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a146157-8514-48b6-b00c-5b4c66486c9a")
+		(uuid "28e63b94-3794-42d4-9049-b44ad8296ef4")
 	)
 	(wire
 		(pts
@@ -3097,33 +2883,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 144.78) (xy 180.34 144.78)
+			(xy 40.64 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f5edf88-54a9-4da2-8083-6c8b93949d93")
-	)
-	(wire
-		(pts
-			(xy 254 50.8) (xy 255.27 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f7907ee-fd17-4dcc-a2cb-bc006aa234fa")
-	)
-	(wire
-		(pts
-			(xy 160.02 34.29) (xy 191.77 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3200c0e6-7c7a-465e-9890-a4db21c33f13")
+		(uuid "3073553d-16f7-46b7-9f0a-a5c7f6781535")
 	)
 	(wire
 		(pts
@@ -3137,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 45.72) (xy 204.47 63.5)
+			(xy 204.47 48.26) (xy 204.47 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3157,16 +2923,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 49.53) (xy 53.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cae2ef9-6bc6-453e-8504-50339691d87c")
-	)
-	(wire
-		(pts
 			(xy 43.18 114.3) (xy 43.18 121.92)
 		)
 		(stroke
@@ -3174,6 +2930,26 @@
 			(type default)
 		)
 		(uuid "3fc2f58e-7412-4efb-959b-0ce6de745a8f")
+	)
+	(wire
+		(pts
+			(xy 255.27 43.18) (xy 260.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a0768e-84c0-445b-b466-f0154d136739")
+	)
+	(wire
+		(pts
+			(xy 222.25 50.8) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bb34de-f50f-4e78-a95c-b1f616cf7eb3")
 	)
 	(wire
 		(pts
@@ -3247,16 +3023,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 55.88) (xy 241.3 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc16727-ee8e-43db-abe5-3ec399dc51f5")
-	)
-	(wire
-		(pts
 			(xy 104.14 50.8) (xy 104.14 57.15)
 		)
 		(stroke
@@ -3264,6 +3030,16 @@
 			(type default)
 		)
 		(uuid "4f524abd-6636-4caf-849a-425233da052c")
+	)
+	(wire
+		(pts
+			(xy 160.02 34.29) (xy 191.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502ced79-b514-4659-9847-8c558a539fc9")
 	)
 	(wire
 		(pts
@@ -3297,6 +3073,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 31.75) (xy 180.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5598f442-9988-4821-b4d0-313129b2a160")
+	)
+	(wire
+		(pts
 			(xy 77.47 154.94) (xy 77.47 157.48)
 		)
 		(stroke
@@ -3314,6 +3100,16 @@
 			(type default)
 		)
 		(uuid "578b7403-57a2-44b2-b10a-ac1300288632")
+	)
+	(wire
+		(pts
+			(xy 191.77 53.34) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582ea633-6237-4cab-8a40-b5c10c789799")
 	)
 	(wire
 		(pts
@@ -3347,6 +3143,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 59.69) (xy 180.34 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e5a9e6-ea5f-49de-849b-98a426b4678b")
+	)
+	(wire
+		(pts
+			(xy 241.3 58.42) (xy 255.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635c02fa-274a-4c7d-ac44-e16074cc4a67")
+	)
+	(wire
+		(pts
 			(xy 43.18 101.6) (xy 48.26 101.6)
 		)
 		(stroke
@@ -3354,6 +3170,26 @@
 			(type default)
 		)
 		(uuid "650dcda3-04eb-42cd-829d-f51cc113c128")
+	)
+	(wire
+		(pts
+			(xy 255.27 55.88) (xy 241.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6588dbeb-5b93-418b-8434-02e28605330b")
+	)
+	(wire
+		(pts
+			(xy 255.27 50.8) (xy 255.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672b737b-42c8-41f7-bb89-7c0189da5535")
 	)
 	(wire
 		(pts
@@ -3367,23 +3203,53 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 160.02) (xy 163.83 165.1)
+			(xy 224.79 55.88) (xy 226.06 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b6686ed-7161-40c9-bf6f-eb9b0f7d4a3c")
+		(uuid "69599259-a79e-429e-85c5-6359492e2512")
 	)
 	(wire
 		(pts
-			(xy 245.11 50.8) (xy 246.38 50.8)
+			(xy 245.11 50.8) (xy 241.3 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "770612c0-bf55-4e06-9cfc-75fc1254b8e3")
+		(uuid "6caa8cfd-b41d-46b6-a36e-0a35d6dbabaa")
+	)
+	(wire
+		(pts
+			(xy 222.25 48.26) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73023732-5148-4642-9dde-25dac8b462f9")
+	)
+	(wire
+		(pts
+			(xy 181.61 40.64) (xy 173.99 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7318d81c-515e-4e0c-8581-6f8e5e9efcbd")
+	)
+	(wire
+		(pts
+			(xy 194.31 53.34) (xy 194.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775d68f0-3ead-40fa-8ed3-b7ddf60f9aca")
 	)
 	(wire
 		(pts
@@ -3397,6 +3263,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 58.42) (xy 255.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820ec468-8bf9-4531-9b46-d43afd1d4e35")
+	)
+	(wire
+		(pts
 			(xy 111.76 34.29) (xy 111.76 38.1)
 		)
 		(stroke
@@ -3404,6 +3280,16 @@
 			(type default)
 		)
 		(uuid "83398d0e-a695-400b-9713-a32fb5cdde93")
+	)
+	(wire
+		(pts
+			(xy 182.88 29.21) (xy 182.88 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840c8411-5da2-4c33-b8cd-c362c651f138")
 	)
 	(wire
 		(pts
@@ -3417,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 45.72) (xy 201.93 45.72)
+			(xy 204.47 48.26) (xy 201.93 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3467,6 +3353,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 48.26) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cdf76e-6284-4df1-8202-b862b9181d87")
+	)
+	(wire
+		(pts
+			(xy 245.11 40.64) (xy 245.11 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a6a360-494d-4307-91cd-44405f2b4ecc")
+	)
+	(wire
+		(pts
 			(xy 69.85 128.27) (xy 69.85 134.62)
 		)
 		(stroke
@@ -3474,6 +3380,16 @@
 			(type default)
 		)
 		(uuid "980701e3-c07f-4779-8872-3757324221a4")
+	)
+	(wire
+		(pts
+			(xy 194.31 59.69) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99910dd4-15e0-42e1-b817-25b0338199c0")
 	)
 	(wire
 		(pts
@@ -3507,6 +3423,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 52.07) (xy 54.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d175dd3-3b25-4044-8bdf-5b047f54c80b")
+	)
+	(wire
+		(pts
 			(xy 240.03 29.21) (xy 240.03 40.64)
 		)
 		(stroke
@@ -3537,6 +3463,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 55.88) (xy 224.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2817780-17ea-49f4-bccf-cb0c23b920d0")
+	)
+	(wire
+		(pts
 			(xy 111.76 50.8) (xy 104.14 50.8)
 		)
 		(stroke
@@ -3547,13 +3483,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 58.42) (xy 255.27 58.42)
+			(xy 219.71 50.8) (xy 222.25 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5c1543a-4d51-4894-958c-2249efb6a335")
+		(uuid "a6a3d379-df6a-4aaf-9f89-93a80fa4a5fb")
 	)
 	(wire
 		(pts
@@ -3577,17 +3513,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 50.8) (xy 191.77 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae3795a7-b79a-4014-858e-efabec906e3c")
-	)
-	(wire
-		(pts
-			(xy 161.29 68.58) (xy 180.34 68.58)
+			(xy 180.34 26.67) (xy 180.34 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3614,16 +3540,6 @@
 			(type default)
 		)
 		(uuid "b4c9016e-69b5-4f88-b488-b32542e489d1")
-	)
-	(wire
-		(pts
-			(xy 224.79 55.88) (xy 224.79 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5389690-fa3d-4143-9a5a-d2b9744e0b2c")
 	)
 	(wire
 		(pts
@@ -3667,13 +3583,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 52.07) (xy 53.34 52.07)
+			(xy 255.27 43.18) (xy 255.27 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdb99522-43c3-472d-bbbf-4e6dac4ceee3")
+		(uuid "be264f75-7028-4637-ac86-a69c6f72f3f0")
 	)
 	(wire
 		(pts
@@ -3717,23 +3633,33 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 50.8) (xy 226.06 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d66a16-eda6-492b-9139-68696ec0a6d1")
-	)
-	(wire
-		(pts
-			(xy 181.61 45.72) (xy 180.34 45.72)
+			(xy 181.61 48.26) (xy 180.34 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ca491654-8b23-42c7-8dc6-2097cad53fb1")
+	)
+	(wire
+		(pts
+			(xy 180.34 31.75) (xy 180.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb457cc1-b9f3-4646-a2fa-4971f931da25")
+	)
+	(wire
+		(pts
+			(xy 245.11 49.53) (xy 245.11 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7c840d-61bd-405c-8128-38800fb6da50")
 	)
 	(wire
 		(pts
@@ -3767,13 +3693,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 58.42) (xy 255.27 55.88)
+			(xy 254 50.8) (xy 255.27 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7aad196-caf5-4fc2-a419-be26e49e2f55")
+		(uuid "d13e8e3c-0355-4f9e-befe-a008ac604c15")
 	)
 	(wire
 		(pts
@@ -3824,6 +3750,16 @@
 			(type default)
 		)
 		(uuid "e1ea22fe-f2a5-4928-a1f8-08fb14692a8c")
+	)
+	(wire
+		(pts
+			(xy 180.34 57.15) (xy 180.34 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f27259-0b39-42c4-b550-b018adbe5c30")
 	)
 	(wire
 		(pts
@@ -3887,36 +3823,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 144.78) (xy 163.83 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d62118-1dbf-4246-9cd9-3c907289f11b")
-	)
-	(wire
-		(pts
-			(xy 180.34 45.72) (xy 180.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f537069c-4b7e-45d8-a1d4-88982f81bdce")
-	)
-	(wire
-		(pts
-			(xy 180.34 68.58) (xy 180.34 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f689d9dc-8af2-4f68-a6ea-daeac7086317")
-	)
-	(wire
-		(pts
 			(xy 69.85 46.99) (xy 69.85 36.83)
 		)
 		(stroke
@@ -3937,46 +3843,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 55.88) (xy 226.06 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f99216ac-e32a-43b0-8be8-97c9b811c656")
-	)
-	(wire
-		(pts
-			(xy 245.11 49.53) (xy 245.11 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa5d6ca0-901c-4d82-97dd-b2be0607a51c")
-	)
-	(wire
-		(pts
-			(xy 255.27 50.8) (xy 255.27 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb28f085-0b87-4d35-b8a3-0d29fc0eb04e")
-	)
-	(wire
-		(pts
-			(xy 255.27 43.18) (xy 255.27 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd1086f3-a437-4f0b-8f9f-6921be53eb5c")
-	)
-	(wire
-		(pts
 			(xy 107.95 34.29) (xy 111.76 34.29)
 		)
 		(stroke
@@ -3984,6 +3850,16 @@
 			(type default)
 		)
 		(uuid "fdb91bba-a45f-4b45-a52b-741f430c685e")
+	)
+	(wire
+		(pts
+			(xy 245.11 50.8) (xy 246.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcf7539-79b8-432f-97d1-80d329ae03d4")
 	)
 	(wire
 		(pts
@@ -4015,6 +3891,26 @@
 		)
 		(uuid "363eb5aa-286b-44ff-b8b5-40b99779bd00")
 	)
+	(label "B-"
+		(at 255.27 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5881a74b-95e6-4069-ac49-77bd337336f4")
+	)
+	(label "TH1"
+		(at 163.83 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c29b024-21c5-405e-b3c1-5482c70ee4db")
+	)
 	(label "COILA"
 		(at 58.42 36.83 0)
 		(effects
@@ -4025,24 +3921,25 @@
 		)
 		(uuid "6fdade8f-3298-4d61-a537-155a5bd92535")
 	)
-	(label "B-"
-		(at 255.27 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6391817-2c5e-40a1-94fb-da8df75fa0b3")
-	)
-	(hierarchical_label "PROG"
-		(shape output)
-		(at 161.29 68.58 180)
+	(hierarchical_label "SM"
+		(shape input)
+		(at 219.71 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
+		)
+		(uuid "2f50d5e9-b8bf-47f1-a93b-64f4603712cd")
+	)
+	(hierarchical_label "PROG"
+		(shape output)
+		(at 180.34 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "53e77095-ff80-469a-bd34-8d5f7e4bd6bb")
 	)
@@ -4068,16 +3965,16 @@
 		)
 		(uuid "7220335d-443c-4632-9e6a-86f89893c2f3")
 	)
-	(hierarchical_label "SM"
+	(hierarchical_label "OPT_A2D"
 		(shape input)
-		(at 219.71 50.8 180)
+		(at 240.03 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "89736123-2c9f-4a5e-b612-c93e1a493625")
+		(uuid "8958e25e-8adc-405c-b881-c772a058f779")
 	)
 	(hierarchical_label "VBAT_SENSE"
 		(shape output)
@@ -4252,33 +4149,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C7202975"
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TECH PUBLIC"
 			(at 137.16 36.83 0)
 			(effects
@@ -4315,7 +4185,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C571193"
+		(property "Alternate LCSC Part #" "C571193"
+			(at 137.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7202975"
+			(at 137.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 137.16 36.83 0)
 			(effects
 				(font
@@ -4405,33 +4293,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 233.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 233.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 233.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 233.68 123.19 0)
 			(effects
@@ -4450,8 +4311,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
-			(at 233.68 123.19 0)
+		(property "LCSC Part Number" ""
+			(at 233.68 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,34 +4404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C6119795"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "CGA0402X5R475M250GT"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 111.76 41.91 0)
 			(effects
 				(font
@@ -4597,7 +4431,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C6119795"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 111.76 41.91 0)
 			(effects
 				(font
@@ -4693,33 +4536,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C270364"
-			(at 137.16 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 137.16 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 137.16 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "0201WMF1003TEE"
 			(at 137.16 110.49 0)
 			(effects
@@ -4747,7 +4563,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C270364"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -4766,156 +4591,6 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c197101-61d0-4f9c-81c3-488f55ede417")
-		(property "Reference" "R5"
-			(at 165.608 137.2616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 165.608 139.573 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 162.052 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic OK" "YES"
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C473048"
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0201WMF1002TEE"
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate PN" ""
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f05e02eb-a83c-4165-ae00-d930fe79741e")
-		)
-		(pin "2"
-			(uuid "2e647db2-529c-43d5-9847-08603e2b24ec")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4984,33 +4659,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 111.76 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 111.76 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 111.76 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 111.76 33.02 0)
 			(effects
@@ -5029,7 +4677,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part Number" ""
 			(at 111.76 33.02 0)
 			(effects
 				(font
@@ -5122,33 +4770,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C473048"
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "0201WMF1002TEE"
 			(at 160.02 41.91 0)
 			(effects
@@ -5176,7 +4797,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C473048"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 160.02 41.91 0)
 			(effects
 				(font
@@ -5272,34 +4902,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C107344"
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "NTCG104EF104FT1X"
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 137.16 127 0)
 			(effects
 				(font
@@ -5326,7 +4929,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C107344"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 137.16 127 0)
 			(effects
 				(font
@@ -5552,34 +5164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C97906"
-			(at 69.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "GRM2195C1H123JA01D"
-			(at 69.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 69.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 69.85 50.8 0)
 			(effects
 				(font
@@ -5606,7 +5191,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C97906"
+			(at 69.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 69.85 50.8 0)
 			(effects
 				(font
@@ -5702,34 +5296,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C6119757"
-			(at 250.19 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "CGA0201X5R104K100ET"
-			(at 250.19 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 250.19 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 250.19 50.8 0)
 			(effects
 				(font
@@ -5758,6 +5325,24 @@
 		)
 		(property "JLCPCB Part Number" ""
 			(at 250.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C6119757"
+			(at 250.19 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 250.19 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5383,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6k 1%"
+		(property "Value" "33k 1%"
 			(at 182.118 54.483 0)
 			(effects
 				(font
@@ -5852,34 +5437,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C965305"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "NQ01WMJ0562TEE"
+		(property "Part Number" "0201WMF3302TEE"
 			(at 180.34 53.34 0)
 			(effects
 				(font
@@ -5906,7 +5464,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C473534"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 180.34 53.34 0)
 			(effects
 				(font
@@ -5993,33 +5560,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 255.27 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 255.27 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 255.27 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 255.27 58.42 0)
 			(effects
@@ -6040,6 +5580,15 @@
 		)
 		(property "JLCPCB Part Number" ""
 			(at 255.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 255.27 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,34 +5680,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C423545"
-			(at 69.85 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "0201WMF3904TEE"
-			(at 69.85 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 69.85 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 69.85 138.43 0)
 			(effects
 				(font
@@ -6185,7 +5707,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C166210"
+		(property "Alternate LCSC Part #" "C166210"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C423545"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 69.85 138.43 0)
 			(effects
 				(font
@@ -6346,34 +5886,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C423797"
-			(at 69.85 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "0201WMF1005TEE"
-			(at 69.85 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 69.85 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 69.85 151.13 0)
 			(effects
 				(font
@@ -6400,8 +5913,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
-			(at 69.85 151.13 0)
+		(property "LCSC Part #" "C423797"
+			(at 69.85 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 69.85 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,135 +6013,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Pixels-dice:TEST_1P-conn")
-		(at 180.34 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "62361dc9-3039-4cca-a510-0666ccdbb952")
-		(property "Reference" "W26"
-			(at 179.07 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PHOTO"
-			(at 181.61 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pixels-dice:TEST_PIN"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic OK" "N/A"
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate PN" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32add7a5-0b3f-434e-84f8-8fef3d48bbf8")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
-					(reference "W26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 43.18 95.25 0)
 		(unit 1)
@@ -6691,34 +6084,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C423545"
-			(at 43.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "0201WMF3904TEE"
-			(at 43.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 43.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 43.18 95.25 0)
 			(effects
 				(font
@@ -6745,7 +6111,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C166210"
+		(property "Alternate LCSC Part #" "C166210"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C423545"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 43.18 95.25 0)
 			(effects
 				(font
@@ -6841,34 +6225,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C423545"
-			(at 43.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "0201WMF3904TEE"
-			(at 43.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 43.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 43.18 107.95 0)
 			(effects
 				(font
@@ -6895,7 +6252,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C166210"
+		(property "Alternate LCSC Part #" "C166210"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C423545"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 43.18 107.95 0)
 			(effects
 				(font
@@ -7121,34 +6496,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C7503521"
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "CGA0201X5R103K250ET"
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 77.47 151.13 0)
 			(effects
 				(font
@@ -7175,7 +6523,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C76941"
+		(property "Alternate LCSC Part #" "C76941"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7503521"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 77.47 151.13 0)
 			(effects
 				(font
@@ -7262,33 +6628,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 210.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 210.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 210.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 210.82 63.5 0)
 			(effects
@@ -7307,8 +6646,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
-			(at 210.82 63.5 0)
+		(property "LCSC Part Number" ""
+			(at 210.82 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,33 +6730,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 233.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 233.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 233.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 233.68 113.03 0)
 			(effects
@@ -7436,7 +6748,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part Number" ""
 			(at 233.68 113.03 0)
 			(effects
 				(font
@@ -7529,34 +6841,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C965307"
-			(at 245.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "NQ01WMJ0511TEE"
-			(at 245.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 245.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 245.11 45.72 0)
 			(effects
 				(font
@@ -7585,6 +6870,24 @@
 		)
 		(property "JLCPCB Part Number" ""
 			(at 245.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C965307"
+			(at 245.11 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 245.11 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,17 +7106,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 163.83 132.08 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 265.43 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0c93946-1da8-4a4d-9e51-509813e9ae07")
-		(property "Reference" "#PWR043"
-			(at 163.83 135.89 0)
+		(uuid "a59d93f7-95b2-4aa2-ae3e-40e6be98f22b")
+		(property "Reference" "J3"
+			(at 267.462 40.8432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 267.462 43.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pixels-dice:Batt 1025 Tabs"
+			(at 265.43 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,16 +7142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDC"
-			(at 163.83 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 132.08 0)
+		(property "Datasheet" "~"
+			(at 265.43 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,8 +7151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.83 132.08 0)
+		(property "Description" ""
+			(at 265.43 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,8 +7160,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 163.83 132.08 0)
+		(property "Generic OK" "N/A"
+			(at 265.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 265.43 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,12 +7179,109 @@
 			)
 		)
 		(pin "1"
-			(uuid "26af5c3d-0f04-4ac3-8905-fe8c71bf9cd6")
+			(uuid "4d03c4a2-b427-41f7-bc7b-2c51d005fe47")
+		)
+		(pin "2"
+			(uuid "bca946fd-bfb1-4a6d-ac45-76b2c4b8cc6f")
 		)
 		(instances
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
-					(reference "#PWR043")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pixels-dice:WS4518D")
+		(at 191.77 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5ef7018-f27e-4498-b125-329b09e07159")
+		(property "Reference" "U11"
+			(at 193.9133 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS4518D"
+			(at 193.9133 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pixels-dice:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "08d10354-fc89-4ace-983d-17bcf5eec07d")
+		)
+		(pin "3"
+			(uuid "787238f1-5993-4888-ba31-71cc769f089b")
+		)
+		(pin "5"
+			(uuid "0350c166-7b5a-41c7-a4f7-62d975a15c18")
+		)
+		(pin "2"
+			(uuid "f5c789ae-6940-4161-a358-00488fe4ac86")
+		)
+		(pin "1"
+			(uuid "3e0ad267-da2c-4d68-a1fe-4d38d9dba4b6")
+		)
+		(pin "4"
+			(uuid "84d5d49d-4cec-4864-bb9a-926a3cca83a1")
+		)
+		(pin "7"
+			(uuid "8a8f813e-bfc6-4296-9332-092c84646846")
+		)
+		(instances
+			(project ""
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -7923,15 +7342,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2939860"
-			(at 213.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "WILLSEMI(Will Semicon)"
 			(at 213.36 119.38 0)
 			(effects
@@ -7942,6 +7352,24 @@
 			)
 		)
 		(property "Part Number" "WAS3157D-6/TR"
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2939860"
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 213.36 119.38 0)
 			(effects
 				(font
@@ -7972,286 +7400,6 @@
 			(project ""
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pixels-dice:TEST_1P-conn")
-		(at 180.34 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad400fe3-f90c-4bef-a213-f5c48b1488e6")
-		(property "Reference" "W18"
-			(at 181.61 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PROG"
-			(at 179.07 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pixels-dice:TEST_PIN"
-			(at 175.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic OK" "N/A"
-			(at 180.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
-			(at 180.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 180.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 180.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 180.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate PN" ""
-			(at 180.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
-			(at 180.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fbfdbb8-6ba0-4a8d-ae44-87fa3efd8293")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
-					(reference "W18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pixels-dice:XT4051")
-		(at 191.77 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8a545a7-efcb-4190-ade3-9fa349979df5")
-		(property "Reference" "U9"
-			(at 193.9641 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT4051"
-			(at 193.9641 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C219186"
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "NATLINEAR"
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "XT4051K421KR-G"
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate PN" ""
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5564d858-89aa-4adf-b41a-0c36e319b7a2")
-		)
-		(pin "3"
-			(uuid "759de939-0bff-44df-a19e-a6d9a9c11de1")
-		)
-		(pin "2"
-			(uuid "1e9f1a37-70e7-46fd-ae64-f841b1557803")
-		)
-		(pin "4"
-			(uuid "79e1c84a-0af8-40b6-b5e0-96f359a1ab76")
-		)
-		(pin "5"
-			(uuid "6681ba1c-c915-463f-8f75-cc7c2888291b")
-		)
-		(instances
-			(project ""
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8329,34 +7477,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C6119863"
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "CGA0603X5R226M100JT"
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 153.67 41.91 0)
 			(effects
 				(font
@@ -8383,7 +7504,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C6119863"
+			(at 153.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 153.67 41.91 0)
 			(effects
 				(font
@@ -8536,33 +7666,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 111.76 52.07 0)
 			(effects
@@ -8581,7 +7684,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part Number" ""
 			(at 111.76 52.07 0)
 			(effects
 				(font
@@ -8665,33 +7768,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 234.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 234.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 234.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 234.95 30.48 0)
 			(effects
@@ -8710,8 +7786,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
-			(at 234.95 30.48 0)
+		(property "LCSC Part Number" ""
+			(at 234.95 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,73 +7808,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0c95a3e-aa67-4339-9ecd-99e74c0c767d")
-		(property "Reference" "#PWR017"
-			(at 163.83 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.957 169.4942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f5569a9-c180-49ce-9548-066089009f19")
-		)
-		(instances
-			(project "Main"
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 48.26 52.07 180)
+		(at 35.56 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8806,7 +7817,7 @@
 		(dnp no)
 		(uuid "c3082384-0abe-410a-835f-394d12ab75a2")
 		(property "Reference" "P6"
-			(at 44.45 52.07 0)
+			(at 31.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,15 +7825,15 @@
 			)
 		)
 		(property "Value" "COILB"
-			(at 45.72 54.61 0)
+			(at 33.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Pixels-dice:COIL_CON"
-			(at 48.26 52.07 0)
+		(property "Footprint" "Pixels-dice:TestPoint_THTPad_D1.5mm_Drill0.7mm_nosilk"
+			(at 35.56 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,16 +7842,15 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 52.07 0)
+			(at 35.56 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 48.26 52.07 0)
+			(at 35.56 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,7 +7859,7 @@
 			)
 		)
 		(property "Generic OK" "N/A"
-			(at 48.26 52.07 0)
+			(at 35.56 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,52 +7868,7 @@
 			)
 		)
 		(property "LCSC Part Number" ""
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate PN" ""
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
-			(at 48.26 52.07 0)
+			(at 35.56 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +7890,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 48.26 49.53 180)
+		(at 35.56 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8933,7 +7898,7 @@
 		(dnp no)
 		(uuid "c5304ace-7f5d-4315-9189-21bfcc9b4acc")
 		(property "Reference" "P5"
-			(at 44.45 49.53 0)
+			(at 31.75 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,15 +7906,15 @@
 			)
 		)
 		(property "Value" "COILA"
-			(at 45.72 46.99 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Pixels-dice:COIL_CON"
-			(at 48.26 49.53 0)
+		(property "Footprint" "Pixels-dice:TestPoint_THTPad_D1.5mm_Drill0.7mm_nosilk"
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,16 +7923,15 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 49.53 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 48.26 49.53 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +7940,7 @@
 			)
 		)
 		(property "Generic OK" "N/A"
-			(at 48.26 49.53 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,52 +7949,7 @@
 			)
 		)
 		(property "LCSC Part Number" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate PN" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
-			(at 48.26 49.53 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9045,130 +7964,6 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
 					(reference "P5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 265.43 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "c61bca68-9833-47f4-800d-47a642e86f42")
-		(property "Reference" "J1"
-			(at 267.97 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 267.97 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pixels-dice:Batt_409090_Tabs"
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate PN" ""
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d1dbc9b-1d81-4698-b04a-ede61afc25b5")
-		)
-		(pin "1"
-			(uuid "9af1b641-b7f7-4638-8d99-f22b070711f2")
-		)
-		(instances
-			(project ""
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9237,33 +8032,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 157.48 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 157.48 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 157.48 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 157.48 33.02 0)
 			(effects
@@ -9282,7 +8050,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part Number" ""
 			(at 157.48 33.02 0)
 			(effects
 				(font
@@ -9298,147 +8066,6 @@
 			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
 					(reference "W15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_Photo_NPN")
-		(at 161.29 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf548df0-10cd-4b38-a11f-7c1a0efa3495")
-		(property "Reference" "Q1"
-			(at 166.37 152.9206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZSPT-Z1608C-06F-Z4"
-			(at 166.37 155.4606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 166.37 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN phototransistor, collector/emitter"
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C5337512"
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Chau Light"
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "ZSPT-Z1608C-06F-Z4"
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate PN" ""
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
-			(at 161.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "25a65e8a-82b0-4b39-8505-02ee84639fb8")
-		)
-		(pin "1"
-			(uuid "b7711e7e-a01e-4f21-b288-268b487e1091")
-		)
-		(instances
-			(project ""
-				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9507,33 +8134,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 175.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 175.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
-			(at 175.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternate Manufacturer" ""
 			(at 175.26 116.84 0)
 			(effects
@@ -9552,8 +8152,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
-			(at 175.26 116.84 0)
+		(property "LCSC Part Number" ""
+			(at 175.26 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,6 +8174,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Pixels-dice:TEST_1P-conn")
+		(at 222.25 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1e78f02-3d17-4544-bc09-316ce9ddacc3")
+		(property "Reference" "W5"
+			(at 223.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM"
+			(at 223.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pixels-dice:TEST_PIN"
+			(at 227.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic OK" "N/A"
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate PN" ""
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb855bad-1d1a-48e2-b5b6-3635d3e3587a")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
+					(reference "W5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pixels-dice:DS6101")
 		(at 233.68 54.61 0)
 		(unit 1)
@@ -9581,10 +8283,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d36b6dee-f8bb-48ca-a5ae-77c21394d69c")
 		(property "Reference" "U7"
-			(at 233.68 39.37 0)
+			(at 236.474 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,15 +8320,6 @@
 		)
 		(property "Description" ""
 			(at 233.68 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C7499469"
-			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9680,6 +8372,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7499469"
+			(at 233.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 233.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af82672f-cd8f-4274-b79e-89f03e0292fa")
 		)
@@ -9696,9 +8406,111 @@
 			(uuid "d1febfc4-39ba-4636-919a-ac25a76cf76e")
 		)
 		(instances
-			(project ""
+			(project "Main"
 				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pixels-dice:TEST_1P-conn")
+		(at 182.88 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5cfcdac-11cd-4f80-a8a3-72c54e7d6792")
+		(property "Reference" "W2"
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PROG"
+			(at 184.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pixels-dice:TEST_PIN"
+			(at 187.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic OK" "N/A"
+			(at 182.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 182.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate PN" ""
+			(at 182.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 182.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba0a1ad-6589-4f11-9173-ba6af0991841")
+		)
+		(instances
+			(project "Main"
+				(path "/cfa5c16e-7859-460d-a0b8-cea7d7ea629c/a0086b8f-a2d2-428c-9599-7d909b2bf8ec"
+					(reference "W2")
 					(unit 1)
 				)
 			)
@@ -9839,34 +8651,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C96225"
-			(at 96.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "BAV99S,115"
-			(at 96.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 96.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -9893,7 +8678,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C96225"
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -10065,34 +8859,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C96225"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "BAV99S,115"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 96.52 57.15 0)
 			(effects
 				(font
@@ -10119,7 +8886,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "LCSC Part #" "C96225"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 96.52 57.15 0)
 			(effects
 				(font
@@ -10292,34 +9068,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C7503521"
-			(at 48.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "CGA0201X5R103K250ET"
-			(at 48.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pixels Part Number" ""
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -10346,7 +9095,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C76941"
+		(property "Alternate LCSC Part #" "C76941"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7503521"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 48.26 107.95 0)
 			(effects
 				(font
