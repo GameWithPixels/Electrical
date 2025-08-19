@@ -5269,7 +5269,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "200R 5%"
 			(at 147.066 120.65 0)
 			(effects
 				(font
@@ -5305,7 +5305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0402WGF1000TCE"
+		(property "Part Number" "0402WGF2000TCE"
 			(at 148.59 119.38 0)
 			(effects
 				(font
@@ -5350,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25076"
+		(property "LCSC Part #" "C25087"
 			(at 148.59 119.38 0)
 			(effects
 				(font
@@ -5516,7 +5516,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "200R 5%"
 			(at 159.004 120.65 0)
 			(effects
 				(font
@@ -5552,7 +5552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0402WGF1000TCE"
+		(property "Part Number" "0402WGF2000TCE"
 			(at 153.67 119.38 0)
 			(effects
 				(font
@@ -5597,7 +5597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25076"
+		(property "LCSC Part #" "C25087"
 			(at 153.67 119.38 0)
 			(effects
 				(font

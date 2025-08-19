@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|143680000|65225914|9271c691-5e91-4631-9654-893a255abb80|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|145730000|65748797|be0f27ac-24a4-45bb-a408-72ee01164f27|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|146100631|65719999|c7f27b72-40b9-4e0f-ac07-39a6a8d563e5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|148027289|64900001|ab610c4e-e970-4eb0-9875-265a056f4f9a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "shorting_items|136109064|61661213|577f1c72-8bfd-4d54-aaed-84586e95d916|b08f6d35-ad25-4793-9b1c-e9a5ec3cd894",
+          ""
+        ],
+        [
+          "shorting_items|144344125|86836136|66384639-b169-4e56-ba19-9f0988480456|66b302cd-1ed9-4065-85b7-ef9f189dfada",
+          ""
+        ],
+        [
+          "shorting_items|152329064|63241214|58c32909-8777-435c-8dab-ade7e891dd1f|68ced953-ff74-4276-bb7c-11c3c64456c7",
+          ""
+        ],
+        [
+          "shorting_items|152479064|63501022|58c32909-8777-435c-8dab-ade7e891dd1f|987fd06d-922d-4bf9-84ac-5bad4c45469b",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -107,7 +140,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -512,7 +545,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "main.step",
@@ -523,7 +556,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "main.csv",
+    "bom_export_filename": "Hex Charger V1.2 BOM",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
