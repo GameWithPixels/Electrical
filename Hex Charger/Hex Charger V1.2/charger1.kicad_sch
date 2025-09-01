@@ -309,6 +309,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1239,6 +1400,18 @@
 		(uuid "925afbef-6422-4515-b41a-38971ea8baed")
 	)
 	(junction
+		(at 71.12 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa05aa95-b7eb-473f-aca5-e578647c48b5")
+	)
+	(junction
+		(at 58.42 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aba7b66e-f7a3-4bcc-845c-653c1a9cf86f")
+	)
+	(junction
 		(at 175.26 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1390,6 +1563,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 80.01) (xy 58.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283acbfa-ee29-49ed-9cf3-784fb92a3523")
+	)
+	(wire
+		(pts
 			(xy 124.46 97.79) (xy 129.54 97.79)
 		)
 		(stroke
@@ -1500,7 +1683,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 80.01) (xy 71.12 80.01)
+			(xy 46.99 80.01) (xy 58.42 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1557,6 +1740,16 @@
 			(type default)
 		)
 		(uuid "55dc8b9f-5b7b-477f-8332-c9ab99e1c3b6")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 71.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5759e260-45c6-481d-afb4-6c365ca492f5")
 	)
 	(wire
 		(pts
@@ -1780,6 +1973,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 120.65) (xy 71.12 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d202ee06-fc80-41ac-8b11-7d38ca815868")
+	)
+	(wire
+		(pts
 			(xy 110.49 95.25) (xy 110.49 100.33)
 		)
 		(stroke
@@ -1787,6 +1990,16 @@
 			(type default)
 		)
 		(uuid "d2590e2e-71d9-4e05-adc5-8bee217220f5")
+	)
+	(wire
+		(pts
+			(xy 58.42 97.79) (xy 58.42 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34b3262-b280-45b9-90f6-b0789319a7e0")
 	)
 	(wire
 		(pts
@@ -3258,6 +3471,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "XKT"
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "520"
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e7b0be7-64f7-4159-a4ed-085214a9bd96")
 		)
@@ -3490,7 +3721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pixels-dice:COIL_205_11T_050_020"
+		(property "Footprint" "Pixels-dice:PCB Coil 25_11_0.8_0.2"
 			(at 195.58 77.47 0)
 			(effects
 				(font
@@ -3717,6 +3948,126 @@
 				)
 				(path "/fd34a3f5-7841-4576-8b1f-f97f94f648c1/d82c58f4-a07b-471f-82a5-401a05ba9059"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 58.42 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bac4c575-2d6a-484f-a386-750aab410242")
+		(property "Reference" "C46"
+			(at 53.594 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF 10V 20%"
+			(at 62.738 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+			(at 59.3852 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3001223"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROQANG"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CK1A470M-CRC54"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a9ad81a-4426-4c0f-b97d-916acb8039dd")
+		)
+		(pin "1"
+			(uuid "250631aa-dd10-4853-ad12-0c00107cde42")
+		)
+		(instances
+			(project ""
+				(path "/fd34a3f5-7841-4576-8b1f-f97f94f648c1/0e141819-b52f-45b8-8ad3-ee3ff9039bea"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/fd34a3f5-7841-4576-8b1f-f97f94f648c1/29d2c2eb-82cb-49e8-808e-378c64978fbf"
+					(reference "C52")
+					(unit 1)
+				)
+				(path "/fd34a3f5-7841-4576-8b1f-f97f94f648c1/2ac4cb97-4fe0-46d4-a1cf-27ff70585ff5"
+					(reference "C51")
+					(unit 1)
+				)
+				(path "/fd34a3f5-7841-4576-8b1f-f97f94f648c1/77ac2d10-cc64-407f-bf57-88544fdafd69"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/fd34a3f5-7841-4576-8b1f-f97f94f648c1/b5df28b8-ceb6-447d-9812-a0a239f4b427"
+					(reference "C49")
+					(unit 1)
+				)
+				(path "/fd34a3f5-7841-4576-8b1f-f97f94f648c1/bec6ac52-fefc-4de7-9adb-64ab37556ff2"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/fd34a3f5-7841-4576-8b1f-f97f94f648c1/d82c58f4-a07b-471f-82a5-401a05ba9059"
+					(reference "C50")
 					(unit 1)
 				)
 			)

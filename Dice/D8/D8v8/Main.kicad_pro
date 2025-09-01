@@ -595,7 +595,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Protoboard5.net",
-      "plot": "Gerbers",
+      "plot": "DXFs",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Main.step",

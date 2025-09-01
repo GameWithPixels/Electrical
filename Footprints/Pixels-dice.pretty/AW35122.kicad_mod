@@ -1,7 +1,7 @@
 (footprint "AW35122"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.15 -2.4 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1a7f68b1-5baa-4574-8791-68220a64b645")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4d4f7752-18a7-4cf1-bbbe-eb77ee2880e9")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2b0b5fa0-1e2a-4830-95f3-aab922b44802")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4e038c31-ad21-44c1-b31f-6a20f0e9102b")
 	)
@@ -104,27 +91,28 @@
 	(pad "A1" smd circle
 		(at -0.25 -0.25)
 		(size 0.23 0.23)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d247ccc0-13be-4ebc-bbbc-e3a464297720")
 	)
 	(pad "A2" smd circle
 		(at 0.25 -0.25)
 		(size 0.23 0.23)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "250a3efc-c9bb-4b0b-94c4-3259d9047359")
 	)
 	(pad "B1" smd circle
 		(at -0.25 0.25)
 		(size 0.23 0.23)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d12e61d-59ed-4d56-b05d-e4a838a2bdbd")
 	)
 	(pad "B2" smd circle
 		(at 0.25 0.25)
 		(size 0.23 0.23)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8f0fdecf-952d-4796-a2cd-c04536d7acc2")
 	)
+	(embedded_fonts no)
 	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/AW35122 v0.step"
 		(offset
 			(xyz 0 0 0)

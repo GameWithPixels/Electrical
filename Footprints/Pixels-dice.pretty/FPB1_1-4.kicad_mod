@@ -1,7 +1,7 @@
 (footprint "FPB1_1-4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.25 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a3fa75a5-a8d8-44db-b282-8cf60d012a0d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b569daf2-7c87-444e-911c-4d57fc4cb45d")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "29e3a7a9-96e6-453a-8bab-581db8c213f3")
 	)
@@ -85,7 +72,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c24f32aa-402e-42e1-8cae-ca6c124466b8")
 	)
@@ -104,13 +91,13 @@
 	(pad "" smd rect
 		(at 0 0 45)
 		(size 0.42 0.42)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "59e924a7-946c-4198-9803-2bb41cca2a29")
 	)
 	(pad "1" smd custom
 		(at -0.325 0.325 90)
 		(size 0.1 0.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -129,7 +116,7 @@
 	(pad "2" smd custom
 		(at 0.325 0.325 180)
 		(size 0.1 0.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -148,7 +135,7 @@
 	(pad "3" smd custom
 		(at 0.325 -0.325 270)
 		(size 0.1 0.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -167,7 +154,7 @@
 	(pad "4" smd custom
 		(at -0.325 -0.325)
 		(size 0.1 0.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -183,6 +170,7 @@
 		)
 		(uuid "5c208c8a-dc2b-48db-8e08-4757076be7f9")
 	)
+	(embedded_fonts no)
 	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/FBP1_1-4.step"
 		(offset
 			(xyz 0 0 0)
@@ -191,7 +179,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
