@@ -156,7 +156,7 @@
 		(uuid "a5274cf5-41db-491c-91d0-d3a4835f26a9")
 	)
 	(embedded_fonts no)
-	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/AMCA31-2R450G-SIF-T3 v1-combined.step"
+	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/AMCA31-2R450G-SIF-T3 v1.step"
 		(offset
 			(xyz 0 1.7 0)
 		)
@@ -164,7 +164,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz -0 -0 -180)
 		)
 	)
 )

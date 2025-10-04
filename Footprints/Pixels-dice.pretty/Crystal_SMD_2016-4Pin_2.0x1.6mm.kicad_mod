@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_2016-4Pin_2.0x1.6mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package")
 	(tags "SMD SMT crystal")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "36f264b7-7f29-4311-8a44-cc880fe06429")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -195,77 +183,39 @@
 			)
 		)
 	)
-	(pad "1" smd custom
-		(at -0.7 0.55)
-		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+	(pad "1" smd roundrect
+		(at -0.65 0.5)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
 		(thermal_bridge_angle 45)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.4 -0.2) (xy 0.4 0.35) (xy -0.4 0.35) (xy -0.4 -0.35) (xy 0.25 -0.35)
-				)
-				(width 0.1)
-				(fill yes)
-			)
-			(gr_line
-				(start -0.2 0.25)
-				(end -0.3 0.15)
-				(width 0.1)
-			)
-			(gr_line
-				(start -0.3 -0.25)
-				(end 0.2 0.25)
-				(width 0.1)
-			)
-		)
 		(uuid "b4a119f4-c6b5-4661-ab40-9d7436564178")
 	)
 	(pad "2" smd roundrect
-		(at 0.7 0.55)
-		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(at 0.65 0.5)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.075)
 		(uuid "4b396e9e-623b-4f3a-812d-c58ff10fe7de")
 	)
-	(pad "3" smd custom
-		(at 0.7 -0.55)
-		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+	(pad "3" smd roundrect
+		(at 0.65 -0.5)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.4 0.35) (xy -0.25 0.35) (xy -0.4 0.2) (xy -0.4 -0.35) (xy 0.4 -0.35)
-				)
-				(width 0.1)
-				(fill yes)
-			)
-			(gr_line
-				(start 0.2 -0.25)
-				(end 0.3 -0.15)
-				(width 0.1)
-			)
-		)
 		(uuid "f050ee24-6b5e-4349-88f1-5206b37b8e57")
 	)
 	(pad "4" smd roundrect
-		(at -0.7 -0.55)
-		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(at -0.65 -0.5)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.075)
 		(uuid "7e83f703-3b76-4126-a7fb-2b7abce3bb0c")
 	)
-	(model "${CUSTOMSTEPFILES}/FL3200037 v2.step"
+	(embedded_fonts no)
+	(model "C:/Projects/pixels-dice/Electrical/Footprints/Step Files/FL3200037 v2.step"
 		(offset
 			(xyz 0 0 0)
 		)

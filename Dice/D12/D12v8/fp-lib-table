@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Pixels-dice")(type "KiCad")(uri "${KIPRJMOD}/../../../Footprints/Pixels-dice.pretty")(options "")(descr ""))
+  (lib (name "RFFrontEnd")(type "KiCad")(uri "${KIPRJMOD}/../../../Footprints/RFFrontEnd.pretty")(options "")(descr ""))
+)

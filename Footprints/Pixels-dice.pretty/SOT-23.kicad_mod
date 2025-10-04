@@ -1,7 +1,7 @@
 (footprint "SOT-23"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOT-23, Standard")
 	(tags "SOT-23")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f410b3b1-702c-4087-bb14-ec4a8c84aa0e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -195,7 +183,7 @@
 		(uuid "1c48a1a2-d9b6-4715-8e4f-96f9fc43b9bb")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(uuid "17104db4-3821-4747-9d15-fcd9d4dc81b9")
 		(effects
@@ -205,24 +193,28 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at 1 0.95 180)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
 		(uuid "19d40f8d-f6d0-48b7-a1f9-cb8a3b46ef51")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1 -0.95 180)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
 		(uuid "8673d48d-3349-40f8-b10e-ece9cf8ffa09")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -1 0 180)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
 		(uuid "45615302-9f32-4c6b-8b06-5ad00d3dd37c")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 		(offset
 			(xyz 0 0 0)
