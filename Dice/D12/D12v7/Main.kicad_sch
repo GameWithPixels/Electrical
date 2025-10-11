@@ -5,8 +5,8 @@
 	(uuid "cfa5c16e-7859-460d-a0b8-cea7d7ea629c")
 	(paper "A4")
 	(title_block
-		(title "Pixels D20 Schematic, Main")
-		(date "2022-08-26")
+		(title "Pixels D12 Schematic, Main")
+		(date "2025-10-10")
 		(rev "13")
 		(company "Systemic Games, LLC")
 		(comment 1 "Main MCU, Accelerometer and Radio")
@@ -4565,7 +4565,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 227.33) (xy 64.77 227.33)
+			(xy 41.91 48.26) (xy 64.77 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4755,7 +4755,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 220.98) (xy 19.05 224.79)
+			(xy 20.32 41.91) (xy 20.32 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4885,7 +4885,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 149.86) (xy 64.77 227.33)
+			(xy 64.77 149.86) (xy 64.77 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4995,7 +4995,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 229.87) (xy 19.05 229.87)
+			(xy 24.13 50.8) (xy 20.32 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5155,7 +5155,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 229.87) (xy 19.05 232.41)
+			(xy 20.32 50.8) (xy 20.32 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5685,7 +5685,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 224.79) (xy 22.86 224.79)
+			(xy 20.32 45.72) (xy 24.13 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6254,7 +6254,7 @@
 		(uuid "98914cc3-56fe-40bb-820a-3d157225c145")
 	)
 	(label "MAG1_"
-		(at 48.26 227.33 0)
+		(at 49.53 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9433,7 +9433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 232.41 0)
+		(at 20.32 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9441,7 +9441,7 @@
 		(dnp no)
 		(uuid "37730d92-456a-4009-88ed-5d4f6fd23de6")
 		(property "Reference" "#PWR045"
-			(at 19.05 238.76 0)
+			(at 20.32 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +9450,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.177 236.8042 0)
+			(at 20.447 57.7342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9458,7 +9458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 232.41 0)
+			(at 20.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9467,7 +9467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 232.41 0)
+			(at 20.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9476,7 +9476,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 232.41 0)
+			(at 20.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10536,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 19.05 220.98 0)
+		(at 20.32 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10544,7 +10544,7 @@
 		(dnp no)
 		(uuid "87e7d80f-bbd7-4d08-b51d-c03caeb9ebea")
 		(property "Reference" "#PWR017"
-			(at 19.05 224.79 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,7 +10553,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 19.431 216.5858 0)
+			(at 20.701 37.5158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10561,7 +10561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 220.98 0)
+			(at 20.32 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,7 +10570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 220.98 0)
+			(at 20.32 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,7 +10579,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 220.98 0)
+			(at 20.32 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11178,7 +11178,7 @@
 	)
 	(symbol
 		(lib_id "Pixels-dice:SL1605")
-		(at 31.75 227.33 0)
+		(at 33.02 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11187,7 +11187,7 @@
 		(fields_autoplaced yes)
 		(uuid "b130a5ab-1e07-4ddb-a91d-74559f111580")
 		(property "Reference" "U8"
-			(at 31.75 215.9 0)
+			(at 33.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,7 +11195,7 @@
 			)
 		)
 		(property "Value" "SL1605"
-			(at 31.75 218.44 0)
+			(at 33.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11203,7 +11203,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-			(at 31.75 227.33 0)
+			(at 33.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +11212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 227.33 0)
+			(at 33.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,7 +11221,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 227.33 0)
+			(at 33.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,7 +11230,7 @@
 			)
 		)
 		(property "Manufacturer" "Slkor(SLKORMICRO Elec.)"
-			(at 31.75 227.33 0)
+			(at 33.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11239,7 +11239,7 @@
 			)
 		)
 		(property "Part Number" "SL1605TL"
-			(at 31.75 220.98 0)
+			(at 33.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11247,7 +11247,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2826474"
-			(at 31.75 227.33 0)
+			(at 33.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

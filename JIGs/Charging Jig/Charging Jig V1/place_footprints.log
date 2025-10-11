@@ -1,0 +1,26 @@
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'win32'
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.11.5 (main, Jan 27 2025, 07:08:36) [MSC v.1942 64 bit (AMD64)]'
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 9.0.2
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 4.0.1
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x000001F160E0C550>
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J13 on root level
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J12 on root level
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D8 on root level
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C54 on root level
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C56 on root level
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C55 on root level
+10-07 00:00:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='D1'
+10-07 00:00:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 858:Reference designator is: D
+10-07 00:00:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 859:Reference number is: 1
+10-07 00:00:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 891:Sorted and filtered list:
+['D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10', 'D11', 'D12', 'D13', 'D14', 'D15', 'D16', 'D17', 'D18', 'D19', 'D20', 'D21', 'D22', 'D23', 'D24', 'D25', 'D26', 'D27', 'D28', 'D29', 'D30', 'D31', 'D32', 'D33', 'D34', 'D35', 'D36', 'D37', 'D38', 'D39', 'D40', 'D41', 'D42', 'D43', 'D44', 'D45', 'D46', 'D47', 'D48', 'D49', 'D50', 'D51', 'D52', 'D53', 'D54', 'D55', 'D56', 'D57', 'D58', 'D59', 'D60', 'D61', 'D62', 'D63', 'D64', 'D65', 'D66', 'D67', 'D68', 'D69', 'D70', 'D71']
+10-07 00:00:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 376:wx.Colour(240, 240, 240, 255)
+10-07 00:00:52 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 507:'35'
+10-07 00:00:52 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 566:Preparing config for reference matrix
+10-07 00:00:52 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 573:Saving config file
+10-07 00:00:52 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 575:Saved the config file
+10-07 00:00:52 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 929:Footprints to place:
+['D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D9', 'D10', 'D11', 'D12', 'D13', 'D14', 'D15', 'D16', 'D17', 'D18', 'D19', 'D20', 'D21', 'D22', 'D23', 'D24', 'D25', 'D26', 'D27', 'D28', 'D29', 'D30', 'D31', 'D32', 'D33', 'D34', 'D35', 'D36', 'D37', 'D38', 'D39', 'D40', 'D41', 'D42', 'D43', 'D44', 'D45', 'D46', 'D47', 'D48', 'D49', 'D50', 'D51', 'D52', 'D53', 'D54', 'D55', 'D56', 'D57', 'D58', 'D59', 'D60', 'D61', 'D62', 'D63', 'D64', 'D65', 'D66', 'D67', 'D68', 'D69', 'D70', 'D71']
+10-07 00:00:52 com_github_MitjaNemec_PlaceFootprints.place_footprints 427:Starting placing with matrix layout
+10-07 00:00:52 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 999:Placing complete
