@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Pixels D20 Schematic, Main")
-		(date "2022-08-26")
-		(rev "13")
+		(date "2025-10-11")
+		(rev "18")
 		(company "Systemic Games, LLC")
 		(comment 1 "LED Chain")
 	)

@@ -5,9 +5,9 @@
 	(uuid "1a813eeb-ee58-4579-81e1-3f9a7227213c")
 	(paper "A4")
 	(title_block
-		(title "Pixels D20 Schematic, LEDs")
-		(date "2020-04-13")
-		(rev "2")
+		(title "Pixels D00 Schematic, Main")
+		(date "2025-10-12")
+		(rev "3")
 		(company "Systemic Games, LLC")
 	)
 	(lib_symbols

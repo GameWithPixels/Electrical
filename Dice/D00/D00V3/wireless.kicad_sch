@@ -5,9 +5,9 @@
 	(uuid "91a46e86-6fc1-4f89-bad9-7b301936dfa7")
 	(paper "A4")
 	(title_block
-		(title "Pixels D20 Schematic, Main")
-		(date "2022-08-26")
-		(rev "13")
+		(title "Pixels D00 Schematic, Main")
+		(date "2025-10-12")
+		(rev "3")
 		(company "Systemic Games, LLC")
 		(comment 1 "Wireless Charging Circuitry")
 	)
