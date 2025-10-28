@@ -2019,7 +2019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Pixels-dice:5990K10107F"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 127 101.6 0)
 			(effects
 				(font

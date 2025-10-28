@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 1.8,
-          "width": 1.8
+          "drill": 0.0,
+          "height": 2.1,
+          "width": 1.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -599,7 +599,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Protoboard5.net",
-      "plot": "DXFs",
+      "plot": "Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Main.step",
@@ -683,7 +683,7 @@
           "group_by": false,
           "label": "Manufacturer Part Number",
           "name": "Manufacturer Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

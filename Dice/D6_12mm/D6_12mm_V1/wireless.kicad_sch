@@ -9182,6 +9182,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "MG78L05AT3"
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0d04d37-2e13-43d9-85b0-08fe53698380")
 		)
